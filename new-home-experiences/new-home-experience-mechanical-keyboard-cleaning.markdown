@@ -13,6 +13,6 @@ Predominantly working from home, setting up my home workspace was one of the mos
 
 Whilst giving my Mechanical Keyboard a wipe, I noticed that the Mechanical keyboard was not at it's most hygienic state haha. 
 
-![mechanical-keyboard-dirty](/img/keychron-c2-dirty.jpeg){:width="30%"}
+![mechanical-keyboard-dirty](../../img/keychron-c2-dirty.jpeg){:width="30%"}
 
 So this calls for some heavy duty cleaning.
