@@ -1,0 +1,3 @@
+[submodule "themes/just-the-docs"]
+	path = themes/just-the-docs
+	url = https://github.com/just-the-docs/just-the-docs.git
