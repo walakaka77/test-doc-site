@@ -12,21 +12,23 @@ For those of you who know me you'd know I've been off social media and people st
 ## Background
 So, repeating what I mentioned above -- just your everyday joe trying to make it in life, stuck in the rat race. Having been in the professional world for 5 years, there has been an intense focus of `trying to make it`. Most of my hours are spent on work, and some would say I neglected my personal life.
 
-But sad to say, change is the only constant. And I've recently:
+But as the saying goes, change is the only constant. For me specifically, these are recent yet massive changes to my life:
+
 1. Shifted into a new home
 2. Gotten a new dog
 3. And to top it off, my wife has spun off her own business
 
-These changes (not been there for very long), forced me to reprioritize my time and focus away from professional work. Resulting in less time for activities that gain you experience such as:
+These changes have not been there for very long, but it did force me to reprioritize my time and focus away from professional work. As such, I am no longer able to focus 150% of my energy into a narrow domain:
 - Learning on the job
-- Obtaining certifications
-- Completing tasks to achieve deliverables
+- Upskilling by obtaining professional certifications
 
 And that is why I created this blog! In the spirit of `trying to make it` in life lol -- I have decided to share my life experiences, so that I can capture all these off the job skillsets that I am picking up. Also, being lackluster in my social media presence, this might perhaps make up for that digital footprint in the internet or interweb etc.
 
 There has also been a big push for documentation at my workplace lately, so I'll start by documenting my life.
 
-As a project manager, I have a plan for this blog. And as a project manager, I also know that the plan normally never works. But nevertheless, failing to plan is planning to fail - so here is my plan:
+As a software delivery, the idea is to be a skilled generalist anyway -- so there are definitely benefits to expanding my perceived skillset haha!
+
+As a software delivery manager, have created an implementation plan for this blog. Unfortunately, my experience also tells me that things never go according to plan. But referencing another saying, `failing to plan is planning to fail` - so here is my plan:
 
 ## The Plan for my Blog
 A short breakdown of how this blog is planned to be structured:
@@ -47,8 +49,6 @@ A short breakdown of how this blog is planned to be structured:
 Lastly, if you guys made it this far, I'd like to thank you guys for reading. Please feel free to give us feedback -- constructive criticism please, no haters because my heart can't take it.
 
 But yes - thank you ^^. Been a pleasure writing this, and hope it was a pleasure reading it too.
-
-Oh - and I'm also not planning on updating this page. So this was written on `18 Jan 2024`. Would be cool to look back and see where this is at in the future.
 
 Peace and Love<br>
 Shafik Walakaka
