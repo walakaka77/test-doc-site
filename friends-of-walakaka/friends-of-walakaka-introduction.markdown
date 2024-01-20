@@ -50,5 +50,7 @@ To update this sub-section once approval from <colleague's-name> is received.
 
 For those who made this far, thanks a bunch for reading. Willing guinea pigs -- please reach out. Non-willing guinea pigs, do share your thoughts and ideas to spice up this section (or the whole blog in general).
 
+Right now, I have no friends -- but just you wait, the list would grow (hopefully...)!
+
 Peace and Love<br>
 Shafik Walakaka
