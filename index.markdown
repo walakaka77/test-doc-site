@@ -45,6 +45,8 @@ A short breakdown of how this blog is planned to be structured:
 
 6. **Personal Experiences:** And this section will detail personal experiences such as meditation, mental health, productivity and much more. Essentially, anything that cannot fit into the other categories will come to this section -- can't go wrong since this section is personal to me haha!
 
+7. **Friends of Walakaka:** This section aims to make the blog less self-centric, by checking out other people. Idea is so that people don't get bored reading just about me.
+
 ## Thank you!
 Lastly, if you guys made it this far, I'd like to thank you guys for reading. Please feel free to give us feedback -- constructive criticism please, no haters because my heart can't take it.
 
