@@ -22,29 +22,18 @@ Now that we have an idea of what we are going to add into this section, we'll ne
 
 This is probably an on-going effort, so let's see. It does make things abit more exciting to engage in others in this adventure of `trying to make it` in life ^^
 
-## Potential Line of Questioning
+## Line of Questioning
 
-Currently, we are brainstorming for the list of questions that could be asked
+To make it more interesting, I have a friend (Kurien) that designed a thought provoking game -- `Let's Talk`. To prevent ourselves from re-inventing the wheel, we will play the `Let's Talk` game to generate the content for the article. The game is simple:
+1. Randomly draw a thought provoking question
+2. Say what comes to your mind based on the question
+3. The remaining conversatinos that arise is free-play. Let's see how far we go ^^
+4. For starters, we can target to go through 10 questions?
 
-### Ice Breaker Questions
-- Tell me more about yourself
-- What are your hobbies, and past-time
-
-### Tactical Aspirations
-- Any short-term milestones that you are planning to achieve in the next year
-- Any mid-term milestones that you are planning to achieve in the next 2.5 years
-
-### Philosophical Inspiration
-- What would you say are your values in life?
-- If there is one thing you could change in life, what would it be?
+For more details regarding the questions avaialble, do check it out at [Let's Talk](https://www.kuriensk.co/lets-talk)
 
 
-### <colleague's-name> Questions
-I just recalled that there is a colleague with a bunch of thought provoking question. Rather than re-invent the wheel, I might as well seek his permission to re-use his deck of cards:
-- The interview would comprise of drawing 10 cards, and answering the questions back-to-back
-- Each answer, would dive into a conversation that would be translated into the interview-styled article
-
-To update this sub-section once approval from <colleague's-name> is received.
+Credits to Kurien for designing the `Let's Talk` game! Personally experienced this multiple times, and never had a boring conversation.
 
 ## Thank you!
 

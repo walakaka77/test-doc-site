@@ -1,6 +1,6 @@
 ---
 layout: page
-title: New Home
+title: Kallang Breeze
 permalink: /new-home-experience/
 has_children: true 
 ---
