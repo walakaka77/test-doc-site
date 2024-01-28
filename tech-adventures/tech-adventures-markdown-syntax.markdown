@@ -109,23 +109,42 @@ This approach allows you to test your generated site locally (using the localhos
 See it in action here:
 - [Link to Keyboard Cleaning Article!](/new-home-experience/mechanical-keyboard-cleaning/)
 
+Without any changes to the code snippet, I can host and test it locally:
+![relative path localhost](../../img/relative-path-locahost-domain.png){:width="100%"}
 
+And without any changes, the same code snippet can be used online too:
+![relative path online hosting](../../img/relative-path-githubpages-domain.png){:width="100%"}
 
 
 > _Do note to use relative paths for internal linking. Else, you would have to update all your internal links if you change your domain name._
 
 ### Images
 
+The syntax for images is as follows:
+```bash
 ![Alt Text](ImageURL)
+```
 
-### Blockquotes
+![Image syntax](../../img/sample-dog-image-md-syntax.png){:width="100%"}
+
+The above code snippet generates this image:
+
+![Sample image of a dog](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH5_eChjIhJIm99M5MDL4rN-XHY1TCBlrhJw&usqp=CAU)
+
+> Similarly, images can also have absolute or relative URL's. The same principle applies -- if referencing local images, use relative path. If referencing images from external sites, use absolute URLs
+
+### Blockquotes and Code Blocks
+
+Blockquotes syntax is as follows: `> This is a blockquote.`
 
 > This is a blockquote.
-
-### Code
 
 Inline `code` or multiline code blocks:
 
 ```python
 def example_function():
     print("Hello, World!")
+```
+
+See image below for reference on how it looks behind the scenes:
+![Block Quote and Inline Code Block Snippet](../../img/block-quote-inline-code-block-md-syntax.png)
