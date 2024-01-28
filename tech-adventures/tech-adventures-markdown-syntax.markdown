@@ -41,24 +41,78 @@ Emphasis can be *italic*, **bold** or ***both (italic and bold)***. See the scre
 
 ### Lists
 
+In markdown syntax, unordered lists are formed using a dash (-), while ordered lists use numbers. Both types of lists can be nested by indenting the child elements under their parent list.
+
+![markdown syntax for lsits](../../img/lists-markdown-syntax.png){:width="100%"}
+
 #### Unordered Lists
+
+Sample snippet for generating unordered list:
+
+```bash
+- Item 1
+- Item 2
+  - Subitem 2.1
+  - Subitem 2.2
+```
+
+The above snippet generated the following list in this template:
 
 - Item 1
 - Item 2
   - Subitem 2.1
   - Subitem 2.2
 
+![markdown syntax for unordered lists](../../img/unordered-list-md-syntax.png){:width="100%"}
+
 #### Ordered Lists
+
+Sample snippet for generating ordered list:
+
+```bash
+1. Item 1
+2. Item 2
+   1. Subitem 2.1
+   2. Subitem 2.2
+```
+
+The above snippet generated the following list in this template:
 
 1. Item 1
 2. Item 2
    1. Subitem 2.1
    2. Subitem 2.2
 
+![markdown syntax for ordered lists](../../img/ordered-list-md-syntax.png){:width="100%"}
+
 ### Links
 
-[Link Text](URL)
-[Link with Title](URL "Title")
+Links are created using the following syntax:
+
+```bash
+[Link to Shafik's Resume](https://shafikwalakaka.com) <br>
+[Link to Shafik Resume Title](https://shafikwalakaka.com "Shafik's Resume!")
+```
+
+[Link to Shafik's Resume](https://shafikwalakaka.com) <br>
+[Link to Shafik Resume Title](https://shafikwalakaka.com "Shafik's Resume!")
+
+![markdown syntax for links](../../img/links-md-syntax.png){:width="100%"}
+
+#### Relative Path for Links
+
+Relative path for links will append the specfied path to the domain that you are currently on. For example, specifying `[Link to Keyboard Cleaning Article!](/new-home-experience/mechanical-keyboard-cleaning/)` will append `/new-home-experience/mechanical-keyboard-cleaning/)` to whatever domain that I am currently serving the site on.
+
+This approach allows you to test your generated site locally (using the localhost domain), and no changes are required when you push your site to your hosting (github pages in this case).
+
+
+See it in action here:
+- [Link to Keyboard Cleaning Article!](/new-home-experience/mechanical-keyboard-cleaning/)
+
+
+
+
+> _Do note to use relative paths for internal linking. Else, you would have to update all your internal links if you change your domain name._
 
 ### Images
 
