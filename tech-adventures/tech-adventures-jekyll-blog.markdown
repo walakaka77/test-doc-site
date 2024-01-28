@@ -24,8 +24,7 @@ But additional customization would require knowledge of the `Good To Know` stuff
 The following concepts would be minimally required:
 
 1. Markdown Syntax 
-2. GIT (versioning tool)
-3. Github (remote repository)
+2. GitHub and Git
 
 ### Additional Good To Know
 To fully be in control of the content, it'd be encourage to also understand these concepts:
