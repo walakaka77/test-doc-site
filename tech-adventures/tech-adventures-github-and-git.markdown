@@ -12,6 +12,9 @@ Here, we'll walk you through the Git and GitHub essentials required. Afterwhich,
 
 ## Git
 
+Please download Git prior to proceeding to the next section. You can download Git [Here!](https://git-scm.com/downloads)
+
+
 Before diving into GitHub, it's essential to grasp the basics of Git. Here are the fundamental commands you need to know:
 
 1. **git init:** Initializes a new Git repository in your project directory.
@@ -24,6 +27,7 @@ Before diving into GitHub, it's essential to grasp the basics of Git. Here are t
 8. **git push:** Pushes your local commits to a remote repository.
 
 Understanding and mastering these commands will streamline your workflow when working with Git. Don't worry, the next few sections will step down the steps so that you can follow and familiarize with the above concepts.
+
 
 For those that are interested, the documentation for the full list of Git Commands can be found [Here!](https://git-scm.com/docs).
 
@@ -42,12 +46,53 @@ GitHub is a remote repository where you can push and store your code. Let's proc
     - Ensure the repository type is `Public`
     - Leave the remaining fields as their default value
 4. Click the `Create repository` button ![Image to specify clicking the Create Repo button](../../img/github-repo-creationg-click-create-repo.png)
-5. Your remote repository would have been created here:
+5. Your remote repository would have been created here: ![Image of newly created repository](../../img/github-repo-created-repository.png)
 
-### Additional Good To Know
-To fully be in control of the content, it'd be encourage to also understand these concepts:
-1. Ruby Framework (basic understanding of Ruby Components)
-2. Jekyll Server (or the concepts of servers in general)
-2. CICD (basic understanding of CICD flows)
-3. Custom Domain Names (basic understanding to obtain your own custom domain)
-4. DNS (basic understanding to configure your domain to point to your Jekyll Site on Github Pages)
+
+## Clone the Jekyll Minima Template
+
+Now that we have Git Installed, we will proceed to clone the Jekyll Minima template:
+1. Proceed to the Minima Project Github repository at [this link](https://github.com/jekyll/minima)
+2. Click on `Code` and copy the github project URL ![Picture showing the buttons to click to obtain the minima project url](../../img/github-repo-obtain-minima-url.png)
+3. Clone the Minima Project to you PC by running the following command `git clone https://github.com/jekyll/minima.git`
+4. The Minima Project will appear in the directory that you are in ![Picture showing successful cloning of the Minima Project](../../img/github-repo-successful-cloned-minima.png)
+5. Access the cloned Minima Project using `cd minima`
+
+## Push the Cloned Minima Project to your Remote Repo
+
+1. Check the remote repository tied to the project directory by using `git remote -v`. ![Picture showing that Minima Project is still the remote for this directroy](../../img/github-repo-remote-still-Minima.png)
+Notice that the Minima project directory is still tied to the project directory. 
+2. Change the remote repository to our github repository that we previously created by running the following command `git remote set-url origin https://github.com/<username>/<username>.github.io` ![Image to show that my remote repo has changed](../../img/github-repo-change-remote-to-my-repo.png)
+Please note to ensure you change the remote directory URL based on your github project URL obtained in step #2.
+3. Now push your files into the remote repository by following the instructions specified in github in the earlier section
+![Image showing successful push of local repo to my remote github repo](../../img/github-repo-pushed-local-repo-to-remote.png)
+ - Run `git branch -M main`
+ - Then run `git push -u origin main`
+
+4. Refresh your github repo, and all the files on your local should be available in your remote repo:
+![Image showing files successfully pushed to remote repo](../../img/github-repo-files-available-in-remote.png)
+
+
+## Configure your GitHub Repo to support GitHub Pages
+1. Configure GitHub Actions
+![Image showing steps to configure github actions](../../img/github-repo-configure-github-actions.png)
+    1. Click into `Settings`
+    2. Click into `Pages`
+    3. Have Source indcate as `Github Actions`
+    4. Click on `Configure`
+2. Do not change the defaul settings, and click `Commit Changes`
+![Image to show committing changes for GitHub Actions configuration](../../img/github-repo-commit-github-actions.png)
+![Second image to show the confirmation to commit changes for GitHub Actions configuration](../../img/github-repo-commit-github-actions-confirmation-modal.png)
+
+3. Once you have completed the above configuration, GitHub will proceed to deploy your page, and you can check out your live site at `<username>.github.io`
+![Image showing completed GitHub pages deployment and link to live site](../../img/github-repo-site-is-live.png)
+
+### Pending Issue
+
+Currently, I have recently been unable to reach my site, bummer ><:
+![image showing that site cannot be reached at my username.github.io domain](../../img/github-repo-site-cannot-be-reached.png)
+
+Have reached out to the GitHub community and pending a response. For those who wants to track the thread, you can follow the [discussion here!](https://github.com/orgs/community/discussions/102502)
+
+This was working before ><, but now it's broke -- beauty of technology lol
+If anyone of you guys managed to fix this, please let me know.
