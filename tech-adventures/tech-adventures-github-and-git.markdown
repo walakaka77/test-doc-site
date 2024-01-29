@@ -91,3 +91,13 @@ Please note to ensure you change the remote directory URL based on your github p
 
 
 If you guys are keen to see the repo, can check it out [here!](https://github.com/walakaka77/walakaka77.github.io) These were based on the exact steps mentioned above ^^
+
+
+## Thank You!
+
+That was a heavy one, and tried to give step-by-step instructionals so that anyone can set it up, and see their first site come to live.
+
+Hope this helps, let me know if there is any part that can be improved etc.
+
+Peace and Love<br>
+Shafik Walakaka
