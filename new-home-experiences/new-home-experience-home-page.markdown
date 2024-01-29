@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Kallang Breeze
+title: Kallang
 permalink: /new-home-experience/
 has_children: true 
 ---
@@ -9,7 +9,7 @@ has_children: true
 
 Hello again friends!
 
-This section will the fresh experience of a new home owner in Kallang Breeze! 
+This section will the fresh experience of a new home owner in Kallang! 
 
 ## Additional Home Details
 

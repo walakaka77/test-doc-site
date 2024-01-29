@@ -12,6 +12,7 @@ gem "jekyll", "~> 4.3.3"
 gem "minima", "~> 2.5"
 # This is the theme for just the docs
 gem "just-the-docs"
+
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem "github-pages", group: :jekyll_plugins

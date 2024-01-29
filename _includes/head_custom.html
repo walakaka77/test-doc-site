@@ -1,0 +1,15 @@
+<!-- Generate robots meta tag based on front matter -->
+{% if page.index == 'yes' %}
+{% if page.follow == 'yes' %}
+    <meta name="robots" content="index, follow">
+{% else %}
+    <meta name="robots" content="index, nofollow">
+{% endif %}
+{% else %}
+{% if page.follow == 'yes' %}
+    <meta name="robots" content="noindex, follow">
+{% else %}
+    <meta name="robots" content="noindex, nofollow">
+{% endif %}
+{% endif %}
+<!-- Other meta tags, title, CSS, scripts, etc. -->

@@ -1,6 +1,11 @@
 ---
 layout: page
 title: About
+description: Shafik Walakaka, Software Delivery Manager. This page details the structure of the blog on the full range of skillsets required by a skilled generalist.
+og:description: Shafik Walakaka, Software Delivery Manager. 
+og:locale: en_SG
+index: 'yes'
+follow: 'yes'
 ---
 
 
@@ -33,9 +38,9 @@ As a software delivery manager, have created an implementation plan for this blo
 ## The Plan for my Blog
 A short breakdown of how this blog is planned to be structured:
 
-1. **Easing into my New Home:** This section will detail experiences of moving into my new home. Secret, my new home is at Kallang Breeze.
+1. **Easing into my New Home:** This section will detail experiences of moving into my new home. Secret, my new home is at Kallang.
 
-2. **The Canine Chronicles of Kallang Breeze:** And This section will detail experiences of bringing up a new dog. For someone with zero dog experience -- think we can expect a zero-to-hero styled section here.
+2. **The Canine Chronicles of Kallang:** And This section will detail experiences of bringing up a new dog. For someone with zero dog experience -- think we can expect a zero-to-hero styled section here.
 
 3. **IT Support for an Entrereneur:** No prizes for the best guess here -- yes the entrepreneur is my wife. And it's I do my due diligence as a good husband to help wherever I can.
 

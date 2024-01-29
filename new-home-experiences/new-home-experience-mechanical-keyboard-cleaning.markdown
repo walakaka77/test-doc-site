@@ -2,7 +2,7 @@
 layout: page
 title: Keyboard Cleaning
 permalink: /new-home-experience/mechanical-keyboard-cleaning/
-parent: Kallang Breeze
+parent: Kallang
 ---
 
 # Introduction
