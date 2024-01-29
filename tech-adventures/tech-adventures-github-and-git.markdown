@@ -84,15 +84,10 @@ Please note to ensure you change the remote directory URL based on your github p
 ![Image to show committing changes for GitHub Actions configuration](../../img/github-repo-commit-github-actions.png)
 ![Second image to show the confirmation to commit changes for GitHub Actions configuration](../../img/github-repo-commit-github-actions-confirmation-modal.png)
 
-3. Once you have completed the above configuration, GitHub will proceed to deploy your page, and you can check out your live site at `<username>.github.io`
+3. Once you have completed the above configuration, GitHub will proceed to deploy your page, and you can see that your site will be hosted at this URL: `<username>.github.io`
 ![Image showing completed GitHub pages deployment and link to live site](../../img/github-repo-site-is-live.png)
 
-### Pending Issue
+    - For mine, it's at `https://walakaka77.github.io/` ![Image showing my site live at walakaka77.github.io](../../img/github-repo-walakaka77-site-live.png)
 
-Currently, I have recently been unable to reach my site, bummer ><:
-![image showing that site cannot be reached at my username.github.io domain](../../img/github-repo-site-cannot-be-reached.png)
 
-Have reached out to the GitHub community and pending a response. For those who wants to track the thread, you can follow the [discussion here!](https://github.com/orgs/community/discussions/102502)
-
-This was working before ><, but now it's broke -- beauty of technology lol
-If anyone of you guys managed to fix this, please let me know.
+If you guys are keen to see the repo, can check it out [here!](https://github.com/walakaka77/walakaka77.github.io) These were based on the exact steps mentioned above ^^
