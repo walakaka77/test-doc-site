@@ -1,6 +1,6 @@
 ---
 layout: page
-title: GitHub and Git
+title: Steps to host your Jekyll Blog
 permalink: /tech-adventures/github-and-git
 parent: Jekyll Blog
 grand_parent: Tech Adventures
@@ -8,7 +8,7 @@ grand_parent: Tech Adventures
 
 # Introduction
 
-Here, we'll walk you through the Git and GitHub essentials required. Afterwhich, we'll conclude by having you guys host your own Jekyll Site on GitHub pages.
+Here, we'll walk you through the step-by-step process that would allow you guys to host your own Jekyll Site on GitHub pages completely for free!
 
 ## Git
 
@@ -92,6 +92,22 @@ Please note to ensure you change the remote directory URL based on your github p
 
 If you guys are keen to see the repo, can check it out [here!](https://github.com/walakaka77/walakaka77.github.io) These were based on the exact steps mentioned above ^^
 
+
+## Push your changes
+
+Now that you have successfully obtained a live site. You can fiddle around with this Jekyll tool -- make some changes, push it and see it come to live!
+
+1. First we made some changes ![Image showing that we made some changes to the code](../../img/github-repo-made-some-changes-in-code-ss.png)
+
+2. Next we performed the following: ![image showing us staging, committing and pushing the changes](../../img/github-repo-stage-commit-and-push-changes.png)
+    - staged the changes by running `git add .`
+    - commited the changes by running `git commit -m "<any-commit-message>`
+    - Push the changes to the remote repository by running `git push`
+
+3. The amazing thing is seeing your changes come to live ![image of my changes coming to live](../../img/github-repo-changes-come-tolive-local.png)
+
+The tool is really friend, minimal html, css knowledge required. All you need to know is markdown, and this can be covered in an hour. In fact, can refer to [this article!](/tech-adventures/jekyll-blog/markdown-syntax).
+I use it for reference all the time haha.
 
 ## Thank You!
 
