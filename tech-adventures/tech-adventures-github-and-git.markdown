@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Steps to host your Jekyll Blog
+title: Host a free blog
 permalink: /tech-adventures/github-and-git
 parent: Jekyll Blog
 grand_parent: Tech Adventures
