@@ -54,7 +54,7 @@ The keyboard was completely filthy -- full of dust, and bunny fur. A simple goog
 
 I diligently performed the abovementioned activity ^^ -- swept away the big particles in the keyboard as much as I could.
 
-![image of a toothbrush used to sweep the keyboard](https://www.colgate.com/content/dam/cp-sites/oral-care/oral-care-center/en-in/occ/basics/selecting-dental-products/finger-touching-feeling-soft-slim-tapered.jpg)
+![image of a toothbrush used to sweep the keyboard](https://www.colgate.com/content/dam/cp-sites/oral-care/oral-care-center/en-in/occ/basics/selecting-dental-products/finger-touching-feeling-soft-slim-tapered.jpg){:width="30%"}
 
 ### Vacuum
 
@@ -62,7 +62,7 @@ Now that all the large particules are gone, we proceed to the vacuum phase. Here
 
 Failing to obtain compressed air cans, I decided to use the Dyson V12 vacuum to suck out the particules. Although not as efficient as a compressed air can, it got the job done.
 
-![image of the compressed air used to blow off dust particles, akin to the vacuuming phase](../new-home-experiences/new-home-exp-img/air-compressor-blowing-dust-particles-off-keyboard.png)
+![image of the compressed air used to blow off dust particles, akin to the vacuuming phase](../../img/img-new-home-exp-keyboard-cleaning/air-compressor-blowing-dust-particles-off-keyboard.png){:width="30%"}
 
 ### Mop
 
@@ -70,7 +70,7 @@ Lastly, google informed me that I should wipe the keyboard with a warm damp clot
 
 So, I mopped the keyboard using a damp cloth that was wrung dry!
 
-![Image of a damp cloth used to wipe down the keyboard, akin to the mopping phase](../new-home-experiences/new-home-exp-img/damp-cloth-wiping-dust-particles-off-keyboard.png)
+![Image of a damp cloth used to wipe down the keyboard, akin to the mopping phase](../../img/img-new-home-exp-keyboard-cleaning/damp-cloth-wiping-dust-particles-off-keyboard.png){:width="30%"}
 
 ## Wipe down remaining components
 

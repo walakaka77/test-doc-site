@@ -12,19 +12,21 @@ follow: 'yes'
 # Welcome!
 Hello Friends! This is Shafik, another guy around the block trying to make it in life, and have abit of fun whilst doing so. This is an introductory page, which give you guys an insight to the motivations of starting this blog.
 
-![image showing a winding road with the words "Fresh Start" to represent motivation](https://media.licdn.com/dms/image/D5612AQHt4hxhRDw5ZQ/article-cover_image-shrink_720_1280/0/1674685424860?e=1712188800&v=beta&t=brTItc2I-ZyiSV8u8gVg2zFflT52lJripxparTGi_9o)
+![image showing a winding road with the words "Fresh Start" to represent motivation](https://media.licdn.com/dms/image/D5612AQHt4hxhRDw5ZQ/article-cover_image-shrink_720_1280/0/1674685424860?e=1712188800&v=beta&t=brTItc2I-ZyiSV8u8gVg2zFflT52lJripxparTGi_9o){:width="50%"}
 
 For those of you who know me you'd know I've been off social media and people stalk me by checking my wife's instagram. And for those who doesn't know me -- fingers crossed this blog let's you know me a little better (for better or for worst lol). So here goes!
 
 ## Background
 So, repeating what I mentioned above -- just your everyday joe trying to make it in life, stuck in the rat race. Having been in the professional world for 5 years, there has been an intense focus of `trying to make it`. Most of my hours are spent on work, and some would say I neglected my personal life.
 
-![Image representing rats racing on a track, as a reference to the rat race phrase](https://www.oaekpost.com/wp-content/uploads/2021/10/001_AdobeStock_72412247_RATRACE001.jpg)
+![Image representing rats racing on a track, as a reference to the rat race phrase](https://www.oaekpost.com/wp-content/uploads/2021/10/001_AdobeStock_72412247_RATRACE001.jpg){:width="50%"}
 
-But as the saying goes, change is the only constant. For me I've recently shifted into a new home, and got introduced to a new furry companion ![Image showing my new estate and my furry companion - my new dog](../../img/img-about-page/stormy-and-hdb-block.png)
+But as the saying goes, change is the only constant. For me I've recently shifted into a new home, and got introduced to a new furry companion
+
+![Image showing my new estate and my furry companion - my new dog](../../img/img-about-page/stormy-and-hdb-block.png){:width="50%"}
 
 And also, the wife has decided to spin off her own business and make some magic. For those of you who would like to consult professionals that specializes in behaviour modification -- [look no further](https://petcoach.sg)!
-![Image showing a dog training company - pet coach SG](../../img/img-about-page/pet-coach-sg-website-image.png)
+![Image showing a dog training company - pet coach SG](../../img/img-about-page/pet-coach-sg-website-image.png){:width="50%"}
 
 These changes have not been there for very long, but it did force me to reprioritize my time and focus away from professional work. As such, I am no longer able to focus 150% of my energy into a very narrow domain - delivery good software.
 
@@ -32,7 +34,7 @@ And that is why I created this blog! In the spirit of `trying to make it` in lif
 
 There has also been a big push for documentation at my workplace lately, so I'll start by documenting my life.
 
-![Image showing someone documenting a procedure on his clipboard to highlight the push for documentation](../../img/img-about-page/documentation-clipboard-photo.png)
+![Image showing someone documenting a procedure on his clipboard to highlight the push for documentation](../../img/img-about-page/documentation-clipboard-photo.png){:width="50%"}
 
 As a software delivery manager, the idea is to be a skilled generalist anyway -- so there are definitely benefits to expanding my perceived skillset haha!
 
@@ -60,7 +62,7 @@ Lastly, if you guys made it this far, I'd like to thank you guys for reading. Pl
 
 But yes - thank you ^^. Been a pleasure writing this, and hope it was a pleasure reading it too.
 
-![Image of pretty writing saying thank you](https://thumbs.dreamstime.com/b/thank-you-lettering-blurred-lights-background-thank-you-lettering-102011881.jpg)
+![Image of pretty writing saying thank you](https://thumbs.dreamstime.com/b/thank-you-lettering-blurred-lights-background-thank-you-lettering-102011881.jpg){:width="50%"}
 
 Peace and Love<br>
 Shafik Walakaka
