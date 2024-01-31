@@ -32,9 +32,11 @@ And that is why I created this blog! In the spirit of `trying to make it` in lif
 
 There has also been a big push for documentation at my workplace lately, so I'll start by documenting my life.
 
-As a software delivery, the idea is to be a skilled generalist anyway -- so there are definitely benefits to expanding my perceived skillset haha!
+![Image showing someone documenting a procedure on his clipboard to highlight the push for documentation](../../img/img-about-page/documentation-clipboard-photo.png)
 
-As a software delivery manager, have created an implementation plan for this blog. Unfortunately, my experience also tells me that things never go according to plan. But referencing another saying, `failing to plan is planning to fail` - so here is my plan:
+As a software delivery manager, the idea is to be a skilled generalist anyway -- so there are definitely benefits to expanding my perceived skillset haha!
+
+So without further ado, please find the implementation plan for this blog below:
 
 ## The Plan for my Blog
 A short breakdown of how this blog is planned to be structured:
@@ -57,6 +59,8 @@ A short breakdown of how this blog is planned to be structured:
 Lastly, if you guys made it this far, I'd like to thank you guys for reading. Please feel free to give us feedback -- constructive criticism please, no haters because my heart can't take it.
 
 But yes - thank you ^^. Been a pleasure writing this, and hope it was a pleasure reading it too.
+
+![Image of pretty writing saying thank you](https://thumbs.dreamstime.com/b/thank-you-lettering-blurred-lights-background-thank-you-lettering-102011881.jpg)
 
 Peace and Love<br>
 Shafik Walakaka
