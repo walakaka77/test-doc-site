@@ -39,7 +39,7 @@ To go through this section, you would need to already have:
 
   Once the verification is complete, we can proceed to update the GitHub pages settings for our domain in our GitHub Repository Settings.
 
-  ## Update GitHub Pages Repository Settings
+## Update GitHub Pages Repository Settings
 
 1. Login to GitHub and access your repository that hosted your Jekyll page
 2. Access the Settings of your repository
