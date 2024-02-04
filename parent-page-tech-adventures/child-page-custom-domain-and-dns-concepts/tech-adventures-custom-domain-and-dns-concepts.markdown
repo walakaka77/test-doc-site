@@ -1,9 +1,8 @@
 ---
 layout: page
-title: Custom Domain, DNS
-permalink: /tech-adventures/jekyll-blog/custom-domain
-parent: Jekyll Blog
-grand_parent: Tech Adventures
+title: Domain, DNS Concepts
+permalink: /tech-adventures/custom-domain
+parent: Tech Adventures
 ---
 
 # Custom Domains, DNS

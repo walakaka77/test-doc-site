@@ -4,6 +4,7 @@ title: Configure Domain
 permalink: /tech-adventures/jekyll-blog/configure-custom-domain
 parent: Jekyll Blog
 grand_parent: Tech Adventures
+nav_order: 2
 ---
 
 # Configure Custom Domain
@@ -54,6 +55,12 @@ Note -- if you want to configure subdomains, such as `blog.shafikwalakaka.com`, 
 Will update to reflect the steps to do this later
 
 Else, that's all folks, it's done!
+![Test Image](../../tech-adventures/test-image-put-here.png)
+
+## Testing
+
+Testing an image out:
+
 
 Peace, Love<br>
 Shafik Walakaka

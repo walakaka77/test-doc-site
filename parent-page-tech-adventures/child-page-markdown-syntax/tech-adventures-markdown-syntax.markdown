@@ -1,9 +1,8 @@
 ---
 layout: page
 title: Markdown Syntax
-permalink: /tech-adventures/jekyll-blog/markdown-syntax
-parent: Jekyll Blog
-grand_parent: Tech Adventures
+permalink: /tech-adventures/markdown-syntax
+parent: Tech Adventures
 ---
 
 # Introduction

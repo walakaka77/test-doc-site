@@ -1,12 +1,13 @@
 ---
 layout: page
-title: Host a free blog
-permalink: /tech-adventures/github-and-git
+title: Host your Jekyll Blog
+permalink: /tech-adventures/jekyll-blog/host-your-jekyll-blog
 parent: Jekyll Blog
 grand_parent: Tech Adventures
+nav_order: 1
 ---
 
-# Introduction
+# Host your Jekyll Blog
 
 Here, we'll walk you through the step-by-step process that would allow you guys to host your own Jekyll Site on GitHub pages completely for free!
 
@@ -106,7 +107,7 @@ Now that you have successfully obtained a live site. You can fiddle around with 
 
 3. The amazing thing is seeing your changes come to live ![image of my changes coming to live](../../img/github-repo-changes-come-tolive-local.png)
 
-The tool is really friend, minimal html, css knowledge required. All you need to know is markdown, and this can be covered in an hour. In fact, can refer to [this article!](/tech-adventures/jekyll-blog/markdown-syntax).
+The tool is really friend, minimal html, css knowledge required. All you need to know is markdown, and this can be covered in an hour. In fact, can refer to [this article!](/tech-adventures/markdown-syntax).
 I use it for reference all the time haha.
 
 ## Thank You!
