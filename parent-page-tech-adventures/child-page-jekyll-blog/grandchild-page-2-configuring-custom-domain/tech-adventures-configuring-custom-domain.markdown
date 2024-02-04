@@ -55,11 +55,6 @@ Note -- if you want to configure subdomains, such as `blog.shafikwalakaka.com`, 
 Will update to reflect the steps to do this later
 
 Else, that's all folks, it's done!
-![Test Image](../../tech-adventures/test-image-put-here.png)
-
-## Testing
-
-Testing an image out:
 
 
 Peace, Love<br>
