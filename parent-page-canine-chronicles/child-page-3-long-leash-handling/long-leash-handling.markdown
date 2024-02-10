@@ -4,6 +4,7 @@ title: Long leash handling
 permalink: /canine-chronicles/long-leash-handling
 parent: Canine chronicles
 #has_children: true 
+nav_order: 3
 ---
 
 
