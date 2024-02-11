@@ -66,7 +66,7 @@ To make it even worst, we'll bring your attention to the `5 minute timout` punis
 
 But the actual execution of the technique was as follows:
 
-![image of a flowchart for ineffective behaviour modification technique application flow resulting in unproductive results and frustration for the dog](/parent-page-canine-chronicles/child-page-off-the-table/image-off-the-table-flow.drawio-2.png)
+![image of a flowchart for ineffective behaviour modification technique application flow resulting in unproductive results and frustration for the dog](../../parent-page-canine-chronicles/child-page-2-off-the-table/image-off-the-table-flow.drawio-2.png)
 
 1. Dog tries to get onto the table
 2. Human gently restraint the dog and push the dog off the table
@@ -100,7 +100,7 @@ This is where the hype R+ etc. comes from -- but bare with me, there are some me
 
 ## Corrected Implementation
 We resolve the issue by ensuring a `desired behaviour` first approach. So, the plan is as follows:
-![Image of dog displaying desired behaviours](/parent-page-canine-chronicles/child-page-off-the-table/image-dog-desired-behaviours.png)
+![Image of dog displaying desired behaviours](../../parent-page-canine-chronicles/child-page-2-off-the-table/image-dog-desired-behaviours.png)
 
 1. What is the desired behaviour:
     - Sitting and waiting patiently on the floor
@@ -145,7 +145,7 @@ For me, Storm tends to have an eager posture and crazy eyes right before he trie
     - And also optionally give him his own toys to chew on
 5. On sitting down, or lying down, I will give him the treat as a reward
 
-![image of a process flow the specifies the above mentioned flow to handle the dog effectively](/parent-page-canine-chronicles/child-page-off-the-table/image-off-the-table-flow-corrected-2.drawio.png)
+![image of a process flow the specifies the above mentioned flow to handle the dog effectively](../../parent-page-canine-chronicles/child-page-2-off-the-table/image-off-the-table-flow-corrected-2.drawio.png)
 
 Steps #1 - #5 is a repetitive process, repeated until Stormy settles or learns some table manners. Might think this is alot of hardwork, and almost unfeasible -- I think so too lol. But, this is the basal level of effort that we'd need to put it, to ensure he dog is brought up well. Hence, bo pian.
 
@@ -154,7 +154,7 @@ Last but definitely not least, we need to be careful to ensure that the undesire
 
 We all agreed that the process of modifying the dogs behaviour is hardwork in the previous sections -- this work can be undone, if mixed signals are given to the dog (a.k.a., reinforcing an undesired behaviour)
 
-![image of the flow that reinforces the dogs undesired behaviour because he managed to get a chicken wing when expressing undesired behaviour](/parent-page-canine-chronicles/child-page-off-the-table/image-flow-to-show-reinforce-undesired-behaviour.png)
+![image of the flow that reinforces the dogs undesired behaviour because he managed to get a chicken wing when expressing undesired behaviour](../../parent-page-canine-chronicles/child-page-2-off-the-table/image-flow-to-show-reinforce-undesired-behaviour.png)
 
 One example that occurred to me was a chicken wing left on the table. As we were clearing out the plates, our furry pal storm snuck onto the table and managed to grab a chicken wing. We tried to stop him, but he was too quick.
 
