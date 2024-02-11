@@ -13,7 +13,7 @@ Coming from a background with no experience with dogs, getting an Australian She
 <!-- ![image indicating that I have no experience. A form of me checking the "No experience" checkbox](https://media.licdn.com/dms/image/C5612AQGtaq1cSdJCZg/article-cover_image-shrink_600_2000/0/1520145702068?e=2147483647&v=beta&t=HqVOsiiGTOAusDRqNWWC7Qbgo1U_QxJYonRT9XawvJg){:width="50%"}  -->
 
 This Australian Shepherd is energetic, and requires constant stimulation. Due to the nature of this breed, missing his needs (e.g., stimulation, play time and enrichment etc.) would result in detrimental effect which would affect both our dog, and our household.
-![Image of our dog storm sitting an dlooking pretty for a photoshoot](https://scontent-sin6-2.cdninstagram.com/v/t39.30808-6/422163854_17953724681729361_6102990241943001418_n.jpg?stp=dst-jpg_e35_p1080x1080_sh0.08&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE4MDAuc2RyIn0&_nc_ht=scontent-sin6-2.cdninstagram.com&_nc_cat=109&_nc_ohc=0p39RliVlQoAX-ZZeY3&edm=ACWDqb8AAAAA&ccb=7-5&ig_cache_key=MzI4NzMxMDA1MTU1MTI0MjkyNw%3D%3D.2-ccb7-5&oh=00_AfAyhpvts34ULlum8wkrncf55W924hsA242lZdQIUtMX3Q&oe=65C401A1&_nc_sid=ee9879){:width="50%"}
+![Image of our dog storm resting, sleeping at the back of a van](../../parent-page-canine-chronicles/image-storm-sleeping-in-nvan.jpeg){:width="70%"}
 
 Fortunately for me, my wife is a seasoned dog behaviourist with several years of experience in applying behaviour modification techniques to improve a dog's behaviour. So I've had the luxury to receive constructive criticism on my handling skills in real-time, everyday from a professional.
 
