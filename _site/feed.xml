@@ -1,4 +1,121 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-02-11T11:48:03+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Shafik Walakaka</title><subtitle>Just your average joe (also self-proclaimed software delivery manager), trying to make it in life and have abit of fun while doing so.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2024/01/01/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2024-01-01T21:40:56+08:00</published><updated>2024-01-01T21:40:56+08:00</updated><id>http://localhost:4000/jekyll/update/2024/01/01/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2024/01/01/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-02-13T09:30:38+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Shafik Walakaka</title><subtitle>Just your average joe (also self-proclaimed software delivery manager), trying to make it in life and have abit of fun while doing so.</subtitle><entry><title type="html">Tech for the layman</title><link href="http://localhost:4000/tech-adventures/tech-for-the-layman" rel="alternate" type="text/html" title="Tech for the layman" /><published>2024-02-13T09:30:38+08:00</published><updated>2024-02-13T09:30:38+08:00</updated><id>http://localhost:4000/tech-adventures/tech-for-the-layman</id><content type="html" xml:base="http://localhost:4000/tech-adventures/tech-for-the-layman"><![CDATA[<h1 id="tech-for-the-layman">Tech for the Layman</h1>
+
+<p>Dear Friends and Family, been taking some time recently to consolidate my understanding of how technology works. The best way to do it, is to break it down and explain it using simple, and relatable terms.</p>
+
+<p>So, as a revision to all that I’ve learnt regarding technology - this article aims to spell out my understanding of how websites or web applications work.</p>
+
+<h2 id="analogy">Analogy</h2>
+
+<p>To help paint a picture of my mental model, I’ve decided to compare the information flow in the computers to the information flow in humans. To do so, we’d need a basic understanding of how we process information.</p>
+
+<p>So the first part of this article will take you through how we, humans process information.</p>
+
+<h3 id="human-information-flow">Human Information Flow</h3>
+
+<p>We’ll take a bottom up approach here, starting from the atomic concepts, on how information is stored in humans. And then moving up to higher-level, that utilizes these atomic concepts to further perform higher-level processing.</p>
+
+<p><strong>Neurons, Neural Connections</strong>
+At the lowest level, every single bit of information can be thought to be stored as neural connections. Neurons are cells in the brain that has the ability to transmit signals to other neurons. This transfer of signals is what invokes any form of functioning capability in the human being.</p>
+
+<p><strong>Neural Patterns</strong>
+When a behaviour or a concept is learnt, these actually create new neural connections (connections between different neurons) in the brain. These collection of neural connections are then fired everytime the learnt behaviour needs to be recalled.</p>
+
+<p>The coordinated firing of neural connections is referred to as a <code class="language-plaintext highlighter-rouge">neural pattern</code>.</p>
+
+<p><strong>Innate Cognitive Functions</strong>
+Now that we have an understanding of nerons and neural connections, we can move on to the next level item – innate cognitive functions. Innate cognitive functions refers to the primitive functions that are usually happening in our subconscious. These includes, handling activities such as breathing, sensory perception (e.g., touching something hot etc.), fear etc.</p>
+
+<p>The innatve cognitive functions can be treated as a “concept”. A difference is that, this concept is technicalled not learnt – it’s hardcoded into our brains, meaning that the neural connections and the neural patterns that fires so that we know how to breathe, or so that we know how to sense hot objects are genetically inherited.</p>
+
+<p><strong>Human Senses</strong>
+The innate congnitive functions would commincate directly with our five senses to retrieve information from around the world. In the prior example, touching a hot object, would result in the heat reaching our skin cells. Our innate cognitive functions, a collection of neurons will fire, and infer that the object is hot, cold etc. The ability to infer that the object is hot or cold, is hardwired as a neural pattern that will fire coordinatedly. The inputs of hot and cold, comes from the skin cells, nerves. This low level comunication between our innate cognitive function and our senses allows for us constructing our understanding of the world.</p>
+
+<p><strong>Higher-Level Cognitive Functions</strong>
+Next, humans are capable of higher-level cognitive functions such as decision making etc. These higher-level cognitive functions do not directly communicate with the low-level sensory senses. Instead it either</p>
+<ul>
+  <li>Interacts with low-level innate cognitive functions, to receive inputs</li>
+  <li>Or it integrates with other higher-level cognitive functions, to receive inputs.</li>
+</ul>
+
+<p>In the example of decision making, the user may be dipping his hand into an ice cold water of 4 degrees celsius (above the comfort zone). However, this activity could have been intentional, trying to complete a challenge or a dare etc. – these are active decision making capabilities that receives inputs from multiple locations:</p>
+<ul>
+  <li>Innate cognitive functions, for senses</li>
+  <li>Understanding of previously learnt concepts – the challange, or dare</li>
+  <li>Many more factors comes into play, when calculating whether to keep the hand in the ice cold water</li>
+</ul>
+
+<p>These higher-level cognitive functions are the mechanism by which we can make complex discussions, constructs. We also use this on a daily basis to discuss culture, acceptable behaviour etc.
+This also allows for us to discuss complicated concepts, such as the functionality of an application – it basically allows us to talk about things that do not yet exist. Once we are able to talk and imagine things that did not exist, we can proceed to plan and build it.</p>
+
+<p><strong>Note taking</strong>
+When discussing a complex conversation, we notice that humans are normally forgetful. As such, we always take notes to ensure that we do not forget.
+During the discussion, we take quick notes – that are easy to change, and update.</p>
+
+<p>These notes are rough, and unstructured. But they are easily accessible during the conversation itself, and it’s an enabler to discuss complicated concepts.</p>
+
+<p><strong>Documentation</strong>
+However, once the discussion is over – it’s common for us to need to process these notes. If left unprocessed, these notes would gradually be forgotten.
+Even if it’s archived correctly, someone else reading these notes would not be able to understand them.</p>
+
+<p>Processing the notes into documents such as minutes of meetings and subsequently archiving them in an organized manner is crucial to ensure no information gets lost.</p>
+
+<p><strong>Short-Term and Long Term Memory</strong>
+Some may argue that our memory is sufficient and that conversations are richer than pure documentation. Whilst this statement is accurate, it does not go against the requirement for documentation.</p>
+
+<p>Reverting back to how our brain learns concepts – storing information is essentially a learnt concept:</p>
+<ul>
+  <li>Neural connections are formed</li>
+  <li>These nerual connections are fired as a collective, to recall the concepts</li>
+</ul>
+
+<p>Now, these neural connections can be strengthened or weakened. If we do not revisit a concept frequently, the connection will weaken. If we revisit it, the connection will be strengthened when it’s fired.</p>
+
+<p>It’s common to inaccurately recall a discussion, but when we review accurate documentation – the correct neurons will fire, hence strenghtening our memory recollection and allowing us to productively built on previous concepts that has already been agreed upon.</p>
+
+<p>Sure – some people may have stronger memory than others (akin to some PC having better RAM), some have stronger calculations (CPU). But this is not a reliable way to store information, and it is impossible to store the collective understanding of the world just in memory, or just keep calculations in  the CPU.
+Hence, akin to optimized software – we never overload the hardward. Instead, we strive for efficient processes (a.k.a. code) that will allow us to achieve our objectives.</p>
+
+<p><strong>Language</strong> –  Protocol</p>
+<ul>
+  <li>Everything is neurons</li>
+  <li>But need to abstract, higher-level cognitive functions –&gt; Language</li>
+  <li>All language, breaks down into neural connections in the</li>
+  <li>Different language, different format. Korea is hierarchical, etc. but the information transferred is the same
+    <ul>
+      <li>And when broken down, stored in the same way in our brains</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>Request and Response</strong> – conversation</p>
+<ul>
+  <li>Initiator (Client)</li>
+  <li>Responder (Server)</li>
+</ul>
+
+<p><strong>Internet</strong></p>
+<ul>
+  <li>Akin to telephone lines, allowing you to communicate with others</li>
+  <li>Initiator, you dial</li>
+  <li>Responder, they respond</li>
+  <li>Initiator, you start the conversation</li>
+</ul>
+
+<p><strong>Internet Service Provider</strong></p>
+<ul>
+  <li>Telephone provider</li>
+  <li>Gateway where all your calls are routed to, and then subsequently to the responder phone</li>
+</ul>
+
+<p>Thanks a bunch guys! <br />
+Peace and Love <br />
+Shafik Walakaka</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Tech for the Layman]]></summary></entry><entry><title type="html">Stranger Danger</title><link href="http://localhost:4000/canine-chronicles/stranger-danger" rel="alternate" type="text/html" title="Stranger Danger" /><published>2024-02-13T08:46:18+08:00</published><updated>2024-02-13T08:46:18+08:00</updated><id>http://localhost:4000/canine-chronicles/stranger-danger</id><content type="html" xml:base="http://localhost:4000/canine-chronicles/stranger-danger"><![CDATA[<h1 id="afraid-of-strangers">Afraid of Strangers</h1>
+
+<p>Placeholder to write about dogs scared of stranger in the house, then bark and shit.</p>
+
+<p>Thanks a bunch guys! <br />
+Peace and Love <br />
+Shafik Walakaka</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Afraid of Strangers]]></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2024/01/01/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2024-01-01T21:40:56+08:00</published><updated>2024-01-01T21:40:56+08:00</updated><id>http://localhost:4000/jekyll/update/2024/01/01/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2024/01/01/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
 
 <p>Jekyll requires blog post files to be named according to the following format:</p>
 
