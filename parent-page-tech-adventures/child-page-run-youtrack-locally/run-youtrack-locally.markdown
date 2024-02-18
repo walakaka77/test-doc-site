@@ -96,9 +96,11 @@ So here are the steps taken by me on how to run Youtrack Locally. This instructi
 ![image showing extracted youtrack content](../../parent-page-tech-adventures/child-page-run-youtrack-locally/image-showing-extracted-youtrack-content.png)
 4. As per the instructions in the [official youtrack documentation](https://www.jetbrains.com/help/youtrack/server/install-youtrack-zip-installation.html#be4e955f_47), enter the `Bin` folder and run the following command: `.\youtrack.bat run`
 ![image showing command to start running youtrack](../../parent-page-tech-adventures/child-page-run-youtrack-locally/image-showing-running-the-command-to-start-youtrack.png)
-5. An installation wizard will start and you can simply follow through the wizard to complete setting up youtrack on your local
+5. An installation wizard will start and you can simply follow through the wizard to complete setting up youtrack on your local. Details of the configuration wizard can be found [here!](https://www.jetbrains.com/help/youtrack/server/install-youtrack-zip-installation.html#installation-procedure)
     - Note: Based on the documentation, you should configure your youtrack on `http://localhost:8080`, as youtrack listens to this location by default
     - However, for my case -- the default URL used was my machine name. So I configured youtrack at `http://desktop-rg06vpp/`
+6. Once you have configured the Wizard, you can access Youtrack on your own Local instance! <br>
+![Image of my successful youtrack instance running](../../parent-page-tech-adventures/child-page-run-youtrack-locally/image-of-success-youtrack-instance-running.png)
 
 For more details -- do refer to the [official documentation](https://www.jetbrains.com/help/youtrack/server/install-youtrack-zip-installation.html).
 Ofcourse, if you guys have other inputs to add -- would be more than happy to take some KT (Knowledge Transfer) from you guys ^^
