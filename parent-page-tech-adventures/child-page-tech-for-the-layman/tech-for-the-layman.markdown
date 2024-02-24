@@ -91,7 +91,7 @@ Drawing parallels to `Learnt Concepts` in humans, computers `learn` when you ins
 We previously discussed that all information in computers are stored as binary 1's and 0's, analagous to neurons. 
 A software installation, is represented as a complex string of 1's and 0's. For example, when you install a microsoft word application, the information that is stored in your PC is stored as a complex string of 1's and 0's.
 
-![image showing the comparison of a binary string vs neural pattern activation](../../parent-page-tech-adventures/child-page-tech-for-the-layman/image-single-neuron-and-neural-pattern.png)
+![image showing the comparison of a binary string vs neural pattern activation](../../parent-page-tech-adventures/child-page-tech-for-the-layman/image-showing-complex-binary-string-and-neural-pattern-activation.png)
 
 Suppose you want to run the microsoft word application to do some work, the computer would need to decipher these set of 1's and 0's.
 Recall how the activation of neural patterns (a set of neurons firing in a coordinated manner) allows us to recall and remember the concept of the smell of a rose flower? 
