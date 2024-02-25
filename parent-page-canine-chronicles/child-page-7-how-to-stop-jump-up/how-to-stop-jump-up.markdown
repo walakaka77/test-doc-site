@@ -23,6 +23,7 @@ Although it was yet to develop into an issue, Stormy does tend to jump up when h
 Although excusable (imo), it's still a behaviour that we would not like to reinforce.
 
 Because although I'm okay with it, other people might not be okay with it.
+
 ![image of someone not happy when a dog jumps on her](https://www.greatriverrescue.com/wp-content/uploads/2020/05/jumpingup.jpg){:width="50%"}
 
 And of course, I try to stop the behaviour using the traditional "No!" in an angry tone, alongside giving him my sternest frown.
