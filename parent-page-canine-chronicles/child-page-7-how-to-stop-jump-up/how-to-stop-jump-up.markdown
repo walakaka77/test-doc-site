@@ -45,7 +45,7 @@ As always, life gives us lemons -- Stormy would more often than not try the jump
 Some of the times, we can sense that Stormy does get frustrated and starts barking! Terrible >< !
 At this point, obviously the approach that I'm taking is not working well.
 
-Fortunately, behaviour consultant (a.k.a. lovely wife) noticed the inaccurate techniques being applied, and advised otherwise.
+Fortunately, [behaviour consultant (a.k.a. lovely wife)](https://petcoach.sg/about/#yourtrainers) noticed the inaccurate techniques being applied, and advised otherwise.
 
 ![image of a flow chart showing why shouting "No!" is ineffective when you did not remove the high motivator - yourself](../../parent-page-canine-chronicles/child-page-7-how-to-stop-jump-up/image-of-incorrect-actions-to-combat-dog-jump-up.png)
 
@@ -57,7 +57,7 @@ Based on the advise given, my approach is inaccurate because of the following:
   - Sounds a little reckless?
   - Does it mean if it doesn't work, I'd need to increase the "pain" of the punishment
   - Bluntly speaking, yes. And that's why it's not the most effective technique to be applied within this context
-- The highly stimulating motivator, the play, is still there. Which also means that the punishment would less likely be effective. We're giving the dog mixed signals, it might be confusing to the dog.
+- The highly stimulating motivator, the play, is still there. Which also means that the punishment would less likely be effective - since the "reward" factor is still there. Not to mention, we're giving the dog mixed signals, it might be confusing to the dog.
 
 A better approach would be negative punishment. This is done simply by abruptly stopping the play and leaving the game by walking away.
 Similar to when you piss off your friend when you're a kid, it's best if we act like the pissed off kid, and walk away, do not give any attention to the dog.
@@ -76,14 +76,16 @@ Think you guys would be able to guess now, why the application of this technique
 
 ### Should we continue the play?
 
-So my follow up question was that, should we stop highly stimulating play completely? Because I really enjoy it haha!
-Fortunately, you don't have to!
+So my follow up question was that, should we stop highly stimulating play completely? Because I really enjoy it ><, haha!
 
-Although during highly energetic and stimulating play, the dog may tend to jump -- by repeating the training sequence above, the dog will get a clear messaging that if he jumps:
+![image showing a cat begging to continue playing with cat puppy eyes](https://i.imgflip.com/3h5hfa.jpg){:width="30%"}
+
+Fortunately, you don't have to! Although during highly energetic and stimulating play, the dog may tend to jump -- by repeating the training sequence above, the dog will get a clear messaging that if he jumps:
 - Motivator (play) is removed
 - Punished, by stopping the play
 
-When the dog behaves, we continue the play.
+When the dog behaves, we continue the play. <br>
+If the dog misbehave, we stop -- until the dog behaves again.
 
 The dog will associate exhibiting good behaviour, with starting the play.
 And jumping up associated with stopping the play.
