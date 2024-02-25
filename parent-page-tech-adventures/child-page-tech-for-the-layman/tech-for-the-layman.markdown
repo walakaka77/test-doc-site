@@ -152,6 +152,8 @@ Now that we have sufficient information regarding the following:
 We are ready to move on to the next layer - higher-level functions. The higher-level functions would require inputs from the lower-level functions.
 We will dive deeper into these for both humans and computers in the subsequent sections
 
+![image showing the hierarchy of sensory perception, cognitive functions etc. and focuses on higher level cognitive functions](../../parent-page-tech-adventures/child-page-tech-for-the-layman/image-showing-hierarchy-of-cogntitive-function-focus-higher-level.png)
+
 ### Higher-Level Cognitive Functions
 
 Next, humans are capable of higher-level cognitive functions such as decision making etc. These higher-level cognitive functions do not directly communicate with the low-level sensory senses. Instead it either
@@ -165,6 +167,8 @@ In the example of decision making, the user may be dipping his hand into an ice 
 
 An important concept to note is that the decision making process does not directly interact with the nerve cells on the skin (sensory perception). 
 Instead, the decision making process interacts with the interpretation of the information that was provided by the low-level innate cognitive functions.
+
+![image showing the flow of env stimulus to sensory perception to innate cognitive functions to decision making, and then closing the loop when user decides to keep the hand in](../../parent-page-tech-adventures/child-page-tech-for-the-layman/image-showing-the-flow-of-env-stimulus-to-decision-making.png)
 
 The flow is as follows:
 1. **Environment:** You dip your hand in an ice-cold water 
@@ -188,6 +192,8 @@ Now that we understand the higher-level cognitive functions in humans, we can dr
 
 To re-iterate, the operating system is analogous to the low-level cognitive functions. The operating system deals with memory management, and other tasks that communicated with the hardware. This is similar to how low-level cognitive neural patters deal directly with the five senses (input/output hardware).
 
+![image showing the flow of env stimulus such as keyboard strokes, interpreted by the keyboard I/O, PCB, Computer OS, and then subsequently inputs passed to browser (high-level app), that would perform the relevatn actions](../../parent-page-tech-adventures/child-page-tech-for-the-layman/image-showing-the-flow-of-env-stimulus-to-higher-level-application.png)
+
 In the computer world, a high-level application can be anything like microsoft excel or your chrome browser. Taking the chrome browser as an example, the flow would be as follows:
 1. **Environment:** User switches on chrome browser and enters `google.com` on they keyboard and hit `Enter`
 2. **Input/Output Devices:** The keyboard detects the keystrokes that are being depressed based on electrical signals being triggered, and these information are processed in the keyboard's circuit board. This is akin to heat being sensed by the skin and subsequently transmitting electrical signals to the brain
@@ -199,6 +205,8 @@ In the computer world, a high-level application can be anything like microsoft e
 
 
 Notice the key point here where the browser does not interact directly with the keyboard. The process of deciphering information in the keyboard is completely abstracted away by the keyboard's circuit board and the operating system. Your chrome browser simply takes the inputs `google.com` or `Enter` and performs higher-level processing to decide what to do with this information.
+
+![image showing that lower level inputs are abstracted away from higher level functions](../../parent-page-tech-adventures/child-page-tech-for-the-layman/image-emphasizing-lower-level-inputs-abstracted-away-from-higher-level-functions.png)
 
 This is equivalent to the high-level decision making process that we discussed earlier, where inputs come from low-level innate cognitive functions. 
 
@@ -215,6 +223,9 @@ Now we have covered the following layers:
 - How Low-Level Functions (Cognitive, OS) helps interpret external information
 - How Higher-Level Function processes these information and generates an output (e.g., Decision etc.)
 
+
+![image consolidating all the concepts learnt, just a duplicate of all main images that has been listed above](../../parent-page-tech-adventures/child-page-tech-for-the-layman/image-consolidating-all-the-concepts-learnt.png)
+
 Now that we generally know how information flow, and can be recalled - we can dive a litle further into our innovative methods to organize information so that we can build on pre-existing information and create cooler things.
 
 ### Human Information Storage
@@ -230,6 +241,9 @@ Because we cannot remember all these information, we have derived creative ways 
 Before we digress too much, we want to highlight two main concepts that are relatable to how computers organize their information:
 - Note Taking
 - Documentation and Filing Systems
+
+![image comparing note taking and documentation](../../parent-page-tech-adventures/child-page-tech-for-the-layman/image-comparing-note-taking-and-documentation.png)
+_If you wanted to compare the difference, you can actually check the above image out [here!](/jekyll-blog/jekyll-blog-structure)_
 
 In the context of this article, note taking refers to taking raw notes that are quick and dirty. These notes are normally used solely to aid the conversation - especially for information heavy conversation.
 
@@ -252,6 +266,8 @@ Putting this into a flow. Suppose you are a business analyst, meeting the client
 
 Another cool thing to note! At the fundamental level, when you review your notes or meeting minutes, the activity that allows you to recall the discussion are activation of neural patterns. The basic fundamental unit for information storage does not change, but we have invented creative concepts (which are essentially stored as neural patterns) to abstract away these processes and store information in a neat and nice way for our reference. The same applies to computers, which we will go through in the next section.
 
+![image showing that all high-level functions are stored as neural patterns](../../parent-page-tech-adventures/child-page-tech-for-the-layman/image-reminding-us-that-all-high-level-functions-is-stored-as-neural-patterns.png)
+
 ### Computer Information Storage
 
 Now that we have an understanding of the high-level information storage system for humans, we can draw comparisons to that of computers.
@@ -264,6 +280,8 @@ For computers, our comparisons would be:
 - Cache
 - Database
 
+![Image showing representation of cache vs DB](../../parent-page-tech-adventures/child-page-tech-for-the-layman/image-showing-representation-of-cache-vs-db.png)
+
 Building on our browser example earlier, we would now take on the perspective of an application server that is being reached from a browser. For more details on how browsers connect to application servers, you can check out [how computer communicates over the internet!](/tech-adventures/custom-domain)
 
 Suppose that we are a computer hosting a business website for an animal behaviour consultancy, hosted on wordpress. When a user comes to visit the website, we need to generate all the content that would be served to the user. For this example, let's assume we will serve the following:
@@ -272,24 +290,22 @@ Suppose that we are a computer hosting a business website for an animal behaviou
 3. Several Scripts and CSS files
 
 When generating the material to serve, we can look into either our cache or our database.
-For materials that do not change often (e.g., images, scripts), we can store it in cache where it is inexpensive to retrieve, and send.
+For materials that do not change often (e.g., images, scripts), we can store it in cache where it is inexpensive to retrieve, and send. This is a temporary storage, and we would have to periodically update the cache based on the true source - the database.
+
 For materials that may change (e.g., the html template itself), we store the information in the database. Although it is slightly more expensive to retrieve and generate, it's a more reliable source of information, and it's the one true source that our application goes to when generating the html page.
 
-Drawing parallels, the cache is similar to note taking. Where, the information is inexpensive to access, or change. However, the information is not as reliable and might be lost.
+Drawing parallels, the cache is similar to note taking. Where, the information is inexpensive to access, or change. However, as the information stopred here is not as reliable and might be lost, this is normally a temporary storage with the database as the true source.
 
 The other form of storage, database, stores information which requires high data integrity. These information are stored in a structured manner. Any application administrator can review the information in the database and review the relationships between the datasets.
 These information are more expensive to access, but more reliable and structured -- similar to documentation and filing in the human information processing system.
 
 The cool thing to note! At the fundamental layer, all of these are stored as binaries - 1's or 0's. We simply have created abstract inventions such as cache and databases (which are also "application software" stored as 1's and 0's), that can store information in a reliable way - so that higher-level operations do not have to bother regarding the low-level functionality of how data is stored.
 
+![image showing that high-level applications, when broken down are all stored as complex strings of binaries](../../parent-page-tech-adventures/child-page-tech-for-the-layman/image-showing-that-high-level-applications-are-stored-as-complex-binaries.png)
+
 Sounds familiar? That's because this is analagous to the human processing example provided earlier - where all information are stored as neural connections. We've simply created concepts (neural patterns) of note taking, documentation and filing to help abstract away the low-level functionality of information storage.
 
 This layer of abstraction is key to information technology, or our civilization as a whole, because we will not be here if not for it. It's also the key to how we've been able to advance so far -- because we are able to transfer and build upon ideas and information that were already there before we were born.
-
-Leading on from the learnt concepts, everytime we retrieve a learnt concepts -- a collection of neurons must fire simultaneously.
-These retrieves the understanding of the previous concept.
-
-These neurons can be strengthened, or removed -- depending on how frequent the neurons fire. Firing more frequently would result in a stronger connection, that fires consistently. Conversely, not utilizing that learnt concept, would then result in the neuron connection being weakened -- and may not fire, once you forget.
 
 **Language** --  Protocol
 - Everything is neurons
