@@ -307,6 +307,10 @@ Sounds familiar? That's because this is analagous to the human processing exampl
 
 This layer of abstraction is key to information technology, or our civilization as a whole, because we will not be here if not for it. It's also the key to how we've been able to advance so far -- because we are able to transfer and build upon ideas and information that were already there before we were born.
 
+
+___
+# Everything below is WIP
+
 **Language** --  Protocol
 - Everything is neurons
 - But need to abstract, higher-level cognitive functions --> Language
