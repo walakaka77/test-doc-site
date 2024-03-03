@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Keyboard Cleaning
-permalink: /new-home-experience/mechanical-keyboard-cleaning/
-parent: Kallang
+permalink: /new-home-experience/keyboard-cleaning/
+parent: New Home Kallang
+nav_order: 1
 ---
 
 # Introduction
