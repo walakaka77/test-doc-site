@@ -32,16 +32,16 @@ The source code of the template can be forked from [here!](https://github.com/Ph
 
 ## Planned Site Structure (Raw notes)
 
-After exploring the template, I have noted down the main features of the template that I plan to use. Ideally, this would be used to create the `Kallang Dog Community` website. But even if that plan did not manifest, I would have gained insights by fiddling around and familiarizing with the `Feeling Responsive` template. Given how powerful this template is, I'm certain that this knowledge will come in handy sometime in the near future.
+After exploring the template, I have noted down the main features of the template that I plan to use. Ideally, this would be used to create the `Kallang Dog Community` website. But even if that plan did not manifest, would still have gained some insights by fiddling around and familiarizing with the `Feeling Responsive` template. Given how powerful this template is, it's definitely going to come in handy sometime in the future.
 
-For those whom are interested, my raw notes are as follows:
+For those whom are interested, this is the plan:
 ![image showing my notepad that comprise of notes on how the kallang dog community website is intended to be structured](../../new-home-kallang/child-page-2-dog-community/image-of-notes-on-how-kallang-dog-community-website-structured-1.png)
 ![image showing the second portion of my notepad that shows how the kallang dog community website is intended to be structured](../../new-home-kallang/child-page-2-dog-community/image-of-notes-on-how-kallang-dog-community-site-structured-2.png)
 
-The next few sections, will aim to structure the raw notes into readable documentation, just to show off my understanding LOL. 
-But really - just so that I don't forget, when I do circle back and try to recall the amazing features from this template.
+The next few sections, will aim to organize my notes into a more readable structure -- that way, I can show off what I've learnt ^^ 
+But more importantly, I'd have a reference on how we can utilize the `Feeling Responsive` features for any future sites that I'm planning to create!  
 
-I'm only gonna list down features that I actually have explored and plan to use. For a comprehensive view of what `Feeling Responsive` is capable of, please visit their [official documentation](https://phlow.github.io/feeling-responsive/documentation/).
+This artile will only list down the features that I've personally explord and plan to use -- doesn't cover the full suite of functionalities provided by this template. For a comprehensive view of what the `Feeling Responsive` template is capable of, please visit their [official documentation](https://phlow.github.io/feeling-responsive/documentation/).
 
 ### Navigation Menu Configuration
 
@@ -53,34 +53,39 @@ The first thing that jumped up at me was the ease of managing the navigation men
 
 I've [hosted](https://dogcommunity.shafikwalakaka.com) the version I modified so that everyone can see the end product of modifying the `Feeling Responsive` template. 
 
-![image of the sample kallang dog community site, to demonstrate functionalities of the navigation configuration](../../new-home-kallang/child-page-2-dog-community/image-of-sample-kallang-dog-comm-site.png)
+
 The breakdown of how navigation is configured is as follows:
 - Each main menu label, will have it's own YAML block (a collection of key-value pairs). 
+![image showing the navigation panel is controlled by different YAML Blocks](../../new-home-kallang/child-page-2-dog-community/image-showing-the-navigation-yaml-block.png)
 - The label of the navigation menu is configured in the `title` property. <br> In the example above, we have indicated `Paws of 2024` as the label for one of the main navigation menus.
+![image showing the label for YAML block 2](../../new-home-kallang/child-page-2-dog-community/image-showing-label-for-yaml-block-2.png)
 - The path of the site would be configured in the `url` property.<br> In the example above, we have indicated `/paws-of-2024` as the path that users will be directed to when clicking the `Paws of 2024` navigation menu
+![image showing the path for yaml block 2](../../new-home-kallang/child-page-2-dog-community/image-showing-the-path-for-yaml-block-2.png)
 - The location of the menu (e.g., left or right), will be configured in the `side` property.<br> In the example above, the menus are located on the left hand side of the screen.
-- If there are child menus, these will be configured in the `dropdown` property of the same YAML block.<br> In the example above, there are no child menus!
+![image showing that we can shift the menu to the right hand side](../../new-home-kallang/child-page-2-dog-community/image-showing-that-we-can-shift-menu-to-right-hand-side.png)
+- If there are child menus, these will be configured in the `dropdown` property of the same YAML block.<br> 
+![image showing child menu configured in the dropdown property](../../new-home-kallang/child-page-2-dog-community/image-showing-child-menu-configured-in-dropdown-property.png)
 
 
 
 ### Layouts (Page, Page-Fullwidth)
 
-Now, we move onto the layouts that I am thinking of using. There are three main layouts that I think I'd use for the simple site:
+Now, we move onto the layouts that I'm planning on using. There are three main layouts I've planned to use:
 - Page
 - Page-Fullwidth
 - Blog
 
-These layouts come in ready out of the box, for you to use. I'm not intending to make any changes to the layouts for either `Page` or `Page-Fullwidth`.
+The `Page` and `Page-Fullwidth` layouts come in ready out of the box, for you to use. There is no intention or need to make any modifications to these layouts for the site that we're planning for.
 
-When you want to use the layouts, simply specify the layout in your Jekyll Front Matter, using the `layout` property.
+To use the layouts, simply specify the layout in your Jekyll Front Matter, using the `layout` property.
 - Specifying `page` will load the page template:
 ![image showing the page template being used](../../new-home-kallang/child-page-2-dog-community/image-showing-page-template.png)
-- Specifying the `page-fullwidth` value will load the fulwidth page template! It's that easy
+- Specifying the `page-fullwidth` value will load the fullwidth page template! It's that easy
 ![image showing the fullwidth page template](../../new-home-kallang/child-page-2-dog-community/image-showing-fullwidth-page-template.png)
 
 ### Layouts (Blog)
 
-We will be making some modifications to the blog template to make sure the blog list page, suits our style. This will show how user friendly the `Feeling Responsive` template is:
+We will be making some modifications to the blog template to make sure the blog list page suits our style. The fact that we can modify the layout is a testatement to how user friendly the `Feeling Responsive` template is:
 - The blog template, comes with sidebar that we don't really like. See the screenshot below for the [original version](https://phlow.github.io/feeling-responsive/blog/) of the page (with sidebar)
 ![image showing the blog layout template with the sidebar](../../new-home-kallang/child-page-2-dog-community/image-showing-original-blog-layout-w-sidebar.png)
 - As you can see in our source code above, we have modified and commented out the sider element. On top of that, we have also added 2 columns to each side of the main content to ensure that it's nicely centered in the webpage 
@@ -91,27 +96,24 @@ We will be making some modifications to the blog template to make sure the blog 
 The reason why we have those 2 additional columns was because:
 - Utilizing the fullwidth of the page makes the site looks too fluid:
 ![image showing the content of the blog spanning the full width of the browser](../../new-home-kallang/child-page-2-dog-community/image-utilizing-full-width-of-the-page.png)
-- The theme seems to start content on the left. So if we don't add the spacer columns, the side will be skewed to the left:
+- Leaving out the spacer columns will leave an awkward gap on the right hand-side. The gap was previously filled by the sidebar that we have recently removed:
 ![image showing the site skewed to the left because it's missing the spacer columns](../../new-home-kallang/child-page-2-dog-community/image-of-site-skewed-to-the-left.png)
 
+Hence, why we'll be removing the sidebar, and adding two spacer columns for the blog template!
 
-___
-## Unfortunately, everything below here is again -WIP
-- These are templates that are referenced for each page or post
-- We will mainly utilize 3
-    - blog
-    - page
-    - page full width
-- Modifications
-    - Blog
-        - Blog, we remove the sidebar
-        - Centralize also, by adding 2 columns. Left and right with no content
-        - Add a point, how amazing it is, simple to customize
-        - Reference the foundation framework. Points to the page with the grid format
-    - Page Fullwidth, Page --> No change, we use their default template. Already very nicely set up
 
 ### Includes 
 
+The last template modification that we would be making would be done in the `_includes` folder. This folder normally contains files that contains the html content that are referenced by layouts to generate template. Let's take the generation of the `Home` page for example:
+- The `Home` page is using the `page-fullwidth` layout
+![image showing that home page is using the page full width layout](../../new-home-kallang/child-page-2-dog-community/image-showing-that-the-home-page-using-page-fullwidth.png)
+- The page fullwidth layout is made of two rows. Each row has a column utilizing the full 12 grids (hence utilizing the fullwidth). The content of the blog is inserted after the first two rows.
+![image showing the page fullwidth template in detail](../../new-home-kallang/child-page-2-dog-community/image-showing-the-page-full-width-template-in-detail.png)
+For more details regarding the grid layouts used by `Feeling Responsive`, please check the [Foundation Oficial Documentation](https://get.foundation/sites/docs-v5/components/grid.html)
+
+
+## More WIP content below here!
+___
 - Includes folder, contains files that has re-usable html
 - These reusable html are reused across different layouers
     - e.g., footer, header, side bar etc.
