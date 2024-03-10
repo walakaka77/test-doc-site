@@ -8,7 +8,7 @@ nav_order: 1
 index: 'yes'
 follow: 'yes'
 description: This article provides a step-by-step instruction on how you can create a website using the Jekyll Static Generator and host it on GitHub Pages completely free of charge!
-image: ../../img/github-repo-changes-come-tolive-local.png
+image: ../../parent-page-tech-adventures/child-page-jekyll-blog/grandchild-page-1-host-a-free-blog/image-showing-a-screenshot-of-a-free-live-website.png
 ---
 
 # Create a Free Professional Website
