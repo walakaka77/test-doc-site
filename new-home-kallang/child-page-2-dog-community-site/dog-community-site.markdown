@@ -4,6 +4,8 @@ title: Dog Community Site
 permalink: /new-home-kallang/dog-community-site/
 parent: New Home Kallang
 nav_order: 2
+index: 'yes'
+follow: 'yes'
 ---
 
 # Kallang Dog Community

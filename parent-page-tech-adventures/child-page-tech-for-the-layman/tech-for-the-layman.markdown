@@ -5,6 +5,8 @@ permalink: /tech-adventures/tech-for-the-layman
 parent: Tech Adventures
 #has_children: true 
 #nav_order: 6
+index: 'no'
+follow: 'no'
 ---
 
 

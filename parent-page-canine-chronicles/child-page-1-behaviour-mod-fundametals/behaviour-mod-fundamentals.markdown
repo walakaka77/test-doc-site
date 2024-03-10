@@ -5,6 +5,8 @@ permalink: /canine-chronicles/behaviour-mod-fundamentals
 parent: Canine chronicles
 nav_order: 1
 #has_children: true 
+index: 'yes'
+follow: 'yes'
 ---
 
 # Behaviour Modification Fundamentals

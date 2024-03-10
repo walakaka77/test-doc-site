@@ -5,6 +5,8 @@ permalink: /tech-adventures/jekyll-blog/configure-custom-domain
 parent: Jekyll Blog
 grand_parent: Tech Adventures
 nav_order: 2
+index: 'yes'
+follow: 'yes'
 ---
 
 # Configure Custom Domain

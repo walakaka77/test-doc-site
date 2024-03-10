@@ -4,6 +4,8 @@ title: Jekyll Blog
 permalink: /tech-adventures/jekyll-blog
 parent: Tech Adventures
 has_children: true 
+index: 'yes'
+follow: 'yes'
 ---
 
 # Introduction

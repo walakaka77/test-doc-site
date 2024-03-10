@@ -5,6 +5,8 @@ permalink: /tech-adventures/run-youtrack-locally
 parent: Tech Adventures
 #has_children: true 
 #nav_order: 6
+index: 'yes'
+follow: 'yes'
 ---
 
 

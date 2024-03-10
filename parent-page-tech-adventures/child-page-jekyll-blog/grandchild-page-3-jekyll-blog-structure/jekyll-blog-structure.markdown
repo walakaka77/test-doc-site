@@ -5,6 +5,8 @@ permalink: /tech-adventures/jekyll-blog/jekyll-blog-structure
 parent: Jekyll Blog
 grand_parent: Tech Adventures
 nav_order: 3
+index: 'yes'
+follow: 'yes'
 ---
 
 # Jekyll Blog Structure

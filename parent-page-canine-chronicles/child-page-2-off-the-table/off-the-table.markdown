@@ -4,6 +4,8 @@ title: Off the table
 permalink: /canine-chronicles/off-the-table
 parent: Canine chronicles
 nav_order: 2
+index: 'yes'
+follow: 'yes'
 ---
 
 

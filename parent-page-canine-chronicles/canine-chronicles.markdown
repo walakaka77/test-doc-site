@@ -3,6 +3,8 @@ layout: page
 title: Canine chronicles
 permalink: /canine-chronicles/
 has_children: true 
+index: 'yes'
+follow: 'yes'
 ---
 
 

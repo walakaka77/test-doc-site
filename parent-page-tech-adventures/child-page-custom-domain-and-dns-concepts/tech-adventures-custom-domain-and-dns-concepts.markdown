@@ -3,6 +3,8 @@ layout: page
 title: Domain, DNS Concepts
 permalink: /tech-adventures/custom-domain
 parent: Tech Adventures
+index: 'yes'
+follow: 'yes'
 ---
 
 # Custom Domains, DNS

@@ -5,6 +5,8 @@ permalink: /canine-chronicles/leash-pulling-mistakes
 parent: Canine chronicles
 #has_children: true 
 nav_order: 4
+index: 'yes'
+follow: 'yes'
 ---
 
 

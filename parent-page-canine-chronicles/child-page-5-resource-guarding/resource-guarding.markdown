@@ -5,6 +5,8 @@ permalink: /canine-chronicles/resource-guarding
 parent: Canine chronicles
 #has_children: true 
 nav_order: 5
+index: 'yes'
+follow: 'yes'
 ---
 
 

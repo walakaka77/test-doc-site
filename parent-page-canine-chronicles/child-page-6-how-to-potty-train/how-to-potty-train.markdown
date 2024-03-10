@@ -5,6 +5,8 @@ permalink: /canine-chronicles/how-to-potty-train
 parent: Canine chronicles
 #has_children: true 
 nav_order: 6
+index: 'yes'
+follow: 'yes'
 ---
 
 

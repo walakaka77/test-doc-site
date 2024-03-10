@@ -5,6 +5,8 @@ permalink: /tech-adventures/import-youtrack-project
 parent: Tech Adventures
 #has_children: true 
 #nav_order: 6
+index: 'yes'
+follow: 'yes'
 ---
 
 

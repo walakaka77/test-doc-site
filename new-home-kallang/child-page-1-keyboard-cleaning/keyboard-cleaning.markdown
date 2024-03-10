@@ -4,6 +4,8 @@ title: Keyboard Cleaning
 permalink: /new-home-experience/keyboard-cleaning/
 parent: New Home Kallang
 nav_order: 1
+index: 'yes'
+follow: 'yes'
 ---
 
 # Introduction

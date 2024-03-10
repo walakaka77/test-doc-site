@@ -3,6 +3,8 @@ layout: page
 title: Markdown Syntax
 permalink: /tech-adventures/markdown-syntax
 parent: Tech Adventures
+index: 'yes'
+follow: 'yes'
 ---
 
 # Introduction
