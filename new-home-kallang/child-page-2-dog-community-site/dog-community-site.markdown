@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Dog Community - wip
-permalink: /new-home-kallang/dog-community/
+title: Dog Community Site
+permalink: /new-home-kallang/dog-community-site/
 parent: New Home Kallang
 nav_order: 2
 ---
