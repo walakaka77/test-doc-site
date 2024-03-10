@@ -11,7 +11,7 @@ description: This article provides a step-by-step instruction with screenshots o
 image: https://technicode.io/static/2c95bd20f5e1339639164dc8020a5752/2bef9/ghp-1-1024x632.png
 ---
 
-# Configure Custom Domain
+# Configure Custom Domain | GitHub Pages
 
 In this section, we plan to just show you how we configured the custom domain in GitHub Pages, so that you can replicate the same.
 
