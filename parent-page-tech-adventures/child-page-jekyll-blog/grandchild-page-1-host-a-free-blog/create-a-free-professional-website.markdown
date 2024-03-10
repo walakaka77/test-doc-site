@@ -1,17 +1,18 @@
 ---
 layout: page
-title: Host your Jekyll Blog
+title: Create a Free Professional Website
 permalink: /tech-adventures/jekyll-blog/host-your-jekyll-blog
 parent: Jekyll Blog
 grand_parent: Tech Adventures
 nav_order: 1
 index: 'yes'
 follow: 'yes'
+description: This article provides a step-by-step instruction on how you can create a website using the Jekyll Static Generator and host it on GitHub Pages completely free of charge!
+image: ../../img/github-repo-changes-come-tolive-local.png
 ---
 
-# Host your Jekyll Blog
-
-Here, we'll walk you through the step-by-step process that would allow you guys to host your own Jekyll Site on GitHub pages completely for free!
+# Create a Free Professional Website
+Here, we'll walk you through the step-by-step process that would allow you guys to host your own free professional website. We will be utilizing the Jekyll Static Site generator and hosting the site on GitHub pages completely for free!
 
 ## Git
 
@@ -114,7 +115,7 @@ I use it for reference all the time haha.
 
 ## Thank You!
 
-That was a heavy one, and tried to give step-by-step instructionals so that anyone can set it up, and see their first site come to live.
+That was a heavy one, and tried to give step-by-step instructionals so that anyone can set it up, and see their first free website come to live.
 
 Hope this helps, let me know if there is any part that can be improved etc.
 
