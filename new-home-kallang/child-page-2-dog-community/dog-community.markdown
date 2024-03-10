@@ -43,7 +43,7 @@ But more importantly, I'd have a reference on how we can utilize the `Feeling Re
 
 This artile will only list down the features that I've personally explord and plan to use -- doesn't cover the full suite of functionalities provided by this template. For a comprehensive view of what the `Feeling Responsive` template is capable of, please visit their [official documentation](https://phlow.github.io/feeling-responsive/documentation/).
 
-### Navigation Menu Configuration
+## Navigation Menu Configuration
 
 The first thing that jumped up at me was the ease of managing the navigation menu bar:
 ![image showing the high-level functionality of the feeling response navigation config file](../../new-home-kallang/child-page-2-dog-community/image-showing-the-high-level-functionlity-of-navigation.png)
@@ -68,7 +68,7 @@ The breakdown of how navigation is configured is as follows:
 
 
 
-### Layouts (Page, Page-Fullwidth)
+## Layouts (Page, Page-Fullwidth)
 
 Now, we move onto the layouts that I'm planning on using. There are three main layouts I've planned to use:
 - Page
@@ -83,7 +83,7 @@ To use the layouts, simply specify the layout in your Jekyll Front Matter, using
 - Specifying the `page-fullwidth` value will load the fullwidth page template! It's that easy
 ![image showing the fullwidth page template](../../new-home-kallang/child-page-2-dog-community/image-showing-fullwidth-page-template.png)
 
-### Layouts (Blog)
+## Layouts (Blog)
 
 We will be making some modifications to the blog template to make sure the blog list page suits our style. The fact that we can modify the layout is a testatement to how user friendly the `Feeling Responsive` template is:
 - The blog template, comes with sidebar that we don't really like. See the screenshot below for the [original version](https://phlow.github.io/feeling-responsive/blog/) of the page (with sidebar)
@@ -102,65 +102,115 @@ The reason why we have those 2 additional columns was because:
 Hence, why we'll be removing the sidebar, and adding two spacer columns for the blog template!
 
 
-### Includes 
+## Includes 
 
-The last template modification that we would be making would be done in the `_includes` folder. This folder normally contains files that contains the html content that are referenced by layouts to generate template. Let's take the generation of the `Home` page for example:
+The last template modification that we would be making would be done in the `_includes` folder. This folder normally contains files that contains the html content that are referenced by layouts to generate template. The contents in the includes folder are referenced by multiple layouts. With this structure, we only have to make a change in one location before the changes are reflected across all the templates that references it. Let's take the generation of the `Footer` in the  `Home` page for example:
 - The `Home` page is using the `page-fullwidth` layout
 ![image showing that home page is using the page full width layout](../../new-home-kallang/child-page-2-dog-community/image-showing-that-the-home-page-using-page-fullwidth.png)
 - The page fullwidth layout is made of two rows. Each row has a column utilizing the full 12 grids (hence utilizing the fullwidth). The content of the blog is inserted after the first two rows.
 ![image showing the page fullwidth template in detail](../../new-home-kallang/child-page-2-dog-community/image-showing-the-page-full-width-template-in-detail.png)
 For more details regarding the grid layouts used by `Feeling Responsive`, please check the [Foundation Oficial Documentation](https://get.foundation/sites/docs-v5/components/grid.html)
-
-
-## More WIP content below here!
-___
-- Includes folder, contains files that has re-usable html
-- These reusable html are reused across different layouers
-    - e.g., footer, header, side bar etc.
-- Data can be dynamically retrieved by using the liquid syntax, this is a functionality that is supported by the jekyll framework
-    - link back to the jekyll official documentation for these details
-
+- You can also see that the `page-fullwidth` layout uses the `default` layout
+![image showing the page fullwith layout using the default layout](../../new-home-kallang/child-page-2-dog-community/image-showing-page-fullwidth-using-default-layout.png)
+- The default layout is made up of blocks of snippets, that references templates from the `_includes` folder. For example, the `_footer.html` file consists of the template that has the html code for the footer:
+![image showing the footer html code](../../new-home-kallang/child-page-2-dog-community/image-showing-the-footer-html-code.png)
+_Note: The snippets are using the `liquid` syntax. For more details regarding how layouts are rendered, please visit the [Jekyll Official Documentation!](https://jekyllrb.com/docs/layouts/)_
+- If we change the footer html, we can see that the changes are reflected in our site!
+![image showing that we are able to change the footer html](../../new-home-kallang/child-page-2-dog-community/image-showing-that-we-can-update-the-footer-html.png)
 
 
 
+## Images
 
-### Images
-- These are in the `img` folder in the root directory
-- Different images for different feature
-    - Header image. Aspect ratio 3:1. Else, theme automatically vertically centers
-    - Thumbnail image. Aspect ratio 1:1
-        - Need to suffix using `-thumb`
-- For Pages
-    - No thumbnail required
-    - Simply the header image is sufficient
-- For Posts
-    - Should specify thumbnail image
-    - This would be the feature image, that is displayed during the blog list view
+Now we move on to images! The main images are stored in the `images` folder in the root directory. Once the images are placed in the `images` folder, they can be referenced by our blogs or pages:
+![image showing how to reference images in the feeling responsive template](../../new-home-kallang/child-page-2-dog-community/image-showing-how-to-reference-image-in-feeling-responsive-template.png)
 
-### Gallery Feature
+There are two main types of image:
+- Feature/Header Image
+- Thumbnail
 
-- Gallery
-    - The gallery syntax is in the front matter. Check front matter and the list down the gallery syntax
-    - Afterwhcih, image needs to be uploaded
-        - full size image, into the `img` folder in the root directory
-        - thumbnail image, into the `img` folder in the root directory 
-            - Same `-thumb` suffix applies
-    - Once done, can use the `{% raw %}{% include gallery %}{% endraw %}`  to include the gallery
+### Feature/Header image
+Feature image will require an aspect ratio of 3:1. This is not a hard rule and the image would still render even if the aspect ratio is different. However, do note that the theme will vertically and horizontally center your image. If the focus of your image is not in the center, do note that you may have to trim your image accordingly
+![image showing the header image behaviour when referenced in the home page](../../new-home-kallang/child-page-2-dog-community/image-showing-the-header-image-behaviour.png)
 
 
+### Thumbnail image
+Thumbnail images will need an aspect ratio of 1:1. This will be used by galleries or blogpost lists -- the thumbnail will be displayed alongside the summary of your blog post or the gallery.
+For thumbnail images, you must have suffix the filename with `-thumb`.
+![image showing the thumbnail images suffixed with thumb](../../new-home-kallang/child-page-2-dog-community/image-showing-the-thumbnail-images-suffix-w-thumb.png)
+
+### Additional Notes for Post articles
+
+When creating a `post` article, a thumbnail image would be required as this would be used in the blog post listing.
+![image showing the thumbnail and feature image used for the blog list and blog article](../../new-home-kallang/child-page-2-dog-community/image-showing-thumbnail-and-feature-image-for-blog-list-and-blog-article.png)
+
+### Additional Notes for Page articles
+When creating a `page` article, the header image would suffice. We do not need to specify the thumbnail image as these pages do not appear in any listing that would display a thumbnail.
+
+![image showing the page template specifying the header image only](../../new-home-kallang/child-page-2-dog-community/image-showing-the-page-specifying-feature-image-only.png)
 
 
-### Permalink
+## Gallery Feature
 
-- Permalink
-    - By default, will use `/category/title`
-    - Can manually overwrite, using the `permalink` property in the front matter
+The `Feeling Responsive` template has a interesting gallery feature. Using this feature, you can provide a list of `Feature Images` and `Thumbnail Images` within the page in the `Front Matter`. You can subsequently, reference the gallery and display it anywhere within the page using this code block: `{% raw %}{% include gallery %}{% endraw %}`
 
-### Colour Scheme
+Let's take a look at the sample `Kallang Dog Community` site gallery for example. This is created in the `Paws of 2024` sample page:
+- The gallery is specified in the `Front Matter` using the `gallery` property
+![image showing how gallery is specified in the front matter using the gallery property](../../new-home-kallang/child-page-2-dog-community/image-showing-how-gallery-is-specified-in-front-matter.png)
+- Each object within the gallery property will have an `image_url` and a `caption`. The `image_url` will be the filename of the feature image that you are planning to display in the gallery
+![image showing the feature image being referenced in the gallery and displayed in the site when the thumbnail is clicked into](../../new-home-kallang/child-page-2-dog-community/image-showing-the-feature-image-being-referenced-in-gallery-and-displayed-in-site.png)
+- The thumbnail of the image would have to be separately uploaded, in the `images` folder with a suffix `-thumb`. This file is automatically referenced by the template and `<feature-filename>-thumb` is automatically inferred to be the thumbnail for that particular image
+![image showing that the gallery thumbnail automatically references the main filename suffixed with thumb, this image must have been uploaded into the images folder](../../new-home-kallang/child-page-2-dog-community/image-showing-that-thumbnail-automatically-references-main-filename-suffixed-w-thumb.png)
+- Both `<feature-filename>` and `<feature-filename>-thumb` must have been uploaded into the images folder. These can be two separate images if required. For our example, these refers to `first-dog-photo.jpg` and `first-dog-photo-thumb.jpg`
+![image showing both our thumbnail and feature photo, that is referenced by the gallery](../../new-home-kallang/child-page-2-dog-community/image-showing-both-our-thumbnail-and-feature-photo.png)
+- Our gallery is referenced in the article using this liquid syntax: `{% raw %}{% include gallery %}{% endraw %}`
+![image showing how gallery is referenced in the article using the liquid syntax](../../new-home-kallang/child-page-2-dog-community/image-showing-how-gallery-is-referenced-in-the-article-itself.png)
+_Note: The thumbnail sizes must be 1:1, else it would mess up the format of the gallery thumbnail templates!_
 
-- _SASS
-    - Can control the colour scheme here
 
+## Permalink
+
+I cannot figure out how the permalink automatic generation works. Based on their `config./yml`, the permalink should be dependent on the `categories` and `page title`:
+![image showing that permalink should be based on categories and page title](../../new-home-kallang/child-page-2-dog-community/image-showing-that-permalink-should-be-based-on-categories-and-page-title.png)
+
+But there is a little discrepancy, or I'm misunderstanding the documentation. For example, the `video` page has a the category: `design` and title: `video template`. This should translate into a URL `<baseurl>/design/video-template`. However, the URL generated is `<baseurl>/design/video`:
+![image showing the discrepancy in the automated permalink generation for the feeling responsive template](../../new-home-kallang/child-page-2-dog-community/image-showing-discrepancy-between-permalink.png)
+
+Meanwhile, there is a simple workaround for this -- we'll just hardcode the permalink as required. For example, `Paws of 2024` can be accessed via `<baseurl>/paws-of-2024`:
+![image showing the hardcoded permalink, as a workaround since the automatic permalink generation does not work](../../new-home-kallang/child-page-2-dog-community/image-showing-hardcoded-permalink.png)
+
+
+
+## Colour Scheme
+
+Lastly, we can also control the colour scheme in the `_sass` folder. We will reserve this for savvy designers. Since we are not, we are probably not going to make any changes to the colour scheme unless there is a specific request to do so. For savvy individuals however:
+1. Access the `_sass` folder
+2. Navigate to the `_01_settings_colors.scss`
+3. All the colours settings are listed here, and you can amend them to your hearts content
+
+![image showing the colours settings page](../../new-home-kallang/child-page-2-dog-community/image-showing-the-colours-settings-page.png)
+
+### Example of Editing the Colour Scheme
+The colours settings allows for fine grain control for the color scheme that you want to implement. For example, suppose you want to do the following:
+- Change the top bar colour when on hover to `Pink`
+- Change the footer colour to `blue`
+
+![image showing the top bar and footer original colour. We are planning to change the colour](../../new-home-kallang/child-page-2-dog-community/image-showing-top-bar-and-footer-original-colour.png)
+
+First, we need to figure out the property that controls the colour within the `_01_settings_colors.scss` file.
+- The top bar on hover colour is controlled by the `topbar-link-bg-hover` property. <br>
+- The footer background colour is controlled by the `footer-bg` property.
+- We update the properties controlling the top bar background hover and footer colour to pink and blue respectively:
+![image showing the top bar and footer colour updated accordingly](../../new-home-kallang/child-page-2-dog-community/image-showing-update-topbar-and-footer-colour-updated-to-pink-and-blue-accordingly.png)
+- The results is as follows:
+![image showing that the top bar background is now pink on hover, and the footer background is blue](../../new-home-kallang/child-page-2-dog-community/image-showing-top-bar-pink-on-hover-and-footer-blue.png)
+
+## Thank You
+
+For those of you who took the time to reach the end, hope this helps. As always, writing this piece took longer than expected - and it forced me to obtain a clear understanding of what I'm writing about.
+For example -- it was only during this article where I realized that I did not really understand how the automated permalink generation works. But nevermind that -- got a workaround, and noted it down too.
+
+Now, we're all set and ready to Feel Responsive ;)!
 
 Until then, peace and love <br>
 Shafik Walakaka
