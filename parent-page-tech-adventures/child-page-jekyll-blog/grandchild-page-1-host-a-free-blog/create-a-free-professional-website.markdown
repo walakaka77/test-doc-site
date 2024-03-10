@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Create a Free Professional Website
-permalink: /tech-adventures/jekyll-blog/host-your-jekyll-blog
+permalink: /tech-adventures/jekyll-blog/create-a-free-professional-website
 parent: Jekyll Blog
 grand_parent: Tech Adventures
 nav_order: 1
