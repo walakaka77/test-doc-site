@@ -1,12 +1,14 @@
 ---
 layout: page
-title: Configure Domain
+title: Configure Custom Domain for GitHub Pages
 permalink: /tech-adventures/jekyll-blog/configure-custom-domain
 parent: Jekyll Blog
 grand_parent: Tech Adventures
 nav_order: 2
 index: 'yes'
 follow: 'yes'
+description: This article provides a step-by-step instruction with screenshots on how to configure your custom domain on your website (GitHub Pages, Jekyll SSG)
+image: https://technicode.io/static/2c95bd20f5e1339639164dc8020a5752/2bef9/ghp-1-1024x632.png
 ---
 
 # Configure Custom Domain
@@ -16,8 +18,8 @@ In this section, we plan to just show you how we configured the custom domain in
 ## Pre-requisites
 
 To go through this section, you would need to already have:
-1. Have GitHub pages site up and running. If not, you can refer to [creating a Jekyll Blog](/tech-adventures/github-and-git)
-2. Procured a custom domain from a registrat such as GoDaddy or Hostinger. 
+1. Have GitHub pages site up and running. If not, you can refer to the article on how to [create a free professional website](/tech-adventures/jekyll-blog/create-a-free-professional-website)
+2. Procured a custom domain from a registrar such as GoDaddy or Hostinger. 
 
 ## Update your domain to point to GitHub Nameservers
 
