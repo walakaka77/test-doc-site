@@ -1,13 +1,14 @@
 ---
 layout: page
-title: How to Potty Train
-permalink: /canine-chronicles/how-to-potty-train
+title: How to Potty Train Your Dog
+permalink: /canine-chronicles/how-to-potty-train-your-dog
 parent: Canine chronicles
 #has_children: true 
 nav_order: 6
 index: 'yes'
 follow: 'yes'
 image: ../../parent-page-canine-chronicles/child-page-6-how-to-potty-train/how-to-potty-train.markdown
+description: Having troubles with your dog peeing and pooing in inappropriate areas of your house? This article will provide a step-by-step guide on how you can troubleshoot and resolve these issues!
 ---
 
 
