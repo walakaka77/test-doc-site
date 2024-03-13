@@ -7,6 +7,7 @@ parent: Canine chronicles
 nav_order: 6
 index: 'yes'
 follow: 'yes'
+image: ../../parent-page-canine-chronicles/child-page-6-how-to-potty-train/how-to-potty-train.markdown
 ---
 
 
