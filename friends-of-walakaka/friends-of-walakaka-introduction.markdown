@@ -41,5 +41,7 @@ For those who made this far, thanks a bunch for reading. Willing guinea pigs -- 
 
 Right now, I have no friends -- but just you wait, the list would grow (hopefully...)!
 
+Test adding some changes, to check if I can push from my new mac
+
 Peace and Love<br>
 Shafik Walakaka
