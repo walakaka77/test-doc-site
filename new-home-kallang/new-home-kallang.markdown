@@ -3,6 +3,10 @@ layout: page
 title: New Home Kallang
 permalink: /new-home-kallang/
 has_children: true 
+index: 'yes'
+follow: 'yes'
+description: This section details my struggles and learnings (mainly learnings) of a new home owner!
+image: ../../new-home-kallang/image-kallang-introduction.png
 ---
 
 # New Home Experience

@@ -6,6 +6,8 @@ parent: New Home Kallang
 nav_order: 1
 index: 'yes'
 follow: 'yes'
+description: This section details the steps I take to clean my mechanical keyboard, and workarounds taken to troubleshoot mechanical keyboard faults.
+image: ../../new-home-kallang/child-page-1-keyboard-cleaning/image-kallang-keyboard-cleaning.png
 ---
 
 # Introduction
