@@ -10,7 +10,7 @@ follow: 'no'
 ---
 
 
-
+Some data
 # Tech for the Layman
 
 Dear Friends and Family, been taking some time recently to consolidate my understanding of how technology works. Personally, I found that the best for me to test my understanding is to break down my understanding and explain these concepts so that the layman can understand.
