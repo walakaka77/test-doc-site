@@ -5,6 +5,8 @@ permalink: /tech-adventures/markdown-syntax
 parent: Tech Adventures
 index: 'yes'
 follow: 'yes'
+description: This section details the markdown syntax that can subsequently be transformed into beautiful html markup ready to be rendered in static sites. 
+image: ../../parent-page-tech-adventures/child-page-markdown-syntax/image-tech-adventure-markdown-syntax.png
 ---
 
 # Introduction

@@ -7,6 +7,8 @@ grand_parent: Tech Adventures
 nav_order: 4
 index: 'yes'
 follow: 'yes'
+description: This article steps down the different features that I have discovered in the Feeling Responsive Template!
+image: ../../parent-page-tech-adventures/child-page-1-jekyll-blog/grandchild-page-4-feeling-responsive-template/image-jekyll-blog-feeling-responsive-template.png
 ---
 
 # Exploring the Feeling Responsive Template

@@ -5,9 +5,13 @@ permalink: /tech-adventures/youtrack
 parent: Tech Adventures
 #has_children: true 
 nav_order: 2
+# index: 'yes'
+# follow: 'yes'
+has_children: true 
 index: 'yes'
 follow: 'yes'
-has_children: true 
+description: The Jekyll Blog section will detail the different features of Youtrack that has been utilized or explored by myself when implementing Youtrack at my work. More details are available in the individual articles!
+image: ../../parent-page-tech-adventures/child-page-2-youtrack/image-tech-adventure-youtrack.png
 ---
 
 

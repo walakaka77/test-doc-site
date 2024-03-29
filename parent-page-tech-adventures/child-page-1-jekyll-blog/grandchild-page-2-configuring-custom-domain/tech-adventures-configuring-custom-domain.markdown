@@ -8,7 +8,7 @@ nav_order: 2
 index: 'yes'
 follow: 'yes'
 description: This article provides a step-by-step instruction with screenshots on how to configure your custom domain on your website (GitHub Pages, Jekyll SSG)
-image: https://technicode.io/static/2c95bd20f5e1339639164dc8020a5752/2bef9/ghp-1-1024x632.png
+image: ../../parent-page-tech-adventures/child-page-1-jekyll-blog/grandchild-page-2-configuring-custom-domain/image-jekyll-blog-configure custom domain.png
 ---
 
 # Configure Custom Domain | GitHub Pages

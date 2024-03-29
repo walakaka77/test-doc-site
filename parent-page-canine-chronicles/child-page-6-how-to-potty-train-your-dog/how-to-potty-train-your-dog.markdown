@@ -7,8 +7,8 @@ parent: Canine chronicles
 nav_order: 6
 index: 'yes'
 follow: 'yes'
-image: ../../parent-page-canine-chronicles/child-page-6-how-to-potty-train-your-dog/image-feature-how-to-potty-train-your-canine-companion.png
 description: Having troubles with your dog peeing and pooing in inappropriate areas of your house? This article will provide a step-by-step guide on how you can troubleshoot and resolve these issues!
+image: ../../parent-page-canine-chronicles/child-page-6-how-to-potty-train-your-dog/image-canine-chronicle-potty-training.png
 ---
 
 

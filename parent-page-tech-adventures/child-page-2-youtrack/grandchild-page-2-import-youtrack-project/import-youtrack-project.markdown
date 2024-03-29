@@ -8,6 +8,8 @@ grand_parent: Tech Adventures
 nav_order: 2
 index: 'yes'
 follow: 'yes'
+description: This section shows the steps that was taken to successfully import youtrack projects into my local youtrack setup!
+image: ../../parent-page-tech-adventures/child-page-2-youtrack/grandchild-page-2-import-youtrack-project/image-youtrack-import-youtrack-project.png
 ---
 
 

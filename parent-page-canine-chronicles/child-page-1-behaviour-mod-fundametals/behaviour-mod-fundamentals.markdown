@@ -7,6 +7,8 @@ nav_order: 1
 #has_children: true 
 index: 'yes'
 follow: 'yes'
+description: This article provides the fundamental theory of behaviour modification. These fundamentals are crucial for any dog handler.
+image: ../../parent-page-canine-chronicles/child-page-1-behaviour-mod-fundametals/image-canince-chronical-behaviour-mod-fundamental.png
 ---
 
 # Behaviour Modification Fundamentals

@@ -3,6 +3,10 @@ layout: page
 title: Tech Adventures
 permalink: /tech-adventures/
 has_children: true 
+index: 'yes'
+follow: 'yes'
+description: This article is an introductory article for the Tech Adventures Page. Check out the different articles within this section to view the tech world from a lense of a non-techie individual!
+image: ../../parent-page-tech-adventures/image-tech-adventure-jekyll-introduction.png
 ---
 
 

@@ -6,6 +6,8 @@ parent: Canine chronicles
 nav_order: 2
 index: 'yes'
 follow: 'yes'
+description: This article provides my learnings on how we can prevent our dog from jumping onto the dining table.
+image: ../../parent-page-canine-chronicles/child-page-2-off-the-table/image-canine-chronicle-off-the-table.png
 ---
 
 
