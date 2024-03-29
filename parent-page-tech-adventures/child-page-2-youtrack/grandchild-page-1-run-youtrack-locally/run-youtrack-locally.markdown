@@ -8,6 +8,8 @@ grand_parent: Tech Adventures
 nav_order: 1
 index: 'yes'
 follow: 'yes'
+description: This section shows the steps that I have taken to be able to run youtrack locally on my machine.
+image: ../../parent-page-tech-adventures/child-page-2-youtrack/grandchild-page-1-run-youtrack-locally/image-youtrack-run-youtrack-locally.png
 ---
 
 

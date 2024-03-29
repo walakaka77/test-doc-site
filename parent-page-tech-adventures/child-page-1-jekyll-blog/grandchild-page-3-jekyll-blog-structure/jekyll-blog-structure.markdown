@@ -7,6 +7,8 @@ grand_parent: Tech Adventures
 nav_order: 3
 index: 'yes'
 follow: 'yes'
+description: This article breaks down how the I have structured my repository to ensure maintainability of this site. 
+image: ../../parent-page-tech-adventures/child-page-1-jekyll-blog/grandchild-page-3-jekyll-blog-structure/image0-jekyll-blog-jekyll-blog-structure.png
 ---
 
 # Jekyll Blog Structure

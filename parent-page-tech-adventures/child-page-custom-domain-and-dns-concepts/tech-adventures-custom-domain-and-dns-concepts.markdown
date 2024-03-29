@@ -5,6 +5,8 @@ permalink: /tech-adventures/custom-domain
 parent: Tech Adventures
 index: 'yes'
 follow: 'yes'
+description: This section elaborates on the basic concepts of networking so that the layman can understand how the internet works!
+image: ../../parent-page-tech-adventures/child-page-custom-domain-and-dns-concepts/image-tech-adventure-domain-dns-concepts.png
 ---
 
 # Custom Domains, DNS

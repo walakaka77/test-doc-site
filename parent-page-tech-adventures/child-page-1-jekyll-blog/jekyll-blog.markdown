@@ -4,9 +4,13 @@ title: Jekyll Blog
 permalink: /tech-adventures/jekyll-blog
 parent: Tech Adventures
 has_children: true 
+# index: 'yes'
+# follow: 'yes'
+nav_order: 1
 index: 'yes'
 follow: 'yes'
-nav_order: 1
+description: The Jekyll Blog section will detail the different features of Jekyll that has been utilized or explored by myself during the creation of this blog or any other sites managed by me. Read on to check out more!
+image: ../../parent-page-tech-adventures/child-page-1-jekyll-blog/image-tech-adventure-jekyll-blog.png
 ---
 
 # Introduction
