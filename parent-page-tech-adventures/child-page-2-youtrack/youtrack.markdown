@@ -16,16 +16,16 @@ has_children: true
 
 Youtrack is a project management tool. At the very basic level -- it allows you to create tasks with multiple statuses such as `in-progress`, `done` etc.
 The aim is to help organize, and track these tasks to completion.
-![image showing youtrack list of issues](../../parent-page-tech-adventures/child-page-run-youtrack-locally/image-showing-youtrack-list-of-issues.png)
+![image showing youtrack list of issues](../../parent-page-tech-adventures/child-page-2-youtrack/grandchild-page-1-run-youtrack-locally/image-showing-youtrack-list-of-issues.png)
 
 
 More than just a task list, youtrack also has powerful features that allows for organizing these activities:
 1. User Management: You are able to manage users and their access level
-![Image showing different options to manage access for users](../../parent-page-tech-adventures/child-page-run-youtrack-locally/image-showing-different-options-to-manage-access.png)
+![Image showing different options to manage access for users](../../parent-page-tech-adventures/child-page-2-youtrack/grandchild-page-1-run-youtrack-locally/image-showing-different-options-to-manage-access.png)
 2. Projects and Organizations: You can segregate different tasks based on their context
-![Image showing demo projects for organization](../../parent-page-tech-adventures/child-page-run-youtrack-locally/image-showing-demo-project.png)
+![Image showing demo projects for organization](../../parent-page-tech-adventures/child-page-2-youtrack/grandchild-page-1-run-youtrack-locally/image-showing-demo-project.png)
 3. Workflows: The most powerful feature of all -- you can create and customize complex workflows that are specific to your needs
-![image showing customizability for youtrack workflows](../../parent-page-tech-adventures/child-page-run-youtrack-locally/image-showing-customizability-youtrack-workflows.png)
+![image showing customizability for youtrack workflows](../../parent-page-tech-adventures/child-page-2-youtrack/grandchild-page-1-run-youtrack-locally/image-showing-customizability-youtrack-workflows.png)
 
 This is a brief introduction for youtrack -- but for more details regarding youtrack functionalities, you guys should checkout the [official youtrack documentation](https://www.jetbrains.com/help/youtrack/server/introduction-to-youtrack-server.html)
 
@@ -76,7 +76,7 @@ In Youtrack (or any project management tool in general) Workflows here refers to
        - Here, issue status: `Closed`
 
 
-![image showing a swimlane diagram of the workflow specifid in the above sequence](../../parent-page-tech-adventures/child-page-run-youtrack-locally/image-tech-adventures-youtrack-workflow-2.drawio.png)
+![image showing a swimlane diagram of the workflow specifid in the above sequence](../../parent-page-tech-adventures/child-page-2-youtrack/grandchild-page-1-run-youtrack-locally/image-tech-adventures-youtrack-workflow-2.drawio.png)
 
 
 ## Conclusion
