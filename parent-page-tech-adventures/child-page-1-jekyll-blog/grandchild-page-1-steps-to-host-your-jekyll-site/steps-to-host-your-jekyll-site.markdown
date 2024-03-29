@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Create a Free Professional Website
-permalink: /tech-adventures/jekyll-blog/create-a-free-professional-website
+title: Steps to host your Jekyll Site
+permalink: /tech-adventures/jekyll-blog/steps-to-host-your-jekyll-site
 parent: Jekyll Blog
 grand_parent: Tech Adventures
 nav_order: 1
@@ -11,7 +11,7 @@ description: This article provides a step-by-step instruction on how you can cre
 image: ../../parent-page-tech-adventures/child-page-jekyll-blog/grandchild-page-1-host-a-free-blog/image-showing-a-screenshot-of-a-free-live-website.png
 ---
 
-# Create a Free Professional Website
+# Steps to host your Jekyll Site
 Here, we'll walk you through the step-by-step process that would allow you guys to host your own free professional website. We will be utilizing the Jekyll Static Site generator and hosting the site on GitHub pages completely for free!
 
 ## Git
@@ -19,7 +19,7 @@ Here, we'll walk you through the step-by-step process that would allow you guys 
 Please download Git prior to proceeding to the next section. You can download Git [Here!](https://git-scm.com/downloads)
 
 
-Before diving into GitHub, it's essential to grasp the basics of Git. Here are the fundamental commands you need to know:
+Before diving into GitHub, it's essential to grasp the basics of Git. Here are the fundamental commands that would be good to know:
 
 1. **git init:** Initializes a new Git repository in your project directory.
 2. **git clone:** Copies a repository from a remote source to your local machine.

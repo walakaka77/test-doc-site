@@ -6,6 +6,7 @@ parent: Tech Adventures
 has_children: true 
 index: 'yes'
 follow: 'yes'
+nav_order: 1
 ---
 
 # Introduction
@@ -19,6 +20,7 @@ If you are curious, you can checkout the source code directly [Here](https://git
 ## Concepts required
 
 We've split the concepts into two categories. With the basic concepts, you can already get started and test out a Jekyll Powered Blog.
+In fact, we have the step-by-step article which you can follow [here!](/jekyll-blog/steps-to-host-your-jekyll-site)
 
 But additional customization would require knowledge of the `Good To Know` stuff.
 

@@ -1,14 +1,19 @@
 ---
 layout: page
-title: Dog Community Site
-permalink: /new-home-kallang/dog-community-site/
-parent: New Home Kallang
-nav_order: 2
+title: Feeling Responsive Template
+permalink: /new-home-kallang/feeling-responsive-template/
+parent: Jekyll Blog
+grand_parent: Tech Adventures
+nav_order: 4
 index: 'yes'
 follow: 'yes'
 ---
 
-# Kallang Dog Community
+# Exploring the Feeling Responsive Template
+
+Here, we explore one of the most flexible and user friendly template that I've found for the Jekyll Site. We'll quickly go through my motivations for exploring this template, and then circle to the exciting features that the template provides!
+
+## Kallang Dog Community
 
 Shortly after shifting into the Kallang region, and also welcoming our doggo Stormy with open arms -- we prompty stumbled into a welcoming dog community!
 

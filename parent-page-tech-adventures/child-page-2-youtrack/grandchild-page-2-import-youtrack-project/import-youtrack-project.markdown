@@ -2,9 +2,10 @@
 layout: page
 title: Import Youtrack Project
 permalink: /tech-adventures/import-youtrack-project
-parent: Tech Adventures
+parent: Youtrack
+grand_parent: Tech Adventures
 #has_children: true 
-#nav_order: 6
+nav_order: 2
 index: 'yes'
 follow: 'yes'
 ---
