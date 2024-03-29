@@ -7,6 +7,8 @@ parent: Canine chronicles
 nav_order: 5
 index: 'yes'
 follow: 'yes'
+description: This article explains how resource guarding develops as well as common pitfalls that actually aggravates resource guarding in dogs. Read on to prevent resource guarding!
+image: ../../parent-page-canine-chronicles/child-page-5-resource-guarding/image-canine-chronical-resource-guarding.png
 ---
 
 

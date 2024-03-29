@@ -7,6 +7,8 @@ parent: Canine chronicles
 nav_order: 4
 index: 'yes'
 follow: 'yes'
+description: This article explains the common mistakes by dog handlers that accidentally encourage leash pulling by our dogs! Read on to rectify the problem.
+image: ../../parent-page-canine-chronicles/child-page-4-leash-pulling-mistake/image-canine-chronicle-leash-pulling-mistakes.png
 ---
 
 

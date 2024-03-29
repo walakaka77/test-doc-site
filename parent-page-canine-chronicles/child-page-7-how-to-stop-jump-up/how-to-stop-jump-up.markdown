@@ -7,6 +7,8 @@ parent: Canine chronicles
 nav_order: 7
 index: 'yes'
 follow: 'yes'
+description: This article explains what I've been practicing to prevent my dog from jumping up onto people.
+image: ../../parent-page-canine-chronicles/child-page-7-how-to-stop-jump-up/image-canine-chronicle-stop-dog-jump-at-people.png
 ---
 
 
