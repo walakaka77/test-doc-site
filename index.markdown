@@ -12,20 +12,20 @@ follow: 'yes'
 # Welcome!
 Hello Friends! This is Shafik, another guy around the block trying to make it in life, and have abit of fun whilst doing so. In my professional life, I deliver high quality software within tight timelines. In my personal life, I can either be found with my wife, training my dog or tinkering with the personal websites that I manage. 
 
-![image showing a winding road with the words "Fresh Start" to represent motivation](https://media.licdn.com/dms/image/D5612AQHt4hxhRDw5ZQ/article-cover_image-shrink_720_1280/0/1674685424860?e=1712188800&v=beta&t=brTItc2I-ZyiSV8u8gVg2zFflT52lJripxparTGi_9o){:width="50%"}
+![image showing a winding road with the words "Fresh Start" to represent motivation](https://www.studentloanprofessor.com/wp-content/uploads/2023/04/Fresh-Start.jpg){:width="50%"}
 
 For those of you who know me you'd know I've been off social media and people stalk me by checking my wife's instagram. And for those who doesn't know me -- fingers crossed this blog let's you know me a little better (for better or for worst lol). So here goes!
 
 ## Background
 Having been in the professional world for 5 years, there has been an intense focus of `trying to make it`. Most of my hours are spent on delivering software within tight timelines, as well as garnering skillsets that would allow for you to optimize the software development lifecycle. The end goal is a successful deliver of high quality software, which will please the stakeholders.
 
-![Image representing rats racing on a track, as a reference to the rat race phrase](https://www.oaekpost.com/wp-content/uploads/2021/10/001_AdobeStock_72412247_RATRACE001.jpg){:width="50%"}
+![Image representing rats racing on a track, as a reference to the rat race phrase](https://finandme.com/wp-content/uploads/2021/04/hamster-2.png){:width="50%"}
 
 But as the saying goes, change is the only constant. For me I've recently shifted into a new home, and got introduced to a new furry companion.
 
 ![Image showing my new estate and my furry companion - my new dog](../../img/img-about-page/stormy-and-hdb-block.png){:width="50%"}
 
-And also, the wife has decided to spin off her own business and make some magic. For those of you who would like to consult professionals that specializes in behaviour modification -- [Animal and Dog Behaviour Modification](https://petcoach.sg)!
+And also, the wife has decided to spin off her own business and make some magic. For those of you who would like to consult professionals that specializes in behaviour modification -- [Animal and Dog Behaviour Modification](https://petcoach.sg)! <br>
 ![Image showing a dog training company - pet coach SG](../../img/img-about-page/pet-coach-sg-website-image.png){:width="50%"}
 
 These changes have not been there for very long, but it's forcing me to reprioritize my time and focus away from my professional work. As such, I am no longer able to focus 150% of my energy into a very narrow domain - delivering good software.
