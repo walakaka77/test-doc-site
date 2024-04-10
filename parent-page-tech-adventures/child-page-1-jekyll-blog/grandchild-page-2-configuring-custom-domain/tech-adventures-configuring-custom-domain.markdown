@@ -52,13 +52,27 @@ To go through this section, you would need to already have:
 
 ![Image showing the steps to configure the GitHub pages settings for setting custom Domain](../../img/tech-adventure-img/tech-adventures-configure-github-pages-settings-custom-domain.png)
 
+## Configuring a subdomain
+As previously mentioned, if you want to configure subdomains, such as `blog.shafikwalakaka.com`, there's a different config in your DNS management to be done. Once the configuration in your Domain Registrar is completed, the settings in GitHub pages are the same!
+
+### Domain Registrar
+
+Let's go to our domain registrar, GoDaddy and checkout the sub domain `blog` that has been configured for the main domain `shafikwalakaka.com`.
+![Image showing the subdomain blog configured for the main domain shafikwalakaka.com in godaddy](../../parent-page-tech-adventures/child-page-1-jekyll-blog/grandchild-page-2-configuring-custom-domain/image-showing-subdomain-blog-configured-for-shafikwalakaka-main-domina.png)
+1. We have created a [CName record](https://www.cloudflare.com/learning/dns/dns-records/dns-cname-record/) 
+2. The CName record has the subdomain value that we desire, in our case -- it's `blog`
+3. The CName record is pointing to your `<github-username>.github.io`, unlike the configuration for your main domain. This is specified in [GitHub's documentation](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-a-subdomain) (and since you're reading this blog, it's proven to work lol)
+
+### GitHub Configuration
+The GitHub Configuration is identical to what we had done earlier. Ensure that the fully qualified domain name is specified in the custom domain field, and you're all set. For us, we've set it to `blog.shafikwalakaka.com`!
+
+![image showing the github pages configuration for setting the custom domain for subdomain](../../parent-page-tech-adventures/child-page-1-jekyll-blog/grandchild-page-2-configuring-custom-domain/image-github-pages-config-for-setting-custom-domain-for-subdomain.png) 
 
 ## Thank you!
 
-Note -- if you want to configure subdomains, such as `blog.shafikwalakaka.com`, there's a different config in your DNS management to be done.
-Will update to reflect the steps to do this later
+Thanks again for taking your time to engage and read this article. If anyone's got any other shortcuts, please feel free to holla.
 
-Else, that's all folks, it's done!
+Else, we look forward to you having your own website with your own domain soon :D!
 
 
 Peace, Love<br>
