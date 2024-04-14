@@ -55,4 +55,22 @@ plugins:
 # Set a path/url to a favicon that will be displayed by the browser
 favicon_ico: "favicon.ico"
 
+# Callout Configuration from Just the Docs
+callouts_level: quiet # or loud
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
+
 footer_content: "2024 Shafik Walakaka. Please submit feedback and comments <a href=\"https://github.com/walakaka77/test-doc-site/issues\">here!</a>"
