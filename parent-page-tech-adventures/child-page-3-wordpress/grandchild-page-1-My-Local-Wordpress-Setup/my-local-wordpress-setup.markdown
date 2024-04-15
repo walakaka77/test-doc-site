@@ -65,6 +65,10 @@ As previously mentioned, since this is our own local hosting, we have the right 
 ### Step 5: Maria DB Setup
 MariaDB, a fork of MySQL, is a heartbeat away from being WordPress-ready. After installation, you’ll want to ensure it’s running so that you can connect via PHPMyAdmin or a similar tool. It's here where you’ll create, modify, and interact with the databases that will house your local site’s data.
 
+A screenshot sense checking that Maria DB is in active status. Run the following command: `sudo service mariadb status`
+![image showing a status check for mariaDB in the shell or console](../../parent-page-tech-adventures/child-page-3-wordpress/grandchild-page-1-My-Local-Wordpress-Setup/image-showing-status-check-for-mariaDB.png)
+
+
 A screenshot showing that we are able to access MariaDB successfully via the `PHPMyAdmin` console:
 ![image showing that we are able to reach MariaDB locally via the browser via PhpMyAdmin](../../parent-page-tech-adventures/child-page-3-wordpress/grandchild-page-1-My-Local-Wordpress-Setup/image-showing-ability-to-access-MariaDB-via-PhpMyAdmin-Console.png)
 
