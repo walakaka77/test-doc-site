@@ -59,6 +59,7 @@ One of the articles that wasn't ready for publication was 'Tech for the Layman'.
 
 
 1. Branch Out: From Main, I created a new branch specifically for the 'Tech for the Layman' article.
+![image showing me branching out from main into a fresh branch in visual studio code](../../parent-page-tech-adventures/child-page-1-jekyll-blog/grandchild-page-5-my-git-branching-strategy/image-showing-create-new-branch-from-main.png)
 2. Test Deletion: Ensuring 'Tech for the Layman' was removed from the Main branch and validated the change.
 ![image showing that I have deleted files for Tech for the Layman article](../../parent-page-tech-adventures/child-page-1-jekyll-blog/grandchild-page-5-my-git-branching-strategy/image-deleted-file-for-tech-for-the-layman.png)
 3. When we access the site on our local, we can see that the "Tech for the Layman" article is no longer available
