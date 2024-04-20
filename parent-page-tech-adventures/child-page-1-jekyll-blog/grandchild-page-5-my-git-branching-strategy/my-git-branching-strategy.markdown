@@ -54,22 +54,26 @@ Previously, every change was tracked within the Main branch. Now, I needed a mor
 
 ### **The Tech-for-the-Layman Branch**
 
-One of the articles that wasn't ready for publication was 'Tech for the Layman'. To hide it, I created a separate branch. Here's how I did it:
+One of the articles that wasn't ready for publication was `Tech for the Layman`. To hide it, I created a separate branch. Here's how I did it:
 
 
 
-1. Branch Out: From Main, I created a new branch specifically for the 'Tech for the Layman' article.
+1. Branch Out: From Main, I created a new branch specifically for the `Tech for the Layman` article.
 ![image showing me branching out from main into a fresh branch in visual studio code](../../parent-page-tech-adventures/child-page-1-jekyll-blog/grandchild-page-5-my-git-branching-strategy/image-showing-create-new-branch-from-main.png)
-2. Test Deletion: Ensuring 'Tech for the Layman' was removed from the Main branch and validated the change.
+2. Test Deletion: Ensuring `Tech for the Layman` article was removed from the Main branch and validated the change.<br>
+_Note: In the screenshot below, we have referenced the `main-staging` branch instead. Once we have tested the deletion, we will merge `main-staging` into `main`._
 ![image showing that I have deleted files for Tech for the Layman article](../../parent-page-tech-adventures/child-page-1-jekyll-blog/grandchild-page-5-my-git-branching-strategy/image-deleted-file-for-tech-for-the-layman.png)
-3. When we access the site on our local, we can see that the "Tech for the Layman" article is no longer available
+3. When we access the site on our local, we can see that the `Tech for the Layman` article is no longer available
 ![image showing no tech for the layman article](../../parent-page-tech-adventures/child-page-1-jekyll-blog/grandchild-page-5-my-git-branching-strategy/image-showing-no-tech-for-the-layman-article.png)
-4. Switch and Validate: I switched to the 'Tech for the Layman' branch and confirmed the article appeared as it should.
-
+4. Switch and Validate: I switched to the `Tech for the Layman` branch and confirmed the article appeared as it should.
+   - Indeed, the files are available in the `tech-for-the-layman` branch
+   ![image showing the tech for the layman branch](../../parent-page-tech-adventures/child-page-1-jekyll-blog/grandchild-page-5-my-git-branching-strategy/image-showing-the-tech-for-the-layman-branch.png)
+   - Refreshing the site also displays the tech-for-the-layman page
+   ![image showing that the tech for the layman article is displayed in the browser when we load the tech-for-the-layman branch](../../parent-page-tech-adventures/child-page-1-jekyll-blog/grandchild-page-5-my-git-branching-strategy/image-reloading-tech-for-the-layman-branch-in-browser.png)
 
 ## **Testing the Main-Staging Merge**
 
-Making many changes on the local machine and then integrating those into the Main branch without any validation can be risky. Hence, the introduction of the 'main-staging' branch served as a conduit for integration testing. This was crucial for ensuring the quality of the code set to go live.
+Making many changes on the local machine and then integrating those into the Main branch without any validation can be risky. Hence, the introduction of the `main-staging` branch served as a conduit for integration testing. This was crucial for ensuring the quality of the code set to go live.
 
 
 ### **Ensuring Deployment-Ready Code**
@@ -78,12 +82,17 @@ To ensure each batch of code was deployment-ready, I followed these steps:
 
 
 
-1. Test Integration: I merged code changes from feature branches (such as 'Tech-for-the-Layman') into 'main-staging' and ran a series of tests to simulate the deployment process.
-2. Frequent Rebase: I regularly rebased 'main-staging' with Main to keep all the changes up to date and aligned with the live site's features and design.
+1. Test Integration: I merged code changes from feature branches (such as `Tech-for-the-Layman`) into `main-staging` and ran a series of tests to simulate the deployment process.
+   - In the previous example, we deleted all the files related to the `tech-for-the-layman` article in the `main-staging` branch.
+   - After testing, we can merge the `main-staging` branch into the `main` branch. 
+   ![image showing that I have checked out to the main branch, and am currently pending merge from main-staging](../../parent-page-tech-adventures/child-page-1-jekyll-blog/grandchild-page-5-my-git-branching-strategy/image-showing-checked-out-to-main-pending-merge-main-staging.png)
+   - When checked out to `main`, you can run the command `git merge <source-branch>`. When successful, your `main` branch will be updated to reflect the changes that have been made in your `main-staging` branch
+   ![image showing that changes in the main-staging has been merged and is now reflected in the main branch](../../parent-page-tech-adventures/child-page-1-jekyll-blog/grandchild-page-5-my-git-branching-strategy/image-showing-main-branch-updated-w-changes-in-main-staging.png)
+2. Frequent Rebase: I regularly rebased `main-staging` with Main to keep all the changes up to date and aligned with the live site's features and design.
+_Note: Based on my understanding, `rebase` is just a fancy word for merging back, to ensure that the code versions in both branches are in sync_
 
 
 ## **Managing the Remote Repository**
-
 
 ### **Keeping Track of All Changes**
 
@@ -91,7 +100,9 @@ Maintaining a clean, up-to-date code base across all remote repositories is esse
 
 
 
-1. Pushing Feature Branches: After completing changes in a feature branch, I pushed them to the remote repository.
+1. Pushing Branches: After completing changes in a branch, I push them to the remote repository. All branches (`main`, `main-staging` and `<feature-branches>`) are pushed!
+   - Once pushed, the different versions of the code are available in our remote github repo, and we can edit them from anywhere!z
+   ![image showing github repository containing all branches, hence we can edit these from anywhere](../../parent-page-tech-adventures/child-page-1-jekyll-blog/grandchild-page-5-my-git-branching-strategy/image-showing-github-repo-containing-all-branches.png)
 2. Merging and Deleting Branches: Once code changes were successfully tested in the main-staging branch, I merged them into Main and deleted the feature branch, subsequently removing any deleted branches from the remote repository with a single command.
 
 
