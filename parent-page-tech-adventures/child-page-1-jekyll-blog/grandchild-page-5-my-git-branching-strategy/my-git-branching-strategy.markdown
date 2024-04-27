@@ -8,7 +8,7 @@ nav_order: 5
 index: 'yes'
 follow: 'yes'
 description: This article aims to step down my Git Branching Strategy. For your comments and feedback to see if this is applicable or if it can be improved!
-image: ../../parent-page-tech-adventures/child-page-1-jekyll-blog/grandchild-page-4-feeling-responsive-template/image-jekyll-blog-feeling-responsive-template.png
+image: ../../parent-page-tech-adventures/child-page-1-jekyll-blog/grandchild-page-5-my-git-branching-strategy/image-jekyll-blog-branching-strategy.png
 ---
 
 <!-----
