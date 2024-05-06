@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Reinforcement
-permalink: /canine-chronicles/behaviour-mod-fundamentals/reinforcement
+title: Positive and Negative Reinforcement
+permalink: /canine-chronicles/behaviour-mod-fundamentals/positive-and-negative-reinforcement
 parent: Behaviour mod fundamentals
 grand_parent: Canine chronicles
 nav_order: 1
