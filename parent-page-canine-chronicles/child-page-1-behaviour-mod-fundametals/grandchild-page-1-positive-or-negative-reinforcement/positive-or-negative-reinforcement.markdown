@@ -179,12 +179,12 @@ It's essential to draw a clear line here. Negative reinforcement is about removi
 
 When it comes to teaching our furry friends not to snatch food from the table, it's crucial to understand the fine line between negative reinforcement and punishment.
 
-**Negative Reinforcement** involves creating a scenario where the dog learns that a certain behaviour leads to the removal of an unwanted experience. For instance, if your dog tries to grab a snack from the table, you block access to the food and firmly say "no." You may even have to push them gently off the table to guide them on the desired behaviour (waiting patiently on the ground, ideally sitting).
+**Negative Reinforcement** involves creating a scenario where the dog learns that a certain behaviour leads to the removal of an unwanted experience. For instance, if your dog tries to grab a snack from the table, you block access to the food and firmly say "no." You may also increase the distance of the food and the dog, so that the food is out of reach. These are subtle applications of aversive stimuli to the dog, as we are preventing them from reaching the object that they desire.
 
-If they offer the sit behaviour, you can reward them with a small piece of the snack. Here, the negative condition (being blocked from the food) is removed when the desired behaviour (sitting) is displayed, which reinforces the good behaviour without causing undue stress or confusion.
+If they offer the sit behaviour, you can reward them with a small piece of the snack. Here, the negative condition (being blocked from the food) is removed when the desired behaviour (sitting) is displayed, which reinforces the good behaviour without causing undue stress or confusion. The process of removing the aversive stimuli is referred to as **negative reinforcement**.
 
 {: .note }
-> Training your dog to avoid snatching food off the table might require a bit of patience and strategy. Initially, you may find that you need to negatively reinforce simply having them stand on the ground near the table without attempting to grab food. 
+> Training your dog to avoid snatching food off the table might require a bit of patience and strategy. Initially, you may find that you need to reinforce simply having them stand on the ground near the table without attempting to grab food. 
 >
 >Once they've got that down, you can move on to reinforcing them for sitting calmly on the ground. And finally, when those behaviors are well established, you can further reinforce the behavior of lying down on the ground. 
 >
@@ -196,9 +196,9 @@ In a friendly, practical approach to training, we lean more towards **negative r
 
 
 {: .warning}
-> Negative reinforcement involves the application of an aversive stimulus—this means you're applying a form of pressure or discomfort to discourage unwanted behaviour. However, it's crucial to make the desired behaviour absolutely clear and provide immediate relief from the aversive stimulus once the correct behaviour is displayed. 
+> Negative reinforcement involves the removal of an aversive stimulus. By design, if the aversive stimulus is not already present, the handler would have to apply the aversive stimulus. Sounds like punishment? Because it is -- you are re applying a form of pressure or discomfort to discourage unwanted behaviour. 
 >
-> This approach requires precise timing, consistency, and patience to ensure that your dog can make the correct association without experiencing undue stress or confusion.
+> Because negative reinforcement generally requires the application of an aversive stimulus. The risk of applying this technique is higher and should only be executed based on instructions from a professional dog trainer.
 
 
 ### **The Nuanced Role of Conditioned Aversive Signals**
