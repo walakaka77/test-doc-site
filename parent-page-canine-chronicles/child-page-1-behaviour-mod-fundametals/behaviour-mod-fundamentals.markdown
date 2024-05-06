@@ -4,7 +4,7 @@ title: Behaviour mod fundamentals
 permalink: /canine-chronicles/behaviour-mod-fundamentals
 parent: Canine chronicles
 nav_order: 1
-#has_children: true 
+has_children: true 
 index: 'yes'
 follow: 'yes'
 description: This article provides the fundamental theory of behaviour modification. These fundamentals are crucial for any dog handler.
