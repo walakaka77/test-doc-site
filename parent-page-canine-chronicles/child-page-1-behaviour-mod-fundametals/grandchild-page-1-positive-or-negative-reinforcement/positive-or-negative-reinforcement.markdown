@@ -9,7 +9,7 @@ nav_order: 1
 index: 'yes'
 follow: 'yes'
 description: How to get your dog to display a desired behaviour? Wait for them to offer it, and then reinforce it!
-image: ../../parent-page-canine-chronicles/child-page-1-behaviour-mod-fundametals/grandchild-page-1-reinforcement/image-reinforce-good-behaviour.png
+image: ../../parent-page-canine-chronicles/child-page-1-behaviour-mod-fundametals/grandchild-page-1-positive-or-negative-reinforcement/image-reinforce-good-behaviour.png
 ---
 
 <!-----
