@@ -2,7 +2,8 @@
 layout: page
 title: Resource Guarding
 permalink: /canine-chronicles/resource-guarding
-parent: Canine chronicles
+parent: Personal Canine Experience
+grand_parent: Canine chronicles
 #has_children: true 
 nav_order: 5
 index: 'yes'

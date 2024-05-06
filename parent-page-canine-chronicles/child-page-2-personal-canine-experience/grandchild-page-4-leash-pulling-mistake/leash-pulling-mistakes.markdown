@@ -2,7 +2,8 @@
 layout: page
 title: Leash pulling mistakes
 permalink: /canine-chronicles/leash-pulling-mistakes
-parent: Canine chronicles
+parent: Personal Canine Experience
+grand_parent: Canine chronicles
 #has_children: true 
 nav_order: 4
 index: 'yes'

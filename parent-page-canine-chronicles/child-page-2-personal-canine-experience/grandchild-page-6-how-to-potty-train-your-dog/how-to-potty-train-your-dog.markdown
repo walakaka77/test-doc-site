@@ -2,7 +2,8 @@
 layout: page
 title: How to Potty Train Your Dog
 permalink: /canine-chronicles/how-to-potty-train-your-dog
-parent: Canine chronicles
+parent: Personal Canine Experience
+grand_parent: Canine chronicles
 #has_children: true 
 nav_order: 6
 index: 'yes'

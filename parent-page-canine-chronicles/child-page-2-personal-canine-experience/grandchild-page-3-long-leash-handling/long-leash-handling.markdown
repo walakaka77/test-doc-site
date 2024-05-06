@@ -2,7 +2,8 @@
 layout: page
 title: Long leash handling
 permalink: /canine-chronicles/long-leash-handling
-parent: Canine chronicles
+parent: Personal Canine Experience
+grand_parent: Canine chronicles
 #has_children: true 
 nav_order: 3
 index: 'yes'

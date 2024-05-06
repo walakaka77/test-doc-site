@@ -2,7 +2,8 @@
 layout: page
 title: How to Stop Jump Up
 permalink: /canine-chronicles/how-to-stop-jump-up
-parent: Canine chronicles
+parent: Personal Canine Experience
+grand_parent: Canine chronicles
 #has_children: true 
 nav_order: 7
 index: 'yes'

@@ -2,7 +2,8 @@
 layout: page
 title: Off the table
 permalink: /canine-chronicles/off-the-table
-parent: Canine chronicles
+parent: Personal Canine Experience
+grand_parent: Canine chronicles
 nav_order: 2
 index: 'yes'
 follow: 'yes'
