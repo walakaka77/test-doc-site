@@ -37,14 +37,16 @@ Conversion notes:
 
 # **Understanding Dilated Cardiomyopathy (DCM) in Australian Shepherds: A Comprehensive Guide**
 
-Today, we're shining a light on a topic close to the hearts of many dog owners and breeders, especially those who adore the spirited Australian Shepherd breed. We're talking about Dilated Cardiomyopathy (DCM), a condition that might not be common in Aussies but is important to understand due to its serious nature and the potential for misdiagnosis as Hemangiosarcoma (HSA), which is more prevalent in this breed.
+Today, we're shining a light on a topic close to the hearts of many dog owners and breeders, especially those who adore the spirited Australian Shepherd breed. We're talking about Dilated Cardiomyopathy (DCM), a condition that might not be common in Aussies but is important to understand due to its serious nature. 
+
+Both DCM and Hemangiosarcoma (HSA), which is more prevalent in this breed, can cause sudden collapse or death. This similarity in symptoms can lead breeders and pet owners to mistakenly attribute the cause of collapse or death to DCM without thorough investigation. It's vital to emphasize the importance of consulting with veterinarians for accurate information, especially when making breeding decisions.
 
 ![Dog looking sad because he was diagnosed with DCM](https://cdn.shopify.com/s/files/1/0067/6786/9988/files/CANINE.png?v=1672424444){: width="50%"}
 
 
 ## **What is DCM?**
 
-At its core, DCM is a disease that affects the muscular walls of a dog’s heart, leading to decreased heart efficiency and, subsequently, a cascade of health issues. The condition weakens and thins the muscle, causing the chambers of the heart to enlarge. This enlargement, while a compensatory effort, ends up straining the heart even further.
+At its core, DCM is a disease that affects the muscular walls of a dog’s heart, leading to decreased heart efficiency and, subsequently, a cascade of health issues. TThe condition weakens and thins the muscle, leading to an inability of the heart to pump blood effectively. This results in blood pooling, causing the chambers of the heart to enlarge as a consequence of the weakened heart muscles, which strains the heart even further.
 
 
 ## **Causes of DCM**
@@ -167,13 +169,11 @@ Grasping this operation offers us a clearer understanding of how certain heart c
 
 ### **Diving Deeper: How DCM Affects the Heart**
 
-The mechanism of DCM starts with the weakening of the heart muscles, leading to inefficient pumping. This inefficiency results in the enlargement of ventricles as the heart tries to compensate by holding more volume to maintain blood pressure. However, this also means an increased workload and the eventual disruption of the heart's function.
+The mechanism of DCM starts with the weakening of the heart muscles, leading to inefficient pumping. This inefficiency leads to blood pooling, which causes the heart to enlarge as it attempts to accommodate the increased volume. The enlargement of the heart then further disrupts its pumping efficiency, resulting in more blood pooling. This creates a vicious cycle where the heart continues to dilate, worsening its function.
 
-The heart's attempt to enlarge is essentially a coping mechanism to combat the inefficiency brought about by DCM. By increasing its volume, the heart aims to hold and pump more blood per beat, striving to maintain a constant blood pressure that's crucial for the proper circulation of blood throughout the body. But it doesn't stop there.
+The body also employs  compensatory mechanisms to support the heart, one significant strategy being the increase of fluid volume in the blood. This adaptation is aimed at enhancing the volume of circulating blood, thus helping to maintain blood pressure despite the heart's weakened state. 
 
-The body employs additional compensatory mechanisms to support the heart, one significant strategy being the increase of fluid volume in the blood. This adaptation is aimed at enhancing the volume of circulating blood, thus helping to maintain blood pressure despite the heart's weakened state.
-
-However, while these measures may temporarily assist, they also signify a heart working harder than it should, potentially leading to further complications down the line. Understanding these compensatory efforts sheds light on our pets' resilience while highlighting the importance of early detection and management of conditions like DCM.
+While the body attempts to compensate for the impacts of DCM by increasing blood volume, this well-intentioned adaptation can lead to further health complications. The increase in blood volume, meant to aid in oxygen and nutrient distribution, can actually strain the body's organs, potentially causing kidney damage or congestive heart failure. This chain reaction of health issues, stemming from an attempt to offset DCM's effects, will be delved into in greater detail in the following sections of this article.
 
 
 ### **Making Sense of Symptoms**
