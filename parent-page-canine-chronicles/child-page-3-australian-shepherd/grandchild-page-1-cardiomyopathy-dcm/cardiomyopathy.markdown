@@ -9,7 +9,7 @@ nav_order: 1
 index: 'yes'
 follow: 'yes'
 description: Dialated Cardiomyopathy - an incurable conditions that should be managed early if diagnosed in your dog. Please read more and look our for these symptoms!
-image: ../../parent-page-canine-chronicles/child-page-3-australian-shepherd/grandchild-page-1-cardiomyopathy-dcm/image-dialated-cardiomyopathy.png
+image: ../../parent-page-canine-chronicles/child-page-3-australian-shepherd/grandchild-page-1-cardiomyopathy-dcm/image-dialated-cardiomyopathy-2.png
 ---
 
 <!-----
