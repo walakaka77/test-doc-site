@@ -9,7 +9,7 @@ nav_order: 3
 index: 'yes'
 follow: 'yes'
 description: Haemophilia in Dogs! A genetic condition that can be easily avoided with genetic screening and carefull selection of the breeding stock.
-image: ../../parent-page-canine-chronicles/child-page-3-australian-shepherd/grandchild-page-2-Arrhythmogenic-Ventricular-Cardiomyopathy-ARVC/image-arvc.png
+image: ../../parent-page-canine-chronicles/child-page-3-australian-shepherd/grandchild-page-3-haemophilia-in-dogs/image-haemophilia-in-dogs.png
 ---
 
 <!-----
