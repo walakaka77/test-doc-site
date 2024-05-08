@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Canine chronicles
-redirect_from: /canine-chronicles/
-permalink: /canine-chronicles-revised/
+redirect_from: 
+    - /canine-chronicles/
+permalink: /:path/:basename/
 has_children: true 
 index: 'yes'
 follow: 'yes'
