@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Canine chronicles
-permalink: /canine-chronicles/
-has_children: true 
+#permalink: /canine-chronicles/
+#has_children: true 
 index: 'yes'
 follow: 'yes'
 description: This section will detail what I've discovered regarding dog behaviour as we go through my journey of becoming a responsible dog owner :D. Read on to check out tips, tricks and common mistakes that will allow you to become a better dog handler!
