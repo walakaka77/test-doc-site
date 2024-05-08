@@ -3,6 +3,7 @@ layout: page
 title: Canine chronicles
 redirect_from: 
     - /canine-chronicles/
+    - /canine-chronicles
 permalink: /:path/:basename/
 has_children: true 
 index: 'yes'
