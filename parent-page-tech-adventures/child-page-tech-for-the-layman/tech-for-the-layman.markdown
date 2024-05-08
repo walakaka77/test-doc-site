@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Tech for the layman - WIP
+title: Tech for the layman
 permalink: /tech-adventures/tech-for-the-layman
 parent: Tech Adventures
 #has_children: true 
 #nav_order: 6
-index: 'no'
-follow: 'no'
+index: 'yes'
+follow: 'yes'
 ---
 
 
@@ -309,50 +309,124 @@ Sounds familiar? That's because this is analagous to the human processing exampl
 
 This layer of abstraction is key to information technology, or our civilization as a whole, because we will not be here if not for it. It's also the key to how we've been able to advance so far -- because we are able to transfer and build upon ideas and information that were already there before we were born.
 
+## **Protocols: How Computers and Humans Communicate**
 
-___
-# Everything below is WIP
+At the core of both human cognition and computer processing lies a need for high-level abstractions of language. For humans, our complex thoughts, emotions, and communications are translated into a vast network of neural connections. 
 
-**Language** --  Protocol
-- Everything is neurons
-- But need to abstract, higher-level cognitive functions --> Language
-- All language, breaks down into neural connections in the brain
-- Different language, different format. Korea is hierarchical, etc. but the information transferred is the same
-    - And when broken down, stored in the same way in our brains
+Similarly, computers operate through the binary simplicity of 1’s and 0’s, translating these into the detailed operations and functionalities we interact with daily. Despite the intricate layers of protocols, languages, and interfaces built upon these foundational elements, the fundamental principle remains the same. Humans rely on neurons, and computers rely on bits. 
+
+This parallel showcases the brilliance of both natural evolution and human innovation in solving complex problems with fundamentally simple building blocks. Through these abstractions, both systems achieve a level of complexity and functionality that allows for sophisticated interaction and communication within and across their respective domains.
 
 
-**Request and Response** -- conversation
-- Initiator (Client)
-- Responder (Server)
+### **How Humans Translate Language into Neuronal Activity**
 
-When communicating there is a need to have an initiator of the conversation and then a responder of the conversation.
-Take this scenario for an example:
-1. Person_A says `Hello! Is this Sam?`
-2. Person_B (Sam) responds `Hello! Yes it's Sam`
-3. Person_A the proceeds to ask the relevant question `Hey Sam, thanks for taking my call. I wanted to discuss with you regarding bla bla bla...`
+Human brains translate language into neuronal activity through an incredibly sophisticated process that engages multiple regions of the brain. Initially, when we hear or read language, sensory areas dedicated to processing auditory or visual information activate. This raw data then journeys to specific language centers like Broca's and Wernicke's areas, where it's broken down, understood, and responded to. These centers facilitate the comprehension and production of spoken and written language, converting words and sentences into complex patterns of neuronal firing. 
 
-In traditional communication, there is always an initator and a receiver.
-The initiator would normally confirm the identifiy of the receiver -- and depending on the confidentiality of the discussion, different levels of verification is required.
+This neuronal activity enables not only basic communication but also allows for the subtleties of language, such as emotional tone and implication, to be understood. The process exemplifies the brain's capability to translate abstract symbols into meaningful concepts, a foundation for thought, decision-making, and creativity. Moving forward, we'll compare this remarkable biological process with how computers process language using bits and programming languages, highlighting both similarities and distinct differences.
 
-The responder will then respond, with details that verifies his/her identity. Once the identity is verified, contextualized - the relevant discussion and information flow is transacted.
+While languages vary widely in format, phonetics, and symbolism, the fundamental unit of information transfer within the human brain remains the neuron. No matter the language—be it English, Mandarin, or sign language—the neuronal firing patterns within our brain's neural network serve as the common denominator for communication. 
 
-This is akin to two computers communicating. There is always an initiator (client) and then a responder (server). 
-Different levels of verification can be done, to verify -- but this is outside the scope of the current topic.
+These patterns, intricate and unique, facilitate the encoding, transmission, and decoding of language, underscoring the universal neural basis of human communication. This neuronal engagement demonstrates how our brains universally process diverse languages, translating them into a common 'language' of electrical and chemical signals.
 
-**Internet**
-- Akin to telephone lines, allowing you to communicate with others
-- Initiator, you dial
-- Responder, they respond
-- Initiator, you start the conversation
 
-**Internet Service Provider**
-- Telephone provider
-- Gateway where all your calls are routed to, and then subsequently to the responder phone
+### **How Computers Translate Protocols into Bits and Process Subsequent Functions**
 
-## Putting the human information flow together
-1. Talk about requirements gathering
-2. sensory inputs, understanding, notes, communication, documentation etc. --> Spell these out
+Computers translate and process information through a fundamentally different mechanism compared to the human brain. Information within a computer is managed via protocols, which are strict sets of rules and standards that define how data is transmitted and received. These protocols break down complex information into binary data—or bits (0s and 1s), the simplest form of data for computers. Once in this binary form, a computer's processor executes predefined operations to manipulate these bits, performing tasks ranging from basic arithmetic to complex algorithmic processing.
+
+Comparatively, where human neurons relay and process information through electrochemical signals, allowing for nuanced understanding and cognitive flexibility, computers rely strictly on binary on-off signals. This binary processing enables computers to execute operations at incredible speeds and with near-perfect accuracy but lacks the adaptability and learning capabilities inherent to the biological neural networks found in humans. The comparison illuminates how both systems, while fundamentally different, exemplify remarkable approaches to processing and understanding information within their respective domains.
+
+Despite the apparent diversity in languages, protocols, and the format of information, the atomic component of information transfer in computers remains universally consistent as bits. Whether it’s the intricate protocols that manage internet traffic or the simpler sets of commands that control an electronic device, at their core, all digital communications are reduced to sequences of bits. This binary system of 0s and 1s forms the foundation of information technology, enabling the vast array of functionalities we observe in digital systems today. 
+
+This principle mirrors the universality found in human communication, where diverse languages and symbols can be broken down into fundamental units of meaning, albeit more complex and varied compared to the binary simplicity of bits.
+
+
+## **Conversation: Request and Response**
+
+At the heart of human interaction lies the art of conversation, a sophisticated exchange of ideas and expressions honed through centuries of societal evolution. This dynamic interplay of request and response forms the bedrock of meaningful communication, facilitating not just the sharing of information but the fostering of relationships and understanding. 
+
+Similar to this intricate dance of dialogues among humans, servers within a digital network engage in their own form of conversation through a predefined request-response model. In this model, one server sends a request for information or action, akin to posing a question or making a request in a human conversation. Another server receives this request and, based on the instructions it understands, formulates and sends back an appropriate response, mirroring the way individuals respond to questions or requests in a conversation. 
+
+This fundamental communication protocol not only enables the seamless operation and interoperability of devices on the internet but also epitomizes the practical application of conversational principles in the realm of information technology.
+
+
+### **Human Communication Process**
+
+In traditional human communication, the process unfolds in a naturally intuitive manner, governed by social norms and cues. It commences with a greeting or an attention-getter, aimed at establishing a connection with the receiver. Following this initial engagement, the initiator articulates their message, which can range from a simple query to a complex discourse. The receiver processes this information and, depending on the context and their understanding, crafts an appropriate response. 
+
+This exchange is facilitated by verbal and non-verbal cues, enabling both parties to adjust the flow and tone of the conversation in real-time. Factors such as tone of voice, body language, and facial expressions play crucial roles in conveying emotions and intentions, enriching the communication experience.
+
+**Human Communication Process**:
+
+
+
+1. **Initiation**: Establishing contact and capturing attention.
+2. **Message Delivery**: Conveying thoughts, questions, or information.
+3. **Reception and Understanding**: Receiver processes and comprehends the message.
+4. **Response Formulation**: Crafting an appropriate reply based on understanding and context.
+5. **Feedback and Adjustment**: Utilizing verbal and non-verbal cues to guide the interaction.
+
+This inherent methodology of human interaction, rooted in centuries of evolutionary psychology, contrasts starkly with the binary precision of computer communications. In our forthcoming comparison, we'll explore how the foundational principles of request and response in computer networks mirror, yet diverge significantly from, the nuanced complexities of human conversation. This juxtaposition not only highlights the efficiency and limitations of both methods but also showcases the fascinating intersection of human intuition and technological innovation.
+
+
+### **Computers Communication Process**
+
+When comparing computer communication, specifically the request-response model, to human conversation, the parallels can simplify our understanding of how computers interact. Just as in human dialogues, where one person initiates a conversation with a question or comment and awaits a reply, in computer communication, a client (the initiator) sends a request to a server (the responder) with the expectation of receiving a response. This fundamental structure—initiate, respond, confirm—is mirrored in our daily interactions.
+
+For instance, consider asking a friend for the latest movie recommendations. Firstly, you initiate the conversation with a question. Your friend processes the request, considers the best response based on what movies they think you'll enjoy, and then responds with a list of recommendations. Similarly, when you search for the latest movies online, your browser (client) sends a request to a movie database server. The server processes this request and sends back information about the latest movies as a response.
+
+This analogy helps demystify the operation of computers for non-technical readers by equating the familiar process of human communication with the technical process of computer communication. Both systems rely on the foundational framework of request and response, embedded within layers of context and complexities, to facilitate an exchange of information.
+
+
+## **Putting it all together!**
+
+In this article, we've drawn parallels between the intricacies of human information flow and computer communication systems to simplify complex computer concepts for non-technical readers.
+
+
+### **Fundamental Unit of Information: Neurons vs Bits**
+
+Just as neurons serve as the fundamental unit of information transfer and processing in the human brain, in the digital realm, bits play a similar foundational role for computing. Neurons transmit signals through complex networks to process thoughts, memories, and actions. Similarly, bits, representing the most basic form of data in computing, travel through circuits to enable the storage, processing, and transmission of digital information. This comparison underscores how both systems, although vastly different in their nature, rely on these fundamental units to facilitate their respective forms of communication and functionality.
+
+
+### **Learnt Concepts**
+
+We likened the brain's neural patterns to installed software, demonstrating how both serve as the foundation for learned behaviours and functionalities.
+
+
+### **Low-level and high-level abstractions**
+
+Similarly, comparing innate and higher cognitive functions to computer operating systems and applications, respectively, illustrates how both humans and computers operate on different levels of complexity and abstraction.
+
+Low-level cognitive functions in humans can be paralleled with the fundamental operations of a computer's operating system (OS). These basic cognitive functions, including perception, attention, and memory encoding, are similar to how an OS manages hardware resources, orchestrates basic system operations, and provides a platform for software to run. Both sets of processes are foundational, ensuring that either a human or a computer can handle more complex tasks efficiently.
+
+On the flip side, higher-level cognitive processes like problem-solving, decision-making, and creative thinking correspond more closely with the tasks performed by specific, higher-level applications in a computer. 
+
+These applications, built on the OS foundation, leverage the basic operating capabilities to execute specific, complex tasks tailored to the user's needs, much like how our brain's higher-level cognitive processes enable us to engage in intricate behaviors and sophisticated thought processes. This comparison underlines the importance of both foundational and advanced levels of operation in facilitating the breadth of capabilities exhibited by humans and computers alike.
+
+
+### **Long-Term Information Storage: Documentation vs Databases**
+
+Just as documentation serves as a long-term repository of knowledge for humans, enabling the accumulation and retrieval of vast amounts of information over time, databases fulfill a similar function for computers. 
+
+Documentation, whether in the form of written records, digital files, or even mentally stored procedures, allows humans to store complex ideas, instructions, and historical data in a durable format. Similarly, databases provide a structured, reliable system for storing, managing, and retrieving data for computers. They ensure that data remains accessible and secure, serving as the backbone for applications that require historical data for decision-making, analysis, and operational continuity.
+
+
+### **Short-Term Information Storage: Notes vs Cache**
+
+Conversely, note-taking and caches address the need for short-term, fast-access storage. Note-taking in humans enables the quick jotting down of ideas, observations, and information necessary for immediate tasks or for future reference. This process helps in organizing thoughts and facilitating learning and problem-solving. 
+
+In the digital realm, a computer's cache plays a comparable role by temporarily storing parts of data or frequently accessed instructions to speed up the access to information. This short-term storage allows for quicker retrieval, enhancing the overall efficiency of computer operations. Both methods, while temporary and limited in scope, are crucial for facilitating rapid access to information and improving efficiency in processing tasks.
+
+
+### **Communication Process and Language**
+
+Lastly, the fundamental act of communication—whether talking on the phone or engaging in server-client interactions—relies on a shared language or protocol to facilitate understanding and response.
+
+
+## **Thank You!**
+
+I hope this comparison has made the complex world of computer technology a bit more relatable. Remember, I'm a layman myself—this approach is exactly how I started wrapping my head around these concepts. I'd love to hear your thoughts, feedback, or even corrections. If there's a better way to explain any of these ideas, or if you have your own analogies to share, please don't hesitate to reach out. Together, we can refine this content to make it even more accessible and helpful for everyone. Your input is invaluable in this collaborative learning journey.
 
 Thanks a bunch guys! <br>
+
 Peace and Love <br>
 Shafik Walakaka
