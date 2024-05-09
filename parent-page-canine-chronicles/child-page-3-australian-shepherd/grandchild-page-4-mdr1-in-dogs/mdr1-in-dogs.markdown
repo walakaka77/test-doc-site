@@ -265,20 +265,6 @@ Etoposide is commonly used in the treatment of various types of cancer in dogs, 
 
 **Implication:** The result can be excessive bone marrow suppression, resulting in leukopenia (reduced white blood cell count), increasing the risk of infections.
 
-
-## **Cyclosporine:**
-
-Cyclosporine is primarily used in dogs to manage immune-mediated diseases, such as atopic dermatitis, and to prevent organ transplant rejection. It works by suppressing the immune system, reducing inflammation and the body's response to perceived threats.
-
-![Cyclosporine capsule](https://5.imimg.com/data5/SELLER/Default/2020/9/QJ/CR/YF/109604861/cyclosporine-capsule-500x500.jpg){: width="20%"}
-
-**Location of Toxic Buildup:** Affects the immune system, with a wider systemic distribution that can impact the kidneys, liver, and nervous system.
-
-**Mechanism:** Cyclosporine is an immunosuppressant drug. The MDR1 mutation can cause abnormal distribution and elimination of the drug, leading to higher than intended blood levels.
-
-**Implication:** This may amplify the drug's immunosuppressive effects and side effects, including renal toxicity, neurotoxicity, and hepatotoxicity, necessitating close monitoring and dosage adjustment.
-
-
 ## **Digoxin:**
 
 Digoxin is utilized in dogs for treating heart conditions, specifically congestive heart failure and certain types of arrhythmias. It improves heart function by increasing the force of cardiac contractions and regulating heart rate.
