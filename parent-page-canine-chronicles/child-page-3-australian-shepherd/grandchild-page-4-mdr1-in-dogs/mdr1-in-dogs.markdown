@@ -61,7 +61,6 @@ Some of the drugs that can cause issues in dogs with the MDR1 mutation include:
 * **Loperamide**: A common anti-diarrheal.
 * **Acepromazine**: Used for sedation.
 * **Chemotherapy drugs**: Such as Vincristine, Doxorubicin, and others.
-* **Immunosuppressants**: Like Cyclosporine.
 * **Cardiac drugs**: Including Digoxin.
 
 {: .note}
