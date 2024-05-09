@@ -9,7 +9,7 @@ nav_order: 4
 index: 'yes'
 follow: 'yes'
 description: MDR1 in Dogs! A genetic condition that will result in severe allergic reactions for your sheep dog to certain medications that can cause death.
-image: ../../parent-page-canine-chronicles/child-page-3-australian-shepherd/grandchild-page-3-haemophilia-in-dogs/image-haemophilia-in-dogs.png
+image: ../../parent-page-canine-chronicles/child-page-3-australian-shepherd/grandchild-page-4-mdr1-in-dogs/image-mdr1-in-dogs.png
 ---
 
 <!-----
