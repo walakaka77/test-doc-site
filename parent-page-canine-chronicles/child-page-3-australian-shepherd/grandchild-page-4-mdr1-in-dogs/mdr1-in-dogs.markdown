@@ -175,9 +175,11 @@ It's vital to understand that the list provided here does not cover all the medi
 <!-- ![Pills on the table](https://asean.org/wp-content/uploads/2022/02/istockphoto-1184787665-612x612-1.jpg){: width="50%"} -->
 
 
-### **Ivermectin:**
+## **Ivermectin:**
 
-![Ivenmentin in packets](https://media.cnn.com/api/v1/images/stellar/prod/210826221735-ivermectin-drug-file.jpg?q=w_3000,h_2037,x_0,y_0,c_fill){: width="50%"}
+Ivermectin is primarily used in dogs for the prevention and treatment of heartworm and certain types of mites and lice. It works by paralyzing and killing parasites, offering a highly effective solution to managing these conditions.
+
+![Ivenmentin in packets](https://media.cnn.com/api/v1/images/stellar/prod/210826221735-ivermectin-drug-file.jpg?q=w_3000,h_2037,x_0,y_0,c_fill){: width="20%"}
 
 **Location of Toxic Buildup:** Primarily in the central nervous system, including the brain and spinal cord.
 
@@ -186,9 +188,11 @@ It's vital to understand that the list provided here does not cover all the medi
 **Implication:** Neurological symptoms such as tremors, seizures, and coma may occur due to ivermectin toxicity in MDR1-affected dogs.
 
 
-### **Loperamide:**
+## **Loperamide:**
 
-![Loperamide in packets](https://www.vinmec.com/s3-images/20220301_011238_254606_loperamide-hydrochl.max-1800x1800.jpg){: width="50%"}
+Loperamide is primarily used in dogs to manage symptoms of acute and chronic diarrhea. It acts by slowing down the movement of the intestines, allowing for the absorption of more water and nutrients, which helps in firming up stools.
+
+![Loperamide in packets](https://www.vinmec.com/s3-images/20220301_011238_254606_loperamide-hydrochl.max-1800x1800.jpg){: width="20%"}
 
 **Location of Toxic Buildup:** Primarily affects the gastrointestinal tract and the central nervous system.
 
@@ -197,9 +201,11 @@ It's vital to understand that the list provided here does not cover all the medi
 **Implication:** Excessive accumulation may lead to severe constipation, sedation, or even life-threatening respiratory depression in affected animals.
 
 
-### **Acepromazine:**
+## **Acepromazine:**
 
-![Acepromazine in a bottle](https://image.chewy.com/is/image/catalog/193252_MAIN._AC_SL600_V1574456282_.jpg){: width="30%"}
+Acepromazine is commonly used as a sedative and tranquilizer for dogs undergoing stressful situations, such as vet visits or grooming sessions. It helps to calm anxious dogs, making it easier to handle them during procedures that might be stressful.
+
+![Acepromazine in a bottle](https://image.chewy.com/is/image/catalog/193252_MAIN._AC_SL600_V1574456282_.jpg){: width="20%"}
 
 **Location of Toxic Buildup:** Central nervous system, specifically affecting brain function.
 
@@ -208,9 +214,11 @@ It's vital to understand that the list provided here does not cover all the medi
 **Implication:** Animals with this mutation may experience exaggerated sedation, profound hypotension, or respiratory depression, necessitating lower doses or alternative medications.
 
 
-### **Vincristine:**
+## **Vincristine:**
 
-![Vincristine in a botlle](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfpXPUWKne_JOa0uchmJAk4gAVXG8SsJsuHWO5RYyivw&s){: width="50%"}
+Vincristine is primarily used in dogs as part of chemotherapy protocols to treat various types of cancer, including lymphoma and leukemia. It works by inhibiting cell division, which is crucial in slowing the growth and spread of cancer cells.
+
+![Vincristine in a botlle](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfpXPUWKne_JOa0uchmJAk4gAVXG8SsJsuHWO5RYyivw&s){: width="20%"}
 
 **Location of Toxic Buildup:** Acts systemically but adverse effects are often noted in rapidly dividing cells such as those of the gastrointestinal tract and bone marrow.
 
@@ -219,9 +227,11 @@ It's vital to understand that the list provided here does not cover all the medi
 **Implication:** This can result in prolonged neutropenia (low neutrophil count), which significantly increases the risk of infection, as well as severe gastrointestinal toxicity.
 
 
-### **Doxorubicin:**
+## **Doxorubicin:**
 
-![Doxorubicin in a bottle](https://petcancersociety.com/wp-content/uploads/doxorubicin-1-400.png){: width="50%"}
+Doxorubicin is commonly used in veterinary medicine to treat a variety of cancers in dogs, such as lymphoma, leukemia, and various solid tumors. It operates as an anthracycline antibiotic that interferes with the replication of cancer cells, thereby slowing or stopping tumor growth.
+
+![Doxorubicin in a bottle](https://petcancersociety.com/wp-content/uploads/doxorubicin-1-400.png){: width="20%"}
 
 **Location of Toxic Buildup:** Systemically affecting cells, particularly those of the heart and bone marrow.
 
@@ -230,7 +240,11 @@ It's vital to understand that the list provided here does not cover all the medi
 **Implication:** Affected dogs may show signs of congestive heart failure or severe bone marrow suppression, highlighting the need for adjusted dosing or alternative therapies.
 
 
-### **Paclitaxel:**
+## **Paclitaxel:**
+
+Paclitaxel is utilized in veterinary oncology primarily for its efficacy in treating solid tumors, including mammary carcinoma and non-small cell lung cancer in dogs. It works by stabilizing microtubules, thereby inhibiting cell division and inducing cancer cell death.
+
+![Paclitaxel in a bottle](https://americanregent.com/media/3420/paclitaxel-vial-800.png){: width="20%"}
 
 **Location of Toxic Buildup:** Acts on microtubules affecting cell division, impacting various tissues but notably causing neurotoxicity.
 
@@ -239,7 +253,11 @@ It's vital to understand that the list provided here does not cover all the medi
 **Implication:** This accumulation can cause severe peripheral neuropathy, characterized by weakness, pain, and sensory changes, necessitating careful monitoring and dose adjustment.
 
 
-### **Etoposide:**
+## **Etoposide:**
+
+Etoposide is commonly used in the treatment of various types of cancer in dogs, particularly for lymphoma and leukemia. It acts by inhibiting the enzyme topoisomerase II, leading to DNA damage and cancer cell death, but requires careful dosage management due to its narrow therapeutic range.
+
+![Etoposide in a bottle](https://vinmec-prod.s3.amazonaws.com/images/20220524_025649_448145_Etoposide.max-800x800.jpg){: width="20%"}
 
 **Location of Toxic Buildup:** Primarily impacts the bone marrow but can affect all rapidly dividing cells.
 
@@ -248,7 +266,11 @@ It's vital to understand that the list provided here does not cover all the medi
 **Implication:** The result can be excessive bone marrow suppression, resulting in leukopenia (reduced white blood cell count), increasing the risk of infections.
 
 
-### **Cyclosporine:**
+## **Cyclosporine:**
+
+Cyclosporine is primarily used in dogs to manage immune-mediated diseases, such as atopic dermatitis, and to prevent organ transplant rejection. It works by suppressing the immune system, reducing inflammation and the body's response to perceived threats.
+
+![Cyclosporine capsule](https://5.imimg.com/data5/SELLER/Default/2020/9/QJ/CR/YF/109604861/cyclosporine-capsule-500x500.jpg){: width="20%"}
 
 **Location of Toxic Buildup:** Affects the immune system, with a wider systemic distribution that can impact the kidneys, liver, and nervous system.
 
@@ -257,7 +279,11 @@ It's vital to understand that the list provided here does not cover all the medi
 **Implication:** This may amplify the drug's immunosuppressive effects and side effects, including renal toxicity, neurotoxicity, and hepatotoxicity, necessitating close monitoring and dosage adjustment.
 
 
-### **Digoxin:**
+## **Digoxin:**
+
+Digoxin is utilized in dogs for treating heart conditions, specifically congestive heart failure and certain types of arrhythmias. It improves heart function by increasing the force of cardiac contractions and regulating heart rate.
+
+![Digoxin in a bottle](https://img.medscapestatic.com/pi/features/drugdirectory/octupdate/00204962.jpg){: width="20%"}
 
 **Location of Toxic Buildup:** Primarily affects the myocardium (heart muscle).
 
@@ -266,7 +292,11 @@ It's vital to understand that the list provided here does not cover all the medi
 **Implication:** Toxicity can result in fatal arrhythmias, necessitating lower doses and careful monitoring of serum drug levels in affected animals.
 
 
-### **Morphine:**
+## **Morphine:**
+
+Morphine is primarily used in dogs for its potent analgesic properties, providing relief from severe pain. Additionally, it can be used as a sedative to calm dogs undergoing stressful procedures or surgeries.
+
+![Morphine in a bottle and a needle](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZatJ1xDNfXTfV_bEt1Fs4jBcO4ghwXaCjFSaPdTs2fvWnjjKMK34SXW1Vl8-MBndU1ms&usqp=CAU){: width="20%"}
 
 **Location of Toxic Buildup:** Central nervous system and gastrointestinal tract.
 
@@ -277,14 +307,18 @@ It's vital to understand that the list provided here does not cover all the medi
 
 ## **What about Topical Application?**
 
-Even though there's less documentation on the effects of topical medications in dogs with the MDR1 mutation, caution is still the order of the day. The substrates like permethrin, imidacloprid, corticosteroids, and topical anesthetics, though applied externally, can still enter the systemic circulation. Especially in animals with compromised skin barrier function or when used over large surface areas, the absorption might increase. Given the role of P-Glycoprotein in pumping these substances out of cells, animals with the MDR1 mutation could potentially experience increased exposure to these compounds. This elevates the risk of systemic side effects, affirming the necessity of careful consideration and veterinary consultation when choosing topical treatments for dogs known to carry the MDR1 mutation.
+Even though there's less documentation on the effects of topical medications in dogs with the MDR1 mutation, caution is still the order of the day. The substrates like permethrin, imidacloprid, corticosteroids, and topical anesthetics, though applied externally, can still enter the systemic circulation. Especially in animals with compromised skin barrier function or when used over large surface areas, the absorption might increase. 
+
+![Topical cream in a tube](https://m.media-amazon.com/images/I/51SVqO6-SqL.jpg){: width="20%"}
+
+Given the role of P-Glycoprotein in pumping these substances out of cells, animals with the MDR1 mutation could potentially experience increased exposure to these compounds. This elevates the risk of systemic side effects, affirming the necessity of careful consideration and veterinary consultation when choosing topical treatments for dogs known to carry the MDR1 mutation.
 
 
 ## **Thank You!**
 
 I hope this exploration into the intricacies of the MDR1 mutation and its impact on toxin efflux by P-Glycoprotein has been as enlightening for you as it has been for me. Understanding these fundamentals is crucial for the well-being of our furry companions, especially when it comes to managing their health and treatment options effectively. I've thoroughly enjoyed sharing this knowledge with you, and as always, should there be any inaccuracies or areas for clarification, please don't hesitate to highlight them. Here's to the health and happiness of our pets!
 
-
+![Thank you words in flowery writing](https://t3.ftcdn.net/jpg/02/91/52/22/360_F_291522205_XkrmS421FjSGTMRdTrqFZPxDY19VxpmL.jpg){: width="50%"}
 
 
 Thanks, Peace and Love!<br>
