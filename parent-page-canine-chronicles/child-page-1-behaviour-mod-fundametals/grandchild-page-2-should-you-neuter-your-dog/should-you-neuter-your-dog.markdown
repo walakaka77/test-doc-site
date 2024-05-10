@@ -9,7 +9,7 @@ nav_order: 2
 index: 'yes'
 follow: 'yes'
 description: Neutering your dog is a personal choice. Read on to ensure you have full knowledge to make an informed decision before proceeding!
-image: ../../parent-page-canine-chronicles/child-page-1-behaviour-mod-fundametals/grandchild-page-1-positive-or-negative-reinforcement/image-reinforce-good-behaviour.png
+image: ../../parent-page-canine-chronicles/child-page-1-behaviour-mod-fundametals/grandchild-page-2-should-you-neuter-your-dog/image-should-you-neuter-your-dog-2.png
 ---
 
 <!-----
@@ -50,6 +50,8 @@ Conversion notes:
 
 Deciding whether to neuter your dog is a significant choice every pet owner faces. It's deeply personal, with various factors to consider and no one-size-fits-all answer. Our goal here is to provide you with comprehensive information, so you can make an informed decision that aligns with your pet's best interests.
 
+{: .note}
+This article is meant for knowledge sharing and educational purposes only. Please consult your vet and behaviourist before deciding to perform any surgical procedures on your furry companion!
 
 ## **What Is Neutering?**
 
