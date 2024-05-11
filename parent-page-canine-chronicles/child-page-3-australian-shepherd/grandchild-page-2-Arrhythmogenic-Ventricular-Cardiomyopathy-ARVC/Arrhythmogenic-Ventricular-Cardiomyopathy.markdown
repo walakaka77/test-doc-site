@@ -37,6 +37,17 @@ Conversion notes:
 
 # **Arrhythmogenic Ventricular Cardiomyopathy (ARVC) in Dogs**
 
+{: .no_toc }
+
+<details closed markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
+
 When we think of heart health, our minds often jump straight to humans, but did you know that man's best friend can suffer from heart conditions too? Today, we're dipping our toes into the world of Arrhythmogenic Ventricular Cardiomyopathy (ARVC) in dogs—a complex condition that requires a keen understanding for those who love and care for these animals.
 
 {: .note}
@@ -49,6 +60,9 @@ Interestingly, while not common in breeds like the Aussie Shepherd, ARVC is a co
 While ARVC might not ring alarm bells as often in breeds like the Aussie Shepherd, its presence is notably concerning and demands careful attention to distinguish it from other severe conditions such as Hemangiosarcoma (HSA) cancer.
 
 The challenge lies in the fact that ARVC and HSA both can trigger sudden collapsing episodes in dogs, a symptom that muddies the waters for pet owners trying to understand their pet's health issues. This overlap emphasises the importance of accurate diagnosis, as ARVC, while a non-curable heart disorder, can be managed with early detection and the right care approach to slow its progression and maintain a quality life for affected dogs.
+
+{: .note}
+Here, we emphasize again the importance of checking in with a veterinary professional if you suspect that your furry companion is suffering from a health condition, as veterinary professionals has undergone rigorous training that would allow for them to provide an accurate diagnosis and remove unnecessary guesswork when it comes to your pet's well being!
 
 
 ## **What is ARVC?**
