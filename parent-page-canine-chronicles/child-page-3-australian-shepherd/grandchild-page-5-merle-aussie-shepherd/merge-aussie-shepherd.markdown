@@ -37,6 +37,17 @@ Conversion notes:
 
 # **Understanding the Merle Gene in Australian Shepherds: A Comprehensive Guide**
 
+{: .no_toc }
+
+<details closed markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
+
 Australian Shepherds, with their boundless energy and striking good looks, have captured the hearts of dog lovers worldwide. Additionally, the breed is also growing in popularity in Singapore. Among their diverse coat patterns, the Merle Aussie holds a special place for its unique beauty. But beyond the pretty exterior, the Merle gene carries implications that every Australian Shepherd owner and breeder should be aware of.
 
 {: .note}
