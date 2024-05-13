@@ -9,7 +9,7 @@ nav_order: 3
 index: 'yes'
 follow: 'yes'
 description: This article specifies how we can effectively manage a long leash when handling our dogs.
-image: ../../parent-page-canine-chronicles/child-page-3-long-leash-handling/image-canine-chronical-long-leash-handling.png
+image: ../../parent-page-canine-chronicles/child-page-2-personal-canine-experience/grandchild-page-3-long-leash-handling/image-canine-chronical-long-leash-handling.png
 ---
 
 
