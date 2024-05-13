@@ -9,7 +9,7 @@ nav_order: 7
 index: 'yes'
 follow: 'yes'
 description: This article explains what I've been practicing to prevent my dog from jumping up onto people.
-image: ../../parent-page-canine-chronicles/child-page-7-how-to-stop-jump-up/image-canine-chronicle-stop-dog-jump-at-people.png
+image: ../../parent-page-canine-chronicles/child-page-2-personal-canine-experience/grandchild-page-7-how-to-stop-jump-up/image-canine-chronicle-stop-dog-jump-at-people.png
 ---
 
 
@@ -53,7 +53,7 @@ At this point, obviously the approach that I'm taking is not working well.
 
 Fortunately, [behaviour consultant (a.k.a. lovely wife)](https://petcoach.sg/about/#yourtrainers) noticed the inaccurate techniques being applied, and advised otherwise.
 
-![image of a flow chart showing why shouting "No!" is ineffective when you did not remove the high motivator - yourself](../../parent-page-canine-chronicles/child-page-7-how-to-stop-jump-up/image-of-incorrect-actions-to-combat-dog-jump-up.png)
+![image of a flow chart showing why shouting "No!" is ineffective when you did not remove the high motivator - yourself](../../parent-page-canine-chronicles/child-page-2-personal-canine-experience/grandchild-page-7-how-to-stop-jump-up/image-of-incorrect-actions-to-combat-dog-jump-up.png)
 
 ## Actions Taken (Correct)
 
@@ -68,7 +68,7 @@ Based on the advise given, my approach is inaccurate because of the following:
 A better approach would be negative punishment. This is done simply by abruptly stopping the play and leaving the game by walking away.
 Similar to when you piss off your friend when you're a kid, it's best if we act like the pissed off kid, and walk away, do not give any attention to the dog.
 
-![image of the corrected sequence of action, where we walk away and say no to prevent confusion to the dog](../../parent-page-canine-chronicles/child-page-7-how-to-stop-jump-up/image-of-correct-actions-to-combat-dog-jumpup.png)
+![image of the corrected sequence of action, where we walk away and say no to prevent confusion to the dog](../../parent-page-canine-chronicles/child-page-2-personal-canine-experience/grandchild-page-7-how-to-stop-jump-up/image-of-correct-actions-to-combat-dog-jumpup.png)
 
 Think you guys would be able to guess now, why the application of this technique is more precise and effective:
 - Yes, this approach is still aversive. We are removing a highly desirable factor from the dog's immediate presence
@@ -105,7 +105,7 @@ So now, I continue to engage in highly engaging play with my fellow Stormo. But 
 - Walk away
 - Stop the play
 
-![image of shafik and Storm looking tired after running around in an engaging play](../../parent-page-canine-chronicles/child-page-7-how-to-stop-jump-up/image-shafik-and-storm-tired-after-engaging-play.jpeg){:width="50%"}
+![image of shafik and Storm looking tired after running around in an engaging play](../../parent-page-canine-chronicles/child-page-2-personal-canine-experience/grandchild-page-7-how-to-stop-jump-up/image-shafik-and-storm-tired-after-engaging-play.jpeg){:width="50%"}
 
 _picture of me and Storm panting our hearts out after some aggressive shuttle runs with balls_
 
