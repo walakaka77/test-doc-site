@@ -9,7 +9,7 @@ nav_order: 4
 index: 'yes'
 follow: 'yes'
 description: This article explains the common mistakes by dog handlers that accidentally encourage leash pulling by our dogs! Read on to rectify the problem.
-image: ../../parent-page-canine-chronicles/child-page-4-leash-pulling-mistake/image-canine-chronicle-leash-pulling-mistakes.png
+image: ../../parent-page-canine-chronicles/child-page-2-personal-canine-experience/grandchild-page-4-leash-pulling-mistake/image-canine-chronicle-leash-pulling-mistakes.png
 ---
 
 
@@ -57,7 +57,7 @@ Qiai explained that the sequence went like this:
     - Stormy isn't clear on what we want.
     - Pulling gets him what he wants—us moving forward—so he keeps doing it.
 
-![Images showing the flow diagram of how we are actually reinforcing the leash pulling behaviour](../../parent-page-canine-chronicles/child-page-4-leash-pulling-mistake/leash-pulling-incorrect-sequence.drawio.png)
+![Images showing the flow diagram of how we are actually reinforcing the leash pulling behaviour](../../parent-page-canine-chronicles/child-page-2-personal-canine-experience/grandchild-page-4-leash-pulling-mistake/leash-pulling-incorrect-sequence.drawio.png)
 
 Looking at the diagram for the flows highlighted in `blue`, we realize we're rewarding behavior we don't want. It's surprising but true that slowing down and tightening the leash actually encourage Stormy to pull more.
 
@@ -72,7 +72,7 @@ Instead of merely slowing down, the correction involves coming to a complete sto
 
 So, the revised sequence looks like this:
 
-![Images showing the flow of accurately reinforcing the non-leash-pulling behaviour](../../parent-page-canine-chronicles/child-page-4-leash-pulling-mistake/leash-pulling-correc-sequence.drawio.png)
+![Images showing the flow of accurately reinforcing the non-leash-pulling behaviour](../../parent-page-canine-chronicles/child-page-2-personal-canine-experience/grandchild-page-4-leash-pulling-mistake/leash-pulling-correc-sequence.drawio.png)
 
 1. Stormy walks ahead too quickly.
 2. I stop completely and refrain from moving forward.
