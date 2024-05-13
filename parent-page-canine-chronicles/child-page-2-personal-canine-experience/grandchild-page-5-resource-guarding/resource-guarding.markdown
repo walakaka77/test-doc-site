@@ -9,7 +9,7 @@ nav_order: 5
 index: 'yes'
 follow: 'yes'
 description: This article explains how resource guarding develops as well as common pitfalls that actually aggravates resource guarding in dogs. Read on to prevent resource guarding!
-image: ../../parent-page-canine-chronicles/child-page-5-resource-guarding/image-canine-chronical-resource-guarding.png
+image: ../../parent-page-canine-chronicles/child-page-2-personal-canine-experience/grandchild-page-5-resource-guarding/image-canine-chronical-resource-guarding.png
 ---
 
 
@@ -30,7 +30,7 @@ Resource guarding manifests when a dog perceives a threat to items it deems valu
 
 The signs of resource guarding may include signals of varying intensity. It is important to catch these signs at the early stages and address it accordingly because the resource guarding behaviour becomes increasingly difficult to treat as it progresses through the next intensity. Some of the common resource guarding behaviour is as follows:
 
-![Image showing the different images of dog exhibiting diferrent levels of resource guarding body language](../../parent-page-canine-chronicles/child-page-5-resource-guarding/image-levels-of-resource-guarding-body-language.png)
+![Image showing the different images of dog exhibiting diferrent levels of resource guarding body language](../../parent-page-canine-chronicles/child-page-2-personal-canine-experience/grandchild-page-5-resource-guarding/image-levels-of-resource-guarding-body-language.png)
 
 1. **First Level**: Head tilt down, indicating unhappiness.
 2. **Second Level**: Body stiffening, suggesting increased tension.
@@ -46,9 +46,9 @@ If you take a look at the flow diagram below -- you'll notice that from the lay-
 - Retreat from offending the resource, and dog is reinforced to repeat the same behaviour
 - Do not retreat, and the dog is likely to escalate the behaviour because it feels threatened.
 
-![image of the resource guarding behaviour flow -- where resource offender retreating or not retreating results in a negative outcome](../../parent-page-canine-chronicles/child-page-5-resource-guarding/image-resource-guarding-checkmate-flow-redbox-focus.png)
+![image of the resource guarding behaviour flow -- where resource offender retreating or not retreating results in a negative outcome](../../parent-page-canine-chronicles/child-page-2-personal-canine-experience/grandchild-page-5-resource-guarding/image-resource-guarding-checkmate-flow-redbox-focus.png)
 
-And it doesn't help that resource guarding behaviour is so effective at achieveing the dog's target goal. I mean, if a dog growls at me -- I'm gonna move away for sure lol. And this reinforce the resource guarding behaviour. Crazy Right!? So how to break this chain?
+And it doesn't help that resource guarding behaviour is so effective at achieveing the dog's target goal. I mean, if a dog growls at me -- I'm gonna move away for surez lol. And this reinforce the resource guarding behaviour. Crazy Right!? So how to break this chain?
 
 ## How to Stop Resource Guarding:
 
@@ -65,7 +65,7 @@ In the next few sections, we'll walk you through our personal experience with St
 The flow in `blue` is the ideal sequence of events we want to trigger to achieve this. The crucial part for us dog handlers and owners to maximize the chances of this flow -- is indicated by the red box in the diagram below:
 
 
-![Image showing the flow to address resource guarding with a red box highlighting the desired flow we are trying to achieve](../../parent-page-canine-chronicles/child-page-5-resource-guarding/images-reource-guarding-good-flow-with-redbox-focus.png)
+![Image showing the flow to address resource guarding with a red box highlighting the desired flow we are trying to achieve](../../parent-page-canine-chronicles/child-page-2-personal-canine-experience/grandchild-page-5-resource-guarding/images-reource-guarding-good-flow-with-redbox-focus.png)
 
 When in the situation in the above flow, you can perform these activities to maximize the chances of ensuring the behaviour sequence goes through the desired flow.
 
@@ -118,7 +118,7 @@ To redirect Stormy's attention away from the chicken bones, we employ the follow
 - **Offer Alternative:** Provide Stormy with a high-value treat as an alternative distraction.
 - **Verbal Cue:** Use commands like "Leave It!" or "Drop It!" to reinforce the desired behavior if he has already picked up the bone.
 
-![Image showing the flow to address resource guarding with a red box highlighting the desired flow we are trying to achieve](../../parent-page-canine-chronicles/child-page-5-resource-guarding/images-reource-guarding-good-flow-with-redbox-focus.png)
+![Image showing the flow to address resource guarding with a red box highlighting the desired flow we are trying to achieve](../../parent-page-canine-chronicles/child-page-2-personal-canine-experience/grandchild-page-5-resource-guarding/images-reource-guarding-good-flow-with-redbox-focus.png)
 
 ### Management Intensity:
 
