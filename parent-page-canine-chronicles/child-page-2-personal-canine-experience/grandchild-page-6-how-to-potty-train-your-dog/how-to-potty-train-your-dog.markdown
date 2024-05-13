@@ -106,7 +106,7 @@ Potty training, is alot of hardwork and will require consistent management throu
 - **Action:** Gradually remove pee pads from areas where your dog doesn't eliminate while simultaneously expanding the confinement area.
   - **Details:** As your dog demonstrates consistent elimination in the designated spot, initiate the gradual removal of pee pads from unused areas. Simultaneously, expand the confinement area to provide your dog with more space while maintaining supervision to prevent accidents. This step reinforces proper potty behavior and promotes increased confidence and independence in your dog's bathroom habits.
 
-![image showing the before and after for confinement area and pee pad coverage](../../parent-page-canine-chronicles/child-page-6-how-to-potty-train/image-before-and-to-be-photos-of-confienmnent-are-and-peepad-coverage.png)
+![image showing the before and after for confinement area and pee pad coverage](../../parent-page-canine-chronicles/child-page-2-personal-canine-experience/grandchild-page-6-how-to-potty-train-your-dog/image-before-and-to-be-photos-of-confienmnent-are-and-peepad-coverage.png)
 
 ### Consistency and Patience
 
