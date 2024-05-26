@@ -8,7 +8,7 @@ nav_order: 1
 index: 'yes'
 follow: 'yes'
 description: Ever had a need to index pages that are not yours? Here's a legal hack on how to do it!
-image: ../../parent-page-tech-adventures/child-page-1-jekyll-blog/grandchild-page-1-steps-to-host-your-jekyll-site/image-jekyll-blog-host-your-site.png
+image: ../../parent-page-tech-adventures/child-page-4-search-engine-optimization/grandchild-page-1-indexing-pages-that-are-not-yours/image-indexing-pages-that-do-not-belong-to-you.png
 ---
 
 <!-----
@@ -137,9 +137,14 @@ Once our page is live, we’ll request Google to index it. This will ensure Goog
 
 1. Log into Google Search Console.
 2. Inspect the URL of the page to be indexed.
+![inspecting the current blog's URL in our google search console](../../parent-page-tech-adventures/child-page-4-search-engine-optimization/grandchild-page-1-indexing-pages-that-are-not-yours/image-of-inspecting-blog-url.png)
 3. Run live testing by clicking the 'Test Live URL' button.
+![Hitting the live test URL button in Google Search Console](../../parent-page-tech-adventures/child-page-4-search-engine-optimization/grandchild-page-1-indexing-pages-that-are-not-yours/image-hit-the-live-test-url-button.png)
 4. If Google indicates the page can be indexed, click 'Request Indexing'.
+![Google says page is indexable, so we request indexing](../../parent-page-tech-adventures/child-page-4-search-engine-optimization/grandchild-page-1-indexing-pages-that-are-not-yours/image-google-says-can-index-hit-request-indexing.png)
 
+{: .note}
+Why can't we use the Google Search console to index the _2findlocal_ and _sgenroll_ directory pages? Because we don't own those pages, and we don't have access to a Google Search Console that has verified access to those pages!
 
 ### **Potential Issues**
 
@@ -148,30 +153,23 @@ If the page cannot be indexed:
 
 
 1. Check the `robots.txt` file to ensure it’s not blocking Google bots.
-2. Check the meta tags in the HTML to confirm there isn't a `noindex` directive.
-
-
-### **Ensure that the Directory Page Be Indexed**
-
-We have checked the directory pages and found:
-
-
-
-* **No Blockages in robots.txt**: There are no `robots.txt` tags blocking Google bots. 
 ![robots meta tag does not block google bot](../../parent-page-tech-adventures/child-page-4-search-engine-optimization/grandchild-page-1-indexing-pages-that-are-not-yours/image-robotstxt-does-not-block-googlebot.png)
-* **No `noindex` Meta Tags**: The pages do not have `noindex` robots meta tags. 
+2. Check the meta tags in the HTML to confirm there isn't a `noindex` directive.
 ![robots meta tags does not specify `noindex`](../../parent-page-tech-adventures/child-page-4-search-engine-optimization/grandchild-page-1-indexing-pages-that-are-not-yours/image-robots-meta-doesnt-say-noindex.png)
+
 
 This means, theoretically, the directory pages should be indexable. We will review the pages again after several days and update this post with the results.
 
 
-### **Revisiting the Pages**
+### **Next Steps: Revisiting the Pages**
 
 
 
 * **If successful**: Our approach works, and the pages get indexed.
 * **If not**: We may need to explore alternative methods.
 
+We are ourselves interested in this experiment, and will provide an update to this page once the experiment is complete!
+So stay tuned ^^!
 
 ## **Understanding No Follow Links**
 
@@ -183,7 +181,8 @@ A `nofollow` attribute is added to a hyperlink to tell search engines not to pas
 
 ### **How to Check for No Follow Links**
 
-You can inspect links using developer tools in browsers to see if the `rel="nofollow"` attribute is present.
+You can inspect links using developer tools in browsers to see if the `rel="nofollow"` attribute is present. See screenshot below of our Pet Coach SG listing in the _2findlocal` directory for reference:
+![PetCoach SG link in 2findlocal directory as no follow](../../parent-page-tech-adventures/child-page-4-search-engine-optimization/grandchild-page-1-indexing-pages-that-are-not-yours/image-no-follow-petcoachsg-link-2findlocal.png)
 
 
 ### **Impact of No Follow Links**
@@ -191,6 +190,14 @@ You can inspect links using developer tools in browsers to see if the `rel="nofo
 While Google does follow `nofollow` links, it doesn't give them as much weight as `follow` links. However, Google still follows the link, and the pages should still be indexed. See the detailed testing done by Backlinko in this article:[ Backlinko on No Follow Links](https://backlinko.com/nofollow-link#)
 
 This means that even if a link is marked with `nofollow`, it can still contribute to your overall indexing efforts.
+
+### **Why is it Legal to Index a Page that you don't control?**
+
+We are only able to indirectly have Google crawl the page because the site owner did not explicitly prevent the page from indexing. The fact that the page is not indexed is probably more of an oversight rather than an explicit requirement not to index the page.
+
+If you'd recall, we needed to check whether the directory site owner has explicitly specified that google cannot index the page. See [this section](#potential-issues) for reference.
+
+If the site owner has explicitly specified a `robots.txt` or a `robots` meta tag that prevents Google from indexing the page, Google will respect the directive.
 
 
 ## **Conclusion**
