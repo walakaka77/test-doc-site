@@ -163,7 +163,7 @@ This means, theoretically, the directory pages should be indexable. We will revi
 
 ### **Next Steps: Revisiting the Pages**
 
-
+This is an experiment for us, as much as it is for you!
 
 * **If successful**: Our approach works, and the pages get indexed.
 * **If not**: We may need to explore alternative methods.
@@ -171,7 +171,7 @@ This means, theoretically, the directory pages should be indexable. We will revi
 We are ourselves interested in this experiment, and will provide an update to this page once the experiment is complete!
 So stay tuned ^^!
 
-## **Understanding No Follow Links**
+## **Frequently Asked Questions**
 
 
 ### **What is a No Follow Link?**
