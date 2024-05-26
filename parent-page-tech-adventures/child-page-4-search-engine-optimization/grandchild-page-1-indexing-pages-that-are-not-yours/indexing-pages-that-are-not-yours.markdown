@@ -187,7 +187,7 @@ You can inspect links using developer tools in browsers to see if the `rel="nofo
 
 ### **Impact of No Follow Links**
 
-While Google does follow `nofollow` links, it doesn't give them as much weight as `follow` links. However, Google still follows the link, and the pages should still be indexed. See the detailed testing done by Backlinko in this article:[ Backlinko on No Follow Links](https://backlinko.com/nofollow-link#)
+While Google does follow `nofollow` links, it doesn't give them as much weight as `follow` links. However, Google still follows the link, and the pages should still be indexed. See the detailed testing done by Backlinko in this article:[ Backlinko on No Follow Links](https://backlinko.com/nofollow-link#do-nofollow-links-help-with-seo)
 
 This means that even if a link is marked with `nofollow`, it can still contribute to your overall indexing efforts.
 
