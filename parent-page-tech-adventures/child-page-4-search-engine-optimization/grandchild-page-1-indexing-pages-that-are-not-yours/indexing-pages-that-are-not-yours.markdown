@@ -36,6 +36,17 @@ Conversion notes:
 
 # **Indexing Pages that Aren't Yours!**
 
+{: .no_toc }
+
+<details closed markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
+
 Ever had a need to index pages that are not yours? Here's a legal hack on how to do it! In this blog post, we take a deep dive into the intricacies of getting third-party web pages indexed by Google, which can be quite a challenge if it's not your own site. This guide is particularly valuable for SEO enthusiasts, website owners, and digital marketers who aim to maximise their online presence.
 
 {: .note}
@@ -53,10 +64,10 @@ Before we delve into the "how," let’s start with the "why." When a page is not
 
 ## **Identifying the Problem: Non-Indexed Directory Pages**
 
+We have our website listed in a couple of directories for Local SEO purposes (but as seen in the next few sections, the directory pages are not indexed):
+
 {: .note}
 The below links are actually pointing to the actual directory listing itself. In doing so, we hope that crawls our links and indexes that page in the future!
-
-We have our website listed in a couple of directories for Local SEO purposes:
 
 - [Globeia listing](https://sg.enrollbusiness.com/BusinessProfile/5458475/Globeia)
 ![sg enroll directory](../../parent-page-tech-adventures/child-page-4-search-engine-optimization/grandchild-page-1-indexing-pages-that-are-not-yours/image-srenroll-directory.png)
@@ -65,32 +76,49 @@ We have our website listed in a couple of directories for Local SEO purposes:
 - [2FindLocal listing](https://www.2findlocal.com/b/15096552/pet-coach-sg-singapore)
 ![2find local listing](../../parent-page-tech-adventures/child-page-4-search-engine-optimization/grandchild-page-1-indexing-pages-that-are-not-yours/image-2findlocal-listing.png)
 
-## **How to check if pages are indexed**
+## **Verify whether directory pages are indexed**
+
+### **How to check if pages are indexed**
 
 In google search console, we can easily check for whether a page is indexed by searching for `site:<full website url>`. Try it yourself!
 
 ![Google Site Search for petcoach.sg shows list of indexed pages by google](../../parent-page-tech-adventures/child-page-4-search-engine-optimization/grandchild-page-1-indexing-pages-that-are-not-yours/image-google-site-search-show-petcoach-indexed-pages.png)
 
-## **Results for directory listing page indexing status**
+For us, we are interested in the following links:
+- `https://sg.enrollbusiness.com/BusinessProfile/6559523/Pet-Coach-SG-079903`
+- `https://www.2findlocal.com/b/15096552/pet-coach-sg-singapore`
 
-Unfortunately, these pages are not indexed by Google. Here are some screenshots indicating their current status:
+Details of the search query is described in subsequent sections.
+
+### **Results for directory listing page indexing status**
+
+Unfortunately, these pages are not indexed by Google. Here are some screenshots indicating their current status. See the search queries below for details.
 
 ### **Screenshot 1: sg.enrollbusiness.com Not Indexed**
+
+1. Access google search and search for `site: sg.enrollbusiness.com/BusinessProfile/6559523/Pet-Coach-SG-079903`. 
+2. You will see that there are not results found.
 
 ![site search on google does not find any indexed petcoach listing for sgenroll](../../parent-page-tech-adventures/child-page-4-search-engine-optimization/grandchild-page-1-indexing-pages-that-are-not-yours/image-site-search-no-petcoachliting-sgenroll.png)
 
 
 ### **Screenshot 2: 2findlocal.com Not Indexed**
 
+1. Access google search and search for `site: www.2findlocal.com/b/15096552/pet-coach-sg-singapore`. 
+2. You will see that there are not results found.
+
 ![site search on google does not find any indexed petcoach listing for 2find local](../../parent-page-tech-adventures/child-page-4-search-engine-optimization/grandchild-page-1-indexing-pages-that-are-not-yours/image-2find-local-page-listing-petcoach.png)
 
 
-## **Missing Backlinks**
+### **Missing Backlinks**
 
 When these pages are not indexed, Google fails to register the backlinks and citations. Here’s a screenshot from our Google Search Console showing the absence of these backlinks:
 
 ![no backlinks in GSC from sgenroll and 2find local pointing to pet coach](../../parent-page-tech-adventures/child-page-4-search-engine-optimization/grandchild-page-1-indexing-pages-that-are-not-yours/image-gsc-no-backlinks-fromsgenroll-2findlocal.png)
 
+We can see that there are no backlinks recognized by Google Search Console (GSC), from either *2findlocal* or *sgenroll*. 
+
+Now, we need a way to get these directory pages indexed so that Google recognizes the backlinks and citations.
 
 ## **The Plan to Get Pages Indexed**
 
@@ -123,7 +151,7 @@ If the page cannot be indexed:
 2. Check the meta tags in the HTML to confirm there isn't a `noindex` directive.
 
 
-## **Can the Directory Page Be Indexed?**
+### **Ensure that the Directory Page Be Indexed**
 
 We have checked the directory pages and found:
 
