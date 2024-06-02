@@ -248,27 +248,10 @@ Checking Pet Coach SG logs, we can see that the webhook callback was indeed rece
 
 Instead of Pet Coach, we would normally configure the e-commerce server to expose an endpoint. When receiving the callback, we will update the details of the payment to success!
 
-### **Using the Adyen UI Components**
+## Using Adyen UI Components
 
-Adyen provides a set of UI components that are completely open-sourced and customisable using CSS styles. The flow remains the same:
-
-
-
-1. **Create Checkout Session**: In step #2 (of the online payment flow), the e-commerce site creates the checkout session.
-* Here’s the checkout session created in the application.
-* Here’s the session created in Adyen logs (session data returned).
-* The second call from the browser passes the session data, which returns a second set of session data containing payment methods.
-1. **Create UI Components**: In step #3 (of the online payment flow), the e-commerce site uses the session data to create UI components based on scripts provided by Adyen.
-* Here’s the UI component created in our test app.
-* The second set of session data seems to be the unique identifier used to identify the transaction.
-1. **Submit Payment Details**: In step #4, the shopper enters their credentials and submits the payment details.
-* Here’s a screenshot of the session data in the second checkout session call being passed back to Adyen.
-* Compare the session data against Adyen logs – it's the same. This ensures the data integrity and smooth progression of the payment process.
-* Here’s the success confirmation page shown in our app.
-1. **Webhook Confirmation**: In step #5, a callback is received again.
-* Here’s the callback in Adyen logs.
-* Here’s the callback in our application logs.
-
+{: .note}
+We will subsequently update this article to also take into account the Adyen UI components approach. Notice that booking.com UI look fresh and different to the hosted page -- it's likely that they used the `adyen UI component` flows rather than using the Adyen hosted checkout page!
 
 ## **Conclusion**
 
