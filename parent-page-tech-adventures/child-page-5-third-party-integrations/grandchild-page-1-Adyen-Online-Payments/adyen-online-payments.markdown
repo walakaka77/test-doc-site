@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Indexing Pages that aren't yours!
-permalink: /tech-adventures/search-engine-optimization/indexing-pages-that-arent-yours
-parent: Search Engine Optimization
+title: Adyen Online Payments
+permalink: /tech-adventures/third-party-integrations/adyen-online-payments
+parent: Third Party Integrations
 grand_parent: Tech Adventures
 nav_order: 1
 index: 'yes'
 follow: 'yes'
-description: Ever had a need to index pages that are not yours? Here's a legal hack on how to do it!
+description: Every performed a card payment online. This article takes you behind the scenes of the implementation with Adyen
 image: ../../parent-page-tech-adventures/child-page-4-search-engine-optimization/grandchild-page-1-indexing-pages-that-are-not-yours/image-indexing-pages-that-do-not-belong-to-you.png
 ---
 
