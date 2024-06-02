@@ -8,7 +8,7 @@ nav_order: 1
 index: 'yes'
 follow: 'yes'
 description: Every performed a card payment online. This article takes you behind the scenes of the implementation with Adyen
-image: ../../parent-page-tech-adventures/child-page-4-search-engine-optimization/grandchild-page-1-indexing-pages-that-are-not-yours/image-indexing-pages-that-do-not-belong-to-you.png
+image: ../../parent-page-tech-adventures/child-page-5-third-party-integrations/grandchild-page-1-Adyen-Online-Payments/adyen-online-payments.png
 ---
 
 <!-----
@@ -193,7 +193,7 @@ Ignore the broken page. This is because the return URL was stated as `https://yo
 
 Next step, we need to ensure that the payment is successful. Since the page is hosted by Adyen, how would the ecommerce site know when the transaction is successful (besides the redirect URL).
 
-### Step 5: Webhook Confirmation**
+### Step 5: Webhook Confirmation
 This is where Adyen webhook comes into play! In general, my understanding is that we don't really trust client site redirect because it has a higher surface area for malicious attacks. Adyen webhook/callback will be the true source the e-commerce site will use to decide whether the transaction is successful or not.
 
 When a payment is successul, Adyen would actually send a call to an endpoint that is configured by the e-commerce site. For us, we configured the `petcoach.sg` site as the webhook endpoint because:
