@@ -87,6 +87,7 @@ Check out the screenshot of the button click leading to the checkout page below
 Booking.com initiates a checkout session with Adyen and generates the checkout UI, showcasing various payment options. This corresponds to step #2 in our payments flow. This process occurs behind the scenes, so there’s nothing visible in the browser. For more details:
 
 - See our sandbox test for [Creating a Payment Session for Adyen Hosted Checkout UI page](#step-2-create-checkout-session). 
+- See our sandbox test for [Payment Sessions using Adyen UI Components Flow](#step-2-create-checkout-session-1)
 
 ### Step #3: Payment Options Displayed
 
@@ -96,6 +97,7 @@ The user is shown a page to enter their credit card details, corresponding to st
 
 For more details:
 - See our sandbox test for [Redirecting users to Adyen's Hosted Checkout UI page](#step-3-redirect-to-hosted-page)
+- See our sandbox test for [Adyen UI Component Checkout Page](#step-3-create-and-display-checkout-ui)
 
 ### Step #4: Shopper Performs Payment
 
@@ -105,6 +107,7 @@ The user enters their payment details and hits "Submit." They are then shown a s
 
 For more details:
 - See our sandbox test for [Completing and submitting payments in the Adyen's Hosted Checkout UI](#step-4-enter-payment-details)
+- See our Sandbox test for [Submitting payments using Adyen UI Components Flow](#step-4-shopper-enters-credentials-and-submit-details)
 
 ### Step #5: Adyen Processes Payment
 
@@ -112,6 +115,7 @@ Behind the scenes, Adyen communicates the successful payment to Booking.com via 
 
 For more details:
 - See our sandbox test for [Webhook callback after successful payment in the Adyen's Hosted Checkout UI](#step-5-webhook-confirmation)
+- See our sandbox test for [Webhook callback, for Adyen UI component Flow](#step-5-webhook-confirmation-1)
 
 ## **Going Deeper into the Implementation**
 
@@ -131,7 +135,7 @@ Their [Getting Started](https://docs.adyen.com/get-started-with-adyen/) document
 If you have addressed all the above, let's proceed to the next section to familiarize with their APIs.
 
 
-### **The Hosted Checkout Page Approach**
+## **The Hosted Checkout Page Approach**
 
 In this approach, the checkout page is hosted by Adyen. Let's revisit the payment flow, but specific to the hosted checkout page implementation:
 
@@ -248,26 +252,84 @@ Checking Pet Coach SG logs, we can see that the webhook callback was indeed rece
 
 Instead of Pet Coach, we would normally configure the e-commerce server to expose an endpoint. When receiving the callback, we will update the details of the payment to success!
 
-### **Using the Adyen UI Components**
+## **Using the Adyen UI Components**
 
-Adyen provides a set of UI components that are completely open-sourced and customisable using CSS styles. The flow remains the same:
+The previous sections describes using the hosted checkout page. It's called `Hosted Checkout` because Adyen hosts the page. What if we want more control in terms of the user flow and UI components? Adyen provides a set of UI components that are completely open-sourced and customisable using CSS styles. Let's revisit the payment flow, this time using the [Ayden's Drop-in UI Component](https://docs.adyen.com/online-payments/build-your-integration/sessions-flow/?platform=Web&integration=Drop-in&version=5.64.0) flow!
+
+![Alt Text](../../parent-page-tech-adventures/child-page-5-third-party-integrations/grandchild-page-1-Adyen-Online-Payments/Adyen-Online-Payments-Flow-Drop-In-UI-Two.drawio.png)
 
 
+The flow from the user perspective remains the same. But the implementation behind the scenes differs significantly. Let's check it out!
 
-1. **Create Checkout Session**: In step #2 (of the online payment flow), the e-commerce site creates the checkout session.
-* Here’s the checkout session created in the application.
-* Here’s the session created in Adyen logs (session data returned).
-* The second call from the browser passes the session data, which returns a second set of session data containing payment methods.
-1. **Create UI Components**: In step #3 (of the online payment flow), the e-commerce site uses the session data to create UI components based on scripts provided by Adyen.
-* Here’s the UI component created in our test app.
-* The second set of session data seems to be the unique identifier used to identify the transaction.
-1. **Submit Payment Details**: In step #4, the shopper enters their credentials and submits the payment details.
-* Here’s a screenshot of the session data in the second checkout session call being passed back to Adyen.
-* Compare the session data against Adyen logs – it's the same. This ensures the data integrity and smooth progression of the payment process.
-* Here’s the success confirmation page shown in our app.
-1. **Webhook Confirmation**: In step #5, a callback is received again.
-* Here’s the callback in Adyen logs.
-* Here’s the callback in our application logs.
+### Adyen's Sandbox Environment
+To fiddle around with the flow using Adyen's UI components, we had to locally run the [Adyen Web UI project](https://github.com/Adyen/adyen-web). The project is run using NodeJS technology, and has been designed to be very user friend - yes, if a project manager can run the project, we can safely say it's well documented and user friendly ><!
+
+The steps are as follows:
+1. Just clone the project
+2. Install all the dependencies as per the `ReadMe` documentation - it's well documented
+3. Create a `.env` file and start the project
+![running adyen web locally](../../parent-page-tech-adventures/child-page-5-third-party-integrations/grandchild-page-1-Adyen-Online-Payments/image-running-adyen-web-local.png)
+4. Access the website on your `locahost` at the port configured in your `.env`. For us it's port: 3020!
+![Adyen Web UI locally hosted, accessed successfully in browser](../../parent-page-tech-adventures/child-page-5-third-party-integrations/grandchild-page-1-Adyen-Online-Payments/image-localhost-adyen-web-ui-loaded.png)
+
+Now that we have Adyen Web UI hosted locally, let's proceed to run some tests and see what goes on behind the scenes!
+
+### Step #2: Create Checkout Session
+
+The Adyen Web UI Sandbox, initiates a checkout session when we first load the page based on the configuration in the test project
+1. When hitting `localhost:3020/`, the drop-in.js script is downloaded and then executed by the browser
+![Hitting the root page and downloading the script](../../parent-page-tech-adventures/child-page-5-third-party-integrations/grandchild-page-1-Adyen-Online-Payments/image-adyen-web-checkout-1.png)
+  - Inspecting the code further, we can see that the dropin.js initializes the `initSession` 
+  ![alt text](../../parent-page-tech-adventures/child-page-5-third-party-integrations/grandchild-page-1-Adyen-Online-Payments/image.png)
+  - The Init Session creates a session, which initiates a call to `/session`
+  ![alt text](../../parent-page-tech-adventures/child-page-5-third-party-integrations/grandchild-page-1-Adyen-Online-Payments/image-1.png)
+2. The script initiates a call to `/session` and passes the payload configured in the Adyen Web Sandbox Project. We can see that the **reference**, **shopper email** etc., are as per defined in the test project
+![The script calls the /session](../../parent-page-tech-adventures/child-page-5-third-party-integrations/grandchild-page-1-Adyen-Online-Payments/image-adyen-web-checkout-2.png)
+3. Where does this go? Let's inspect the Sandbox Adyen Web UI project to find out more! We can confirm that our Adyen Web UI project listens on `/sessions`:
+![Adyen Web UI project is listening on /sessions](../../parent-page-tech-adventures/child-page-5-third-party-integrations/grandchild-page-1-Adyen-Online-Payments/image-adyen-web-checkout-3.png)
+4. Checking the config, we can see that the payload is being posted by the server to Adyen test checkout URL: <br>
+_Note: We can't see this in the browser because this request is being sent by our nodejs server_
+![alt text](../../parent-page-tech-adventures/child-page-5-third-party-integrations/grandchild-page-1-Adyen-Online-Payments/image-2.png)
+5. To confirm that indeed the payload reached Adyen Test Server, we can check our Adyen Test Account Logs:
+  - Request received by Adyen in the logs:
+  ![alt text](../../parent-page-tech-adventures/child-page-5-third-party-integrations/grandchild-page-1-Adyen-Online-Payments/image-3.png)
+  - Exact same request forward in the site to `/sessions`
+  ![alt text](../../parent-page-tech-adventures/child-page-5-third-party-integrations/grandchild-page-1-Adyen-Online-Payments/image-4.png)
+  - Response from Adyen in Adyen logs:
+  ![alt text](../../parent-page-tech-adventures/child-page-5-third-party-integrations/grandchild-page-1-Adyen-Online-Payments/image-5.png)
+  - Response received in our browser:
+  ![alt text](../../parent-page-tech-adventures/child-page-5-third-party-integrations/grandchild-page-1-Adyen-Online-Payments/image-6.png)
+6. Next, we also see another call made to adyen's checkoutshopper-test server
+  - See request sent, containing the payload received in Step #5
+  ![alt text](../../parent-page-tech-adventures/child-page-5-third-party-integrations/grandchild-page-1-Adyen-Online-Payments/image-7.png)
+  - See response received, another set of `session data` received from Adyen alongside payment mode available
+  ![alt text](../../parent-page-tech-adventures/child-page-5-third-party-integrations/grandchild-page-1-Adyen-Online-Payments/image-8.png)
+  My guess is that this session data and payment modes is used by the Adyen Web UI to infer what can be displayed in the checkout page
+
+### Step #3: Create and Display Checkout UI 
+
+Here, my guess is that we use the payment modes and session data returned in the second call to `https://checkoutshopper-test.adyen.com/checkoutshopper/v1/sessions/CSB1CB6E9BCD71E02E/setup?clientKey=test_PGE4SXBN4BFGRFUPJDOZTXV2EY6OY42O` to setup the checkout UI.
+
+{: .note}
+This is just my guess based on [Adyen's How it Works documentation](https://docs.adyen.com/online-payments/build-your-integration/sessions-flow/?platform=Web&integration=Drop-in&version=5.64.0#how-it-works), because I didn't have the time to go and follow the implementation in Adyen Web UI - it would have taken too long for me ><
+
+### Step #4: Shopper Enters Credentials and Submit Details
+Here, we step down what happens when the Shopper enters their credit card details and submit:
+1. Enters credit card details based on [Adyen Test Cards](https://docs.adyen.com/development-resources/testing/test-card-numbers/)
+  - See screenshot of entering adyen test cards details and subsequently hitting submit
+  ![alt text](../../parent-page-tech-adventures/child-page-5-third-party-integrations/grandchild-page-1-Adyen-Online-Payments/image-adyen-test-cards.png)
+  - When can see that the details are posted includes the **session data** from the second call to adyen 
+  ![alt text](../../parent-page-tech-adventures/child-page-5-third-party-integrations/grandchild-page-1-Adyen-Online-Payments/image-9.png)
+2. Afterwhich a success message is showned
+![alt text](../../parent-page-tech-adventures/child-page-5-third-party-integrations/grandchild-page-1-Adyen-Online-Payments/image-10.png)
+
+
+### Step 5: Webhook Confirmation
+Similar to the hosted checkout flow, we always trust the server-to-server call (as far as I'm aware). This comes in the form of a webhook
+1. See Adyen's logs for webhooks that is initiated for the successful payment:
+![alt text](../../parent-page-tech-adventures/child-page-5-third-party-integrations/grandchild-page-1-Adyen-Online-Payments/image-11.png)
+2. Checking the Pet Coach SG logs, we can also see that the callback has reached our site:
+![alt text](../../parent-page-tech-adventures/child-page-5-third-party-integrations/grandchild-page-1-Adyen-Online-Payments/image-12.png)
 
 
 ## **Conclusion**
