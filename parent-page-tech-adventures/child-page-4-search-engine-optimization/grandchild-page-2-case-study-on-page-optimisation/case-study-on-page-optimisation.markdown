@@ -8,7 +8,7 @@ nav_order: 2
 index: 'yes'
 follow: 'yes'
 description: Check out a step-by-step process and result that we personally achieved when optimising the Separation Anxiety Training Guide page
-image: ../../parent-page-tech-adventures/child-page-4-search-engine-optimization/grandchild-page-1-indexing-pages-that-are-not-yours/image-indexing-pages-that-do-not-belong-to-you.png
+image: ../../parent-page-tech-adventures/child-page-4-search-engine-optimization/grandchild-page-2-case-study-on-page-optimisation/Walakaka SEO-2.png
 ---
 
 
