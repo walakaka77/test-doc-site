@@ -19,7 +19,6 @@ For those of you who know me you'd know I've been off social media and people st
 ## Background
 Having been in the professional world for 5 years, there has been an intense focus of `trying to make it`. Most of my hours are spent on delivering software within tight timelines, as well as garnering skillsets that would allow for you to optimize the software development lifecycle. The end goal is a successful deliver of high quality software, which will please the stakeholders.
 
-![Image representing rats racing on a track, as a reference to the rat race phrase](https://finandme.com/wp-content/uploads/2021/04/hamster-2.png){:width="50%"}
 
 But as the saying goes, change is the only constant. For me I've recently shifted into a new home, and got introduced to a new furry companion.
 
