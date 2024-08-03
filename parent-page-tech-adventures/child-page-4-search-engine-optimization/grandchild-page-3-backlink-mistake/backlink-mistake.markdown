@@ -87,7 +87,7 @@ The freelancer will then present a list of potential sites where your backlink c
 
 Once you’ve approved the list of sites, you’ll proceed with confirming the transaction. The freelancer will coordinate with site admins to insert your link or publish a guest post. After completion, you’ll receive a notification to verify that the backlink is correctly placed.
 
-For our example, we pre-approved a site called `dogsvets.com**`**. It’s important to note that while we did not work directly with `dogsvets.com`, this site was part of the list of potential sites provided by the freelancer.
+For our example, we pre-approved a site called `dogsvets.com**`. It’s important to note that while we did not work directly with `dogsvets.com`, this site was part of the list of potential sites provided by the freelancer.
 
 
 ## **3. Evaluating the Quality of the Site**
@@ -97,11 +97,20 @@ Before confirming the transaction, it’s essential to evaluate the site’s qua
 
 
 * **Site’s Organic Traffic**: The site should have meaningful organic traffic. `Dogsvets.com`, unfortunately, had minimal traffic, which should have been a red flag.
+![dogsvets organic traffic profile](../../parent-page-tech-adventures/child-page-4-search-engine-optimization/grandchild-page-3-backlink-mistake/image-dogsvets-low-traffic-value.png)
 * **Keyword Ranking**: Check if the site ranks for competitive keywords. A site that’s not ranking well or has low traffic cost might not offer much value.
+![dogsvets keyword rank position](../../parent-page-tech-adventures/child-page-4-search-engine-optimization/grandchild-page-3-backlink-mistake/image-dovgsvets-keyword-position.png)
 * **Key Pages**: Look for detailed pages like “About Us” or author bios. `Dogsvets.com` lacked relevant author information and was vague about its purpose.
+![dogsvets author page](../../parent-page-tech-adventures/child-page-4-search-engine-optimization/grandchild-page-3-backlink-mistake/image-vague-about-us.png)
 * **Content Quality**: Assess the content quality. On `dogsvets.com`, the content was poorly written, with random link insertions and some links still in square brackets, indicating a lack of professionalism.
+![dogsvets clear guest post sales and broken links](../../parent-page-tech-adventures/child-page-4-search-engine-optimization/grandchild-page-3-backlink-mistake/image-dogsvets-guestpostsales-brokenlink.png)
 * **Design and Usability**: Evaluate the site’s design and user experience. `Dogsvets.com` had an unattractive design and was cluttered with ads, which affected user experience negatively.
+![dogsvets poor quality content](../../parent-page-tech-adventures/child-page-4-search-engine-optimization/grandchild-page-3-backlink-mistake/image-dogsvets-low-content-quality.png)
 
+{: .warning}
+>All the above are red flags which we did not catch. Rookie mistake - but better late than never. Please note the above, and ensure you guys avoid the same mistake.
+>
+>For more details, checkout our [6-Step Link Building Checklist](/tech-adventures/search-engine-optimization/backlink-checklist) to ensure you only get high-quality backlinks.
 
 ## **4. Analyzing Traffic and Bot Issues**
 
@@ -110,11 +119,24 @@ After placing the backlink, we observed unusual traffic patterns from dogsvets.c
 
 
 * **Link Analysis**: The backlink was placed on [this page](https://dogsvets.com/separation-anxiety-in-french-bulldogs/), which only linked back to our [separation anxiety guide](https://petcoach.sg/dog-separation-anxiety-training-guide/). 
+![dogsvets backlink to Pet Coach SG](../../parent-page-tech-adventures/child-page-4-search-engine-optimization/grandchild-page-3-backlink-mistake/image-dogsvets-backlink-to-petcoach.png)
 * **Google Analytics Data**: We saw discrepancies in our Google Analytics data, such as:
-    * 2 Users
-    * 17 Sessions
+    * 2 Users and 17 Sessions
+    ![GA4 report on dogsvets for users and sessions](../../parent-page-tech-adventures/child-page-4-search-engine-optimization/grandchild-page-3-backlink-mistake/image-dogsvets-ga4-2users-17sessions.png)
     * 224 Views
-* **Explanation**: In Google Analytics, a “user” represents an individual who visits your site, while a “session” is a visit that can include multiple pages. “Views” refer to the total number of pages viewed. High views with very few users and sessions are unusual because it suggests that a small number of visitors are generating a lot of page views, which could be a sign of automated or bot traffic.
+    ![Ga4 report on dogsvets for views](../../parent-page-tech-adventures/child-page-4-search-engine-optimization/grandchild-page-3-backlink-mistake/image-dogsvets-ga4-224-views.png)
+
+{: .note}
+**Explanation**: In Google Analytics, a “user” represents an individual who visits your site, while a “session” is a visit that can include multiple pages. “Views” refer to the total number of pages viewed. High views with very few users and sessions are unusual because it suggests that a small number of visitors are generating a lot of page views, which could be a sign of automated or bot traffic.
+
+* Pages other than `/dog-separation-anxiety-training-guide/` are also reaching traffic
+![Ga4 report highlighting traffic reaching to other pet coach pages referring from dog vets](../../parent-page-tech-adventures/child-page-4-search-engine-optimization/grandchild-page-3-backlink-mistake/image-dogsvets-ga4-hitting-other-pages.png)
+
+{: .warning}
+>This is a red flag! Because users cannot reach other Pet Coach SG web pages as there is only one link in the dogsvets site!
+>
+>We can almost confirm that this is bot traffic based on this information
+
 * **Bot Traffic Characteristics**: We suspected bot traffic because bots can simulate visits and spoof referrer domains. Here’s a bit more detail:
     * **Bots**: Bots are automated scripts that visit websites without human interaction. They can generate traffic that looks real but isn’t.
     * **Spoofing Referrer Domains**: Bots can mask their origin, making it look like traffic is coming from a legitimate site when it’s not. This can inflate traffic numbers and make the data seem misleading.

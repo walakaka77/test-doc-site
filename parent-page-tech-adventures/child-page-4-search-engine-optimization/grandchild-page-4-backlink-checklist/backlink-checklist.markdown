@@ -76,6 +76,9 @@ To showcase the limitation, see our experience with `dogsvets.com`:
 - But consistently declining organic traffic and poor traffic value
 ![dogsvets has consistently declining organic traffic and poor traffic value](../../parent-page-tech-adventures/child-page-4-search-engine-optimization/grandchild-page-4-backlink-checklist/image-dogsvets-low-traffic-value.png)
 
+{: .note}
+So it's clear that high DA does not necessarily mean it's a good site. Please watch out if your outreach partner only references this metric. They should be using this as a gauge, combined with other SEO metrics.
+
 ### Step 2: Check Organic Traffic
 
 Assessing organic traffic involves examining traffic patterns to ensure they are genuine. Look for signs of artificial inflation or consistent declines to understand the site's credibility and reliability.
@@ -86,9 +89,12 @@ Assessing organic traffic involves examining traffic patterns to ensure they are
     * **Artificial Inflation**: Be cautious of sites with artificially inflated traffic. Black hat techniques include using bots to generate traffic or employing click farms. These practices can make a site seem more popular than it is and can be detrimental if these sites link back to you. For example, a site with a sudden surge in traffic from bots might seem authoritative, but its value is questionable and could harm your site’s reputation if linked.
     * **Consistent Declines**: Traffic declines can signal potential issues like Google penalties. For instance, if a site’s traffic consistently drops after an update, it might be penalized, indicating that Google no longer sees it as authoritative. Use tools like the [Wayback Machine](http://wayback.archive.org/) to check for site changes that could suggest a penalty.
 
-See our analysis on one of the sites provided to us by an outreach partner. The site was `petsguide.info`. It has both signals of artificial inflation and consistent declines, red flags that would require more investigation. To play safe, stay clear ><!
+See our analysis on one of the sites provided to us by an outreach partner. The site was `petsguide.info`. It has both signals of artificial inflation and consistent declines, red flags that would require more investigation. 
 
 ![Traffic profile for petsguide.com](../../parent-page-tech-adventures/child-page-4-search-engine-optimization/grandchild-page-4-backlink-checklist/image-petsguide-traffic-profile.png)
+
+{: .warning}
+To play safe, stay clear ><! Don't wanna get spammy backlinks that will cost you a penalty from Google.
 
 ### Step 3: Check Competitiveness of Keywords and Traffic Cost
 
@@ -104,6 +110,9 @@ Still using `petsguide.com` as an example, checkout their traffic profile
 - They are ranking for no competitive keywords at all
 ![petsguide.com keyword competitiveness](../../parent-page-tech-adventures/child-page-4-search-engine-optimization/grandchild-page-4-backlink-checklist/image-petsguide-keyword-competitiveness.png)
 
+{: .note}
+This analysis, in my opinion, is the clearest indication that the site is not authoritative in the eyes of Google. If the site is not authoritative, then it's a weak backlink.
+
 ### Step 4: Check Whether They Are Ranking on the First Page for Most Keywords
 
 Evaluating the site’s ability to rank on the first page for many keywords is crucial. This indicates its authority and relevance in its niche, reflecting its credibility in Google's eyes.
@@ -114,6 +123,9 @@ Evaluating the site’s ability to rank on the first page for many keywords is c
 These guys also only have 4 keywords ranking on the first page. And none of the keywords are ranking in first position:
 ![petsguide serp position](../../parent-page-tech-adventures/child-page-4-search-engine-optimization/grandchild-page-4-backlink-checklist/image-petsguide-ranking-position.png)
 
+{: .note}
+This is another clear indication that the site is not authoritative in the eyes of Google. Remember, only what Google thinks matters! The rest of the metrics are just guidelines. If Google thinks it's shit - then the backlink will be weak.
+
 ### Step 5: Check Whether the Site is Listed in Google
 
 Confirming whether the site is listed in Google’s index is essential to ensure it’s a legitimate and effective backlink source. An indexed site is more likely to provide valuable backlinks and enhance your site’s SEO.
@@ -122,8 +134,11 @@ Confirming whether the site is listed in Google’s index is essential to ensure
 
 * **Google Listing**: Ensure the site is indexed by Google. A site that isn’t listed won’t provide valuable backlinks. Perform a search using `site:&lt;baseurl>/&lt;path>` to check if the site is listed. An example of a listed site might be a well-established dog training blog, whereas an unlisted site could be one with technical issues or poor SEO practices.
 
-At least these guys are indexed by google. But don't let your guard down. Please ensure that the exact page where your link placement would be in, is indexed (else, the backlink wouldn't be recognized by google).
+At least these guys are indexed by google. 
 ![petsguide indexed pages profile](../../parent-page-tech-adventures/child-page-4-search-engine-optimization/grandchild-page-4-backlink-checklist/image-petsguide-indexed-by-google.png)
+
+{: .note}
+But don't let your guard down. Please ensure that the exact page where your link placement would be in, is indexed (else, the backlink wouldn't be recognized by google).
 
 ### Step 6: Check the Site Itself
 
@@ -150,6 +165,8 @@ The quality of their articles are also high:
 - Meaningful links neatly interwoven into the article
 ![animalgator meaningful interlinking](../../parent-page-tech-adventures/child-page-4-search-engine-optimization/grandchild-page-4-backlink-checklist/image-animalgator-meaningful-interlinking.png)
 
+{: .note}
+These are clear indications that `animalgator.com` has the audience in mind when generating the articles. If there are any doubts, we can also research the background of the author to understand their expertise and authority ^^. Green light!
 
 ##### **Bad Example**
 
@@ -165,6 +182,9 @@ Compare the previous example to `petsguide.com`:
 ![petsguide social icons leads to nowhere](../../parent-page-tech-adventures/child-page-4-search-engine-optimization/grandchild-page-4-backlink-checklist/image-petsguide-social-icons-leads-nowhere.png)
 - Interlinking is also done for backlinking purposes, without much thought
 ![petsguide links are just for backlink purposes](../../parent-page-tech-adventures/child-page-4-search-engine-optimization/grandchild-page-4-backlink-checklist/image-petsguide-links-not-thoughtful.png)
+
+{: .warning}
+These are clear red flags that `petsguide.com` is either a PBN (Private Blog Network) or a link farm. I'll stay clear of these -- simply because spammy backlinks can hurt my SEO, and if we're paying money, we want it to benefit us and not harm us -.-
 
 ## Conclusion
 
