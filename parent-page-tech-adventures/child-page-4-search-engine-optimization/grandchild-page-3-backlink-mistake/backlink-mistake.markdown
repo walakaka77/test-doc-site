@@ -168,6 +168,8 @@ To avoid similar issues in the future, use this checklist when reviewing potenti
 * **Evaluate Design and Usability**: The site should have a clean, user-friendly design without excessive ads.
 * **Ensure Credibility and Reputation**: Choose sites with a good reputation and clear, trustworthy content.
 
+{: .note}
+Refer to our [6-Step Backlink Vetting Checklist]([text](../grandchild-page-4-backlink-checklist/backlink-checklist.markdown)) when reviewing and pre-approving sites for backlink!
 
 ## **Conclusion**
 
