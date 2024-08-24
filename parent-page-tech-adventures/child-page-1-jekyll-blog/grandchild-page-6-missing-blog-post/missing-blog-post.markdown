@@ -8,7 +8,7 @@ nav_order: 6
 index: 'yes'
 follow: 'yes'
 description: This article shares with you the story of the missing blog post due to how GitHub pages work.
-image: ../../parent-page-tech-adventures/child-page-1-jekyll-blog/grandchild-page-5-my-git-branching-strategy/image-jekyll-blog-branching-strategy.png
+image: ../../parent-page-tech-adventures/child-page-1-jekyll-blog/grandchild-page-6-missing-blog-post/missing-blog-post.png
 ---
 
 # The Mystery of the Missing Blog Posts
