@@ -8,7 +8,7 @@ nav_order: 5
 index: 'yes'
 follow: 'yes'
 description: Parntered with Rhino Rank, and have an amazing success story to share when it comes to acquiring backlinks
-image: ../../parent-page-tech-adventures/child-page-4-search-engine-optimization/grandchild-page-5-backlink-success-story/Rhino Rank success story.png
+image: ../../parent-page-tech-adventures/child-page-4-search-engine-optimization/grandchild-page-5-backlink-success-story/Rhino Rank success story-2.png
 ---
 # My Experience with a Backlink from Rhino Rank: A Success Story
 
