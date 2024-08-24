@@ -25,7 +25,7 @@ That’s when things took a puzzling turn. I published my latest posts to the ma
 
 Before pushing anything live, I always make sure to verify my blog posts locally. I double-check everything to ensure it's all in order before sending it off to the GitHub repository. Once I’m satisfied, I push the changes, and GitHub Pages is set to automatically deploy from there. Here’s a screenshot of my local setup, showing the two new posts looking as they should.
 
-![alt_text](../../parent-page-tech-adventures/child-page-1-jekyll-blog/grandchild-page-6-missing-blog-post/images/image1.png "image_tooltip")
+![alt_text](../../parent-page-tech-adventures/child-page-1-jekyll-blog/grandchild-page-6-missing-blog-post/images/image2.png "image_tooltip")
 
 
 Since everything was looking good, I went and proceed to push to my main site!
@@ -36,13 +36,13 @@ Since everything was looking good, I went and proceed to push to my main site!
 I pushed the changes to the main site at around 7:56 AM. The commit went through smoothly, and everything seemed to be on track. Here’s a screenshot of the commit timestamp.
 
 
-![alt_text](../../parent-page-tech-adventures/child-page-1-jekyll-blog/grandchild-page-6-missing-blog-post/images/image2.png "image_tooltip")
+![alt_text](../../parent-page-tech-adventures/child-page-1-jekyll-blog/grandchild-page-6-missing-blog-post/images/image5.png "image_tooltip")
 
 
 But here’s the kicker: this was still at 23:56 GMT. GitHub Pages operates on GMT, which was a clue as to why my posts aren't appearing.
 
 
-![alt_text](../../parent-page-tech-adventures/child-page-1-jekyll-blog/grandchild-page-6-missing-blog-post/images/image3.png "image_tooltip")
+![alt_text](../../parent-page-tech-adventures/child-page-1-jekyll-blog/grandchild-page-6-missing-blog-post/images/image4.png "image_tooltip")
 
 
 See the above screenshot for the missing blog post in my main site! Since I didn’t know any better, the first place I thought to look was whether the site was deployed successfully.
@@ -53,7 +53,7 @@ See the above screenshot for the missing blog post in my main site! Since I didn
 GitHub Pages uses GitHub Actions to handle deployments. Everything looked successful on the Actions page, so it was a bit baffling to see the posts missing. Here’s a screenshot showing the successful deployment status.
 
 
-![alt_text](../../parent-page-tech-adventures/child-page-1-jekyll-blog/grandchild-page-6-missing-blog-post/images/image4.png "image_tooltip")
+![alt_text](../../parent-page-tech-adventures/child-page-1-jekyll-blog/grandchild-page-6-missing-blog-post/images/image3.png "image_tooltip")
 
 
 Now that I couldn't find anything with the deployment, it took me some time before I figured out where to look.To be honest, I was just randomly looking around dev tools, network tab to check for clues – and that was where it clicked.
@@ -62,7 +62,7 @@ Now that I couldn't find anything with the deployment, it took me some time befo
 ## Unpacking the Timestamp Mystery
 
 Diving deeper into the dev tools, I noticed that the timestamp was in GMT, which meant the date stamp was actually 23 August 2024, 23:57 GMT. 
-![alt_text](../../parent-page-tech-adventures/child-page-1-jekyll-blog/grandchild-page-6-missing-blog-post/images/image5.png "image_tooltip")
+![alt_text](../../parent-page-tech-adventures/child-page-1-jekyll-blog/grandchild-page-6-missing-blog-post/images/image1.png "image_tooltip")
 
 
 Diving deeper into the dev tools, I noticed that the timestamp was in GMT, which meant the date stamp was actually 23 August 2024, 23:57 GMT. This was a clue I wasn't familiar with, so I did a bit of research to understand how GitHub Pages decides which posts to publish.
@@ -87,19 +87,19 @@ And a big shoutout to all the devs out there dealing with production issues unde
 To get GitHub Pages to rebuild and deploy on 24 August GMT, we made a small change. At around 12:00 PM SGT (0400 GMT), I added a few whitespaces to the markdown file and committed the change. 
 
 
-![alt_text](../../parent-page-tech-adventures/child-page-1-jekyll-blog/grandchild-page-6-missing-blog-post/images/image6.png "image_tooltip")
+![alt_text](../../parent-page-tech-adventures/child-page-1-jekyll-blog/grandchild-page-6-missing-blog-post/images/image8.png "image_tooltip")
 
 
 After pushing it to GitHub Pages, we saw that the deployment was successful, and the build was updated to 24 August 2024 GMT. 
 
 
-![alt_text](../../parent-page-tech-adventures/child-page-1-jekyll-blog/grandchild-page-6-missing-blog-post/images/image7.png "image_tooltip")
+![alt_text](../../parent-page-tech-adventures/child-page-1-jekyll-blog/grandchild-page-6-missing-blog-post/images/image6.png "image_tooltip")
 
 
 Refreshing the site, the two new blog posts were finally visible. Mystery solved!
 
 
-![alt_text](../../parent-page-tech-adventures/child-page-1-jekyll-blog/grandchild-page-6-missing-blog-post/images/image8.png "image_tooltip")
+![alt_text](../../parent-page-tech-adventures/child-page-1-jekyll-blog/grandchild-page-6-missing-blog-post/images/image7.png "image_tooltip")
 
 
 
