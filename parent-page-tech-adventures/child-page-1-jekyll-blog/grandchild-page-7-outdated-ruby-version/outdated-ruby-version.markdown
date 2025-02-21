@@ -13,6 +13,17 @@ description: Stumbled across a build failure due to an outdated ruby version. Th
 
 # Outdated Ruby Version
 
+{: .no_toc }
+
+<details closed markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
+
 ## Hello, I'm Back!
 Hey Fellas!
 
