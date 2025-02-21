@@ -75,5 +75,46 @@ So I turned to the good old forum, by googling how to fix the issue. And I liter
 
 ![Google search for resolution to the GitHub build issue](../../parent-page-tech-adventures/child-page-1-jekyll-blog/grandchild-page-7-outdated-ruby-version/image-google-search-github-issue.png)
 
-And the answer was literally in the first SERP result.
+And the answer was literally in the first SERP result. Don't believe it, [check it out here](https://talk.jekyllrb.com/t/building-error-on-github-actions/9471/2) yourself!
 
+![Results from the first position link in SERP when searching for the build error](../../parent-page-tech-adventures/child-page-1-jekyll-blog/grandchild-page-7-outdated-ruby-version/image-first-result-serp.png)
+
+For the exact version to use (including the script), [check out the thread here!](https://github.com/ruby/setup-ruby/issues/595)
+
+![Github issue thread with the exact script to fix the ruby version](../../parent-page-tech-adventures/child-page-1-jekyll-blog/grandchild-page-7-outdated-ruby-version/image-exact-script-new-version-ruby.png)
+
+## Apply the solution - watch your site go-live
+
+So, based on our findings, we simply applied the [changes to our YAML script here](https://github.com/walakaka77/test-doc-site/blob/main/.github/workflows/jekyll.yml). See the snippet from our YAML below:
+
+``` bash
+jobs:
+  # Build job
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@086ffb1a2090c870a3f881cc91ea83aa4243d408 # v1.195.0, updated based on https://github.com/ruby/setup-ruby/issues/595#issuecomment-2395466628
+        # uses: ruby/setup-ruby@8575951200e472d5f2d95c625da0c7bec8217c42 # v1.161.0
+        with:
+          ruby-version: '3.1' # Not needed with a .ruby-version file
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+          cache-version: 0 # Increment this number if you need to re-download cached gems
+
+```
+
+And wala, this fixes the build issue -- and deployment is now successful! Success screenshot below for reference:
+
+![Deployment in GitHub pages pipeline successful](../../parent-page-tech-adventures/child-page-1-jekyll-blog/grandchild-page-7-outdated-ruby-version/image-successful-deployment.png)
+
+
+## Personal conclusion
+
+Even though AI and stuff is revolutionary (no doubt), it's still not a one-stop-solution for everything. For example, in this case -- ChatCPT would not have been able to give me the exact ruby version and command (or maybe I just don't know how to prompt it yet).
+
+But ofcourse, she's gonna get better -- this is just the start. So let's see where this new direction takes us -- but as of today, I still need to use my brains to resolve the problems that are throwned to me to manage this personal blog.
+
+Peace, and love
+Shafik Walakaka
