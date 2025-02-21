@@ -116,5 +116,5 @@ Even though AI and stuff is revolutionary (no doubt), it's still not a one-stop-
 
 But ofcourse, she's gonna get better -- this is just the start. So let's see where this new direction takes us -- but as of today, I still need to use my brains to resolve the problems that are throwned to me to manage this personal blog.
 
-Peace, and love
+Peace, and love <br>
 Shafik Walakaka
