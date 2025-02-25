@@ -8,7 +8,7 @@ nav_order: 6
 index: 'yes'
 follow: 'yes'
 description: Reviewed broken internal links and fix it!
-image: ../../parent-page-tech-adventures/child-page-4-search-engine-optimization/grandchild-page-6-fixing-broken-internal-links/images/fixing broken internal links.jpg
+image: ../../parent-page-tech-adventures/child-page-4-search-engine-optimization/grandchild-page-7-rank-first-dog-training/ranking-first-pos-dog-training-singapore.jpg
 ---
 
 <!-- You have some errors, warnings, or alerts. If you are using reckless mode, turn it off to see useful information and inline alerts.
