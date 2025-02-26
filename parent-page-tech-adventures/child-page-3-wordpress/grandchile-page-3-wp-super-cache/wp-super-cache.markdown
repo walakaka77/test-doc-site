@@ -99,6 +99,12 @@ So we simply use the easy cache setup! Using this setup, we will not receive the
 So we have to verify using the manual tests that were previously mentioned.
 
 
+### Results
+
+All the damn pages are now loading within a fraction of a second ;). How sick is that!
+![All pages are now loading within a fraction of a second as showned in the network tab](../../parent-page-tech-adventures/child-page-3-wordpress/grandchile-page-3-wp-super-cache/image-results-all-pages-blazing-fast.png)
+
+
 ## Thank You, Conclusion
 
 That's all folks! Step-by-step approach, tried and tested wordpress caching site.
