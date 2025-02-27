@@ -85,6 +85,22 @@ This would delete the cache, and as you can see from the screenshot below -- the
 
 So we'll just have to do this, everytime there is an update to the site!
 
+{: .note}
+We discuss further about how the cache is stored (the html doc) in the next section. This will make it clearer regarding what is actually being deleted or replaced when you purge your cache!
+
+
+### Where is the Cache stored
+
+The cache is stored in the Wordpress files, normally in `public_html/wp-content/cache/supercache/<domain-name>/<page-name>/<html-file-name>.
+For instance, the about us html is stored here (see screenshot below):
+
+![Location where the cache file is stored, normally in wp-content/cache directory](../../parent-page-tech-adventures/child-page-3-wordpress/grandchile-page-3-wp-super-cache/image-location-where-file-stored.png)
+
+Notice that the html file is already stored in this location. When a user requests for the `about-us` page, Wordpress immediately sends this file.
+We don't need to spend time generating the html file (since it's already cached), and as previously discussed -- generating the html was the time consuming part.
+
+This should clarify how the cache is stored!
+
 
 ### Easy Cache Setup vs Advanced Cache Setup
 
