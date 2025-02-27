@@ -95,6 +95,38 @@ The advanced cache setup requires changes to the nginx configuration, to route t
 
 Although php (easy config) approach is supposedly less efficient -- for most small scale websites, this is more than enough, and it reduces the cost overheads.
 
+Advanced caching approach, requires additional server level configuration, as the routing is handled via the nginx server itself. Checkout the nginx config that we need to add for additional details:
+``` bash
+server {
+    # ...
+    set $cache_uri $request_uri;
+
+    # POST requests and urls with a query string should always go to PHP
+    if ($request_method = POST) {
+        set $cache_uri 'null cache';
+    }
+    if ($query_string != "") {
+        set $cache_uri 'null cache';
+    }
+
+    # Don't cache uris containing the following segments
+    if ($request_uri ~* "(/wp-admin/|/xmlrpc.php|/wp-(app|cron|login|register|mail).php|wp-.*.php|/feed/|index.php|wp-comments-popup.php|wp-links-opml.php|wp-locations.php|sitemap(_index)?.xml|[a-z0-9_-]+-sitemap([0-9]+)?.xml)") {
+        set $cache_uri 'null cache';
+    }
+
+    # Don't use the cache for logged in users or recent commenters
+    if ($http_cookie ~* "comment_author|wordpress_[a-f0-9]+|wp-postpass|wordpress_logged_in") {
+        set $cache_uri 'null cache';
+    }
+
+    location / {
+        try_files /wp-content/cache/supercache/$http_host/$cache_uri/index-https.html $uri $uri/ /index.php$is_args$args;
+    }
+}
+```
+
+Full article regarding this configuration can be found [here!](https://www.getpagespeed.com/server-setup/wp-super-cache-nginx-configuration)
+
 So we simply use the easy cache setup! Using this setup, we will not receive the return header specifing a cache `Hit`. 
 So we have to verify using the manual tests that were previously mentioned.
 
