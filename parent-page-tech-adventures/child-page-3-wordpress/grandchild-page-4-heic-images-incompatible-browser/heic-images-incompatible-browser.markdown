@@ -8,7 +8,7 @@ nav_order: 4
 index: 'yes'
 follow: 'yes'
 description: Ever had images load on your phone, but not on your desktop. We unravelled this issue in this article!
-image: ../../parent-page-tech-adventures/child-page-3-wordpress/grandchile-page-3-wp-super-cache/w3-super-cache.jpg
+image: ../../parent-page-tech-adventures/child-page-3-wordpress/grandchild-page-4-heic-images-incompatible-browser/heic-image-incompatible-browser.png
 ---
 
 # HEIC Images
