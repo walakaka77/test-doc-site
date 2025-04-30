@@ -35,7 +35,7 @@ This takes valuable time, and honestly -- testing weekly just became too painful
 Recently though, a missed plugin udpate caused my site to break -- or, possibily? We still don't know the root cause but missing plugin updates can cause security issues etc., and is in general just pure bad practice lol.
 
 So, I've finally set up some sort of automated testing. Not fully -- just accessing the URLs, and then taking a screenshot. See sample of the screenshots that playwright has taken for me:
-![inspect screenshots taken by playwright](../../parent-page-tech-adventures/child-page-3-wordpress/grandchild-page-7-automated-testing-plugin-update/inpect-screenshots-by-playwright.png)
+![inspect screenshots taken by playwright](../../parent-page-tech-adventures/child-page-3-wordpress/grandchild-page-7-automated-testing-plugin-updates/inpect-screenshots-by-playwright.png)
 
 At least, by doing so -- I don't need to access every single page, wait for it to load and then inspect it.
 
@@ -228,16 +228,16 @@ Now that we have the screenshots, my plugin update flow no longer requires me to
 Now, my update steps are straightforward!
 
 1. Firstly, update the staging site:
-![Update staging site plugin](../../parent-page-tech-adventures/child-page-3-wordpress/grandchild-page-7-automated-testing-plugin-update/update-staging.png)
+![Update staging site plugin](../../parent-page-tech-adventures/child-page-3-wordpress/grandchild-page-7-automated-testing-plugin-updates/update-staging.png)
 2. To ensure no caching issues, I purged all the cache
   - Elementor cache -- regenerate all css and files in elementor
-  ![purge elementor cache](../../parent-page-tech-adventures/child-page-3-wordpress/grandchild-page-7-automated-testing-plugin-update/purge-elementor-cache.png)
+  ![purge elementor cache](../../parent-page-tech-adventures/child-page-3-wordpress/grandchild-page-7-automated-testing-plugin-updates/purge-elementor-cache.png)
   - Purge litespeed cache
-  ![Purge litespeed cache](../../parent-page-tech-adventures/child-page-3-wordpress/grandchild-page-7-automated-testing-plugin-update/purge-litespeed-cache.png)
+  ![Purge litespeed cache](../../parent-page-tech-adventures/child-page-3-wordpress/grandchild-page-7-automated-testing-plugin-updates/purge-litespeed-cache.png)
   - Purge cloudflare cache
-  ![Purge cloudflare cache](../../parent-page-tech-adventures/child-page-3-wordpress/grandchild-page-7-automated-testing-plugin-update/purge-cloudflare-cache.png)
+  ![Purge cloudflare cache](../../parent-page-tech-adventures/child-page-3-wordpress/grandchild-page-7-automated-testing-plugin-updates/purge-cloudflare-cache.png)
 3. Next, I run the script and get screenshots of the staging site that I can manually inspect:
-![Inspect playwright screenshots](../../parent-page-tech-adventures/child-page-3-wordpress/grandchild-page-7-automated-testing-plugin-update/inpect-screenshots-by-playwright.png)
+![Inspect playwright screenshots](../../parent-page-tech-adventures/child-page-3-wordpress/grandchild-page-7-automated-testing-plugin-updates/inpect-screenshots-by-playwright.png)
 
 I just repeat the same flow for production, but now the script points to the production site instead of the staging site!
 
