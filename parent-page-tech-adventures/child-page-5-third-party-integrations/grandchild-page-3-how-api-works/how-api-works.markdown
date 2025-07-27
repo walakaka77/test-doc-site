@@ -1,7 +1,7 @@
 ---
 layout: page
 title: How API Works
-permalink: /tech-adventures/third-party-integrations/decoupled-systems-for-maintainability
+permalink: /tech-adventures/third-party-integrations/how-api-works
 parent: Third Party Integrations
 grand_parent: Tech Adventures
 nav_order: 3
