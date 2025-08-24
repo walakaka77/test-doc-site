@@ -163,4 +163,242 @@ It's in this sheet where the heavy lifting occurs!
 - We retrieve the basic salary
 - Compute CPF Payable
 
-We'll take a short break from writing this article here. We'll continue later!!
+#### Unique Identifier
+This sheet is fully computed, no human inputs. The first column is the unique identifier -- Year, Month, Staff Name. This MUST be unique for each record.
+
+Based on this unique identifier, we will combine the amount payable for the person (if the person has more than one payment item). For example they might have:
+- Overtime
+- Basic Salary
+- Bonus
+
+Let's take Walakaka Staff for Aug 2025 for example. In the Salary sheet, he has several payment items:
+![Walakaka Salary Sheet](../../parent-page-tech-adventures/child-page-8-general-tech/grandchild-page-1-google-sheets-invoice/Screenshot 2025-08-24 at 4.35.33 PM.png)
+
+So in the `Salary Combined` sheet, these payment items are consolidated:
+![Salary combined for walakaka](../../parent-page-tech-adventures/child-page-8-general-tech/grandchild-page-1-google-sheets-invoice/Screenshot 2025-08-24 at 4.37.01 PM.png)
+
+{: .note }
+Recall that the unique identifer must be unique for each month + staff. Else, the consolidation will incorrectly consolidate
+
+#### Total Amount
+
+The total amount field is just a consolidation of all the items payable in the `salary sheet`.
+
+This is what the CPF, Skills Development Levy is computed from!
+
+Formula used is as follows:
+```
+=ARRAYFORMULA(
+  IF(A2:A<>"",
+     VLOOKUP(A2:A, 'Salary Unit'!A:I, 9, FALSE),
+     )
+)
+```
+
+#### Employee CPF Contribution
+
+This column computes the employee CPF contribution. See the formula we use here:
+```
+=ARRAYFORMULA(
+  LET(
+    key, A2:A,
+    yr, LEFT(key,4),
+    pay, B2:B,
+    cap, XLOOKUP(yr, 'Validation Sheet'!C:C, 'Validation Sheet'!D:D),
+    IF(pay<>"", IF(pay>cap, cap, pay) * 0.2, )
+  )
+)
+```
+
+1. Notice that we use the unique identifer as the key. 
+2. If there is a value, we populate this field
+3. We also take the year from the unique identifier, and then check that is the salary cap
+  - This is based on the [ordinary wage ceiling](https://www.cpf.gov.sg/service/article/what-is-the-ordinary-wage-ow-ceiling). Check out the CPF site itself to find out more details regarding the rates
+  - For us we track this mapping in the validation sheet
+4. Next we calculate
+  - 20% of the total amount payable
+  - If the amount is less than the amount capped, we take 20% of amount payable
+  - If more that the cap amount, then we take the max cap amount. For 2025, it's  7400 SGD!
+
+![formula for employee CPF contribution](../../parent-page-tech-adventures/child-page-8-general-tech/grandchild-page-1-google-sheets-invoice/Screenshot 2025-08-24 at 4.44.16 PM.png)
+
+As for the mapping for the max capped amount
+- This is based the year
+- And the mapping is tracked in the validation sheet. See screenshot below for reference
+
+![Validation sheet mapping for OWP](../../parent-page-tech-adventures/child-page-8-general-tech/grandchild-page-1-google-sheets-invoice/Screenshot 2025-08-24 at 4.45.38 PM.png)
+
+{: .note }
+Currently, there are only 2 years mapped -- 2025, 2026. In layer years, when CPF confirms the revised amount for subsequent years, we can update the mapping and the amount will be computed dynamically based on the unique keys!!
+
+
+There is another key to note there! The formula assumes that all staff is below 55 years old.
+CPF has a different CPF contribution rate based on your age. You can check it out on [their website here!](https://www.cpf.gov.sg/employer/employer-obligations/how-much-cpf-contributions-to-pay).
+
+{: .warning }
+The current formula does NOT support staff more than 55 years old. If there are hires more than 55 years old, the formulas must be adjusted accordingly!
+
+
+#### Employer CPF Contribution (Dynamic)
+
+Similar to the Employee CPF contribution, this tracks the employers CPF contribution
+1. Instead of 20%, it's 17%
+2. The capped CPF amount is the same
+3. Similarly, we don't handle staff above 55 years old
+
+
+Formula is as follows for reference (see how it's really similar to the employee cpf contribution):
+```
+=ARRAYFORMULA(
+  LET(
+    key, A2:A,
+    yr, LEFT(key,4),
+    pay, B2:B,
+    cap, XLOOKUP(yr, 'Validation Sheet'!C:C, 'Validation Sheet'!D:D),
+    IF(pay<>"", IF(pay>cap, cap, pay) * 0.17, )
+  )
+)
+```
+For reference, see the screenshot below:
+![formula for employee cpf contribution](../../parent-page-tech-adventures/child-page-8-general-tech/grandchild-page-1-google-sheets-invoice/Screenshot 2025-08-24 at 4.51.16 PM.png)
+
+{: .note }
+Skipping some unimportant fields as it takes too much time to explain everything. But feel free to reach out if there are any clarifications required!
+
+#### Skills Development Levy
+Skill development levy is an amount that the employer will have to pay to the CPF:
+1. It will be 0.25% of the total amount paid to staff
+2. It has a minimum amount payable of $2
+3. It also has a maximum amount payable of $11.25
+
+Hence, the formula used is as follows:
+```
+=ARRAYFORMULA(
+  IF(B2:B<>"",
+     IF(B2:B*0.0025<2,2,
+        IF(B2:B*0.0025>11.25,11.25,B2:B*0.0025)
+     ),
+  )
+)
+```
+
+1. We check whether there is a value in column B, the total amount
+2. If yes, then we take 0.25% of that value
+  - If value is less than $2, default to $2
+  - If value is more than $2 we proceed to the next check
+3. In the next check
+  - If value is more than $11.25, default to 11.25
+  - Else, we default to 0.25% of the total amount payable in column B?
+
+
+{: .note }
+Confusing? Hell yeah, that's why we automate the computation so that our end users don't need to spend time computing this!
+
+See our formula in action for reference:
+![Skills Development Levy](../../parent-page-tech-adventures/child-page-8-general-tech/grandchild-page-1-google-sheets-invoice/Screenshot 2025-08-24 at 4.56.56 PM.png)
+
+Now, we have all the fields required to generate our Pay Slip -- automatically!!
+
+### Pay Slip Template!
+
+So in our pay slip template, we will be referencing the `Salary Combined` and `Salary Unit` sheet using our unique identifier and populating the fields accordingly:
+1. Reference Field
+2. Earning Section
+3. Deduction Section
+4. Total Amount Section
+
+#### Reference Field
+
+This field is the unique identifier that we have been using across `Salary Unit` and `Salary Combined` sheet.
+
+We allow the user to select an existing ID, see screenshot below:
+![Pay Slip Template, Unique ID](../../parent-page-tech-adventures/child-page-8-general-tech/grandchild-page-1-google-sheets-invoice/Screenshot 2025-08-24 at 5.00.54 PM.png)
+
+{: .note }
+Selecting the unique ID will populate the subsequent sections using fields from the `Salary Unit` and `Salary Combined` sheet!
+
+#### Earning Section
+
+The earning's section  aims to specify the total gross amount payable. This section aims to break each payment item into their different records.
+
+Take for example Walakaka's payment:
+![Shafik Walakaka Pay Slip](../../parent-page-tech-adventures/child-page-8-general-tech/grandchild-page-1-google-sheets-invoice/Screenshot 2025-08-24 at 5.04.02 PM.png)
+
+We expect each line item in the `Salary Unit` sheet to be listed here. To do so, we use this formula:
+```
+=FILTER('Salary Unit'!D:H,'Salary Unit'!A:A=E5)
+```
+
+Simple right! It basically, does this:
+1. Takes the unique key from E5: `2025-08-Walakaka`
+2. Cross checks it against the `Salary Unit` sheet column A
+3. Takes anything that matches
+4. Generates a table and populates the following columns from `Salary Unit`:
+  - Column D
+  - Column E
+  - Column F
+  - Column G
+  - Column H
+
+For reference:
+![formula for earnings section](../../parent-page-tech-adventures/child-page-8-general-tech/grandchild-page-1-google-sheets-invoice/Screenshot 2025-08-24 at 5.15.30 PM.png)
+
+We have a separate formulat at the bottom to sum up the total amount:
+```
+=sum(F11:F13)
+```
+
+{: .warning }
+This template does not support more than 3 payment items. We don't expect more than 3 payment items.
+If more than 3 payment items is required, we will need to update the template!
+
+
+Regardless, it's really cool -- that we can generate the earnings section dynamically!
+
+
+### Deduction Section
+
+The deduction section tracks how much deductions from your gross salary. For Walakaka example, he's hit the CPF ceiling so his deduction is 20% x 7400 SGD.
+
+Reference screenshot for deduction section:
+![Deduction Section!](../../parent-page-tech-adventures/child-page-8-general-tech/grandchild-page-1-google-sheets-invoice/Screenshot 2025-08-24 at 5.09.09 PM.png)
+
+The deduction section does the following:
+1. Checks the unique identifier in E5
+2. Checks against `Combined Salary` sheet, and matches the unique identifier
+3. Takes the amount `Employee CPF Contribution`
+
+Formula is as follows:
+```
+=FILTER('Salary Combined'!C:C,'Salary Combined'!A:A=E5)
+```
+
+For reference:
+![deduction section](../../parent-page-tech-adventures/child-page-8-general-tech/grandchild-page-1-google-sheets-invoice/Screenshot 2025-08-24 at 5.17.01 PM.png)
+
+#### Total Amount Payable
+
+Total amount payable is straight forward, we just take the Gross Salary - Deduction. In this case 9900 - 1480 = 8420!!
+
+![final amount payable nett](../../parent-page-tech-adventures/child-page-8-general-tech/grandchild-page-1-google-sheets-invoice/Screenshot 2025-08-24 at 5.18.27 PM.png)
+
+#### Generating the Pay Slip
+
+Next, to generate the payslip
+1. Click on `File`
+2. Hit on `Download`
+3. Select `PDF`
+
+![steps to export payslip](../../parent-page-tech-adventures/child-page-8-general-tech/grandchild-page-1-google-sheets-invoice/Screenshot 2025-08-24 at 5.12.19 PM.png)
+
+This gives you a nice PDF extract of the payslip that has been generated!
+
+See a [sample here](../../parent-page-tech-adventures/child-page-8-general-tech/grandchild-page-1-google-sheets-invoice/Payroll Working Document -- Shafik Test - Template-Pay-Slip.pdf) that you can download for reference!
+
+![image of sample PDF pay slip downloaded](../../parent-page-tech-adventures/child-page-8-general-tech/grandchild-page-1-google-sheets-invoice/Screenshot 2025-08-24 at 5.20.49 PM.png)
+
+
+## Thank you!
+
+Hope this helps you, it definitely helped me! No more mundane shit tasks to do :)
+Can focus my efforts on higher value stuff!!
