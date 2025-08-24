@@ -33,6 +33,9 @@ Main tasks are basically optimising for SEO, and to do that we need to ensure tw
 {: .note }
 Will not be going into the details of SEO optimisation etc. For that stuff you can check out my [SEO Optimisation section](/tech-adventures/search-engine-optimization/)!
 
+Sidenote -- we've been successful thus far, number #1 !!!!!
+![dog training singapore ranking first](../../parent-page-tech-adventures/child-page-3-wordpress/grandchild-page-13-custom-scrollspy/Screenshot 2025-08-24 at 8.56.53 PM.png)
+
 ## The Problem
 
 So to have google understand we are the authority, I do need quite alot of information on my page specific to dog training.
@@ -106,10 +109,16 @@ This creates the element of each section in the scrollspy.
 {: .note }
 Notice each section has an id such as `#section-reviews`. This is important, it will be used by our script to detect whether the reader is on the correct section and highlights the relevant section. We will go through the script in more detail later!
 
+We use Elementor, so we created a section, and they have a html widget that we use. See reference here:
+![elementor html div](../../parent-page-tech-adventures/child-page-3-wordpress/grandchild-page-13-custom-scrollspy/Screenshot 2025-08-24 at 8.59.57 PM.png)
+
 
 ### CSS Style
 
-Our scrollspy, is styled using CSS! And it's designed to be mobile responsive. See our css styles below:
+Our scrollspy, is styled using CSS! And it's designed to be mobile responsive. 
+
+
+See our css styles below:
 ```css
 /* Fix z-index for sticky desktop-only header section 
    so that it appears above dropdown menus and other elements */
@@ -246,6 +255,9 @@ Our scrollspy, is styled using CSS! And it's designed to be mobile responsive. S
 }
 ```
 
+Elementor pro allows for us to insert custom CSS in the widghet. So we did just that:
+![css style in elementor](../../parent-page-tech-adventures/child-page-3-wordpress/grandchild-page-13-custom-scrollspy/Screenshot 2025-08-24 at 9.01.14 PM.png)
+
 #### Mobile Responsiveness
 
 How do we ensure mobile responsiveness? Media queries!!
@@ -285,160 +297,12 @@ The script is in charge of
 1. Ensuring the scrollspy tracks the view port and highlights when readers reach the correct sections
 2. Allowing readers to click into the scrollspy, and then the viewport will navigate to the relevant section
 
+
+For the script, we placed it at the bottom of the document, so that it doesn't block any other elements from loading.
+
+![javascript at the bottom of teh elementor widget](../../parent-page-tech-adventures/child-page-3-wordpress/grandchild-page-13-custom-scrollspy/Screenshot 2025-08-24 at 9.05.00 PM.png)
+
 And, that's literally it lol. Let's dive into it!
-
-{: .note }
-Attached the full script for those who wants to inspect the full thing
-
-```javascript
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-  const nav = document.getElementById("scrollspy-nav");
-  const container = document.getElementById("scrollspy-container");
-  let stickyTopGap = 116.367;
-  let stickyTriggerScroll = 850;
-  
-  
-  if (window.matchMedia("(max-width: 1024px)").matches) {
-  // For ipad
-  stickyTopGap = 100;      // adjust as needed
-  stickyTriggerScroll = 700;  // adjust trigger scroll position if needed
- }
-
-  if (window.matchMedia("(max-width: 767px)").matches) {
-    stickyTopGap = 84.1094;
-    stickyTriggerScroll = 1300;
-  }
-  
-  if (window.matchMedia("(max-width: 400px)").matches) {
-  // For very small devices like iPhone 15 Mini
-  stickyTopGap = 75;      // adjust as needed
-  stickyTriggerScroll = 1280;  // adjust trigger scroll position if needed
- }
-
-
-
-
-  // Spacer creation...
-  const spacer = document.createElement("div");
-  spacer.style.width = "100%";
-
-  function setNavBounds() {
-    const containerRect = container.getBoundingClientRect();
-    const leftOffset = containerRect.left + window.pageXOffset;
-
-    nav.style.width = containerRect.width + "px";
-    nav.style.left = leftOffset + "px";
-  }
-
-  function addSpacer() {
-    spacer.style.height = nav.offsetHeight + "px";
-    nav.parentNode.insertBefore(spacer, nav);
-  }
-
-  function removeSpacer() {
-    if (spacer.parentNode) {
-      spacer.parentNode.removeChild(spacer);
-    }
-  }
-
-  // This function is defined before highlightActiveLink
-function scrollActiveLinkIntoView() {
-  const nav = document.querySelector("#scrollspy-nav ul"); // scrollable container
-  const activeLink = nav.querySelector("a.active");
-  if (activeLink) {
-    const navRect = nav.getBoundingClientRect();
-    const linkRect = activeLink.getBoundingClientRect();
-
-    // Check if activeLink is out of view horizontally
-    if (linkRect.left < navRect.left || linkRect.right > navRect.right) {
-      // Calculate scrollLeft to center activeLink
-      const scrollLeft = activeLink.offsetLeft - (nav.clientWidth / 2) + (activeLink.clientWidth / 2);
-      nav.scrollTo({
-        left: scrollLeft,
-        behavior: "smooth"
-      });
-    }
-  }
-}
-
-
-
-  // Highlight links and call scroll into view
-  function highlightActiveLink() {
-    const navLinks = nav.querySelectorAll("a");
-    const headerOffset = stickyTopGap; // Use stickyTopGap as header offset
-    const scrollPosition = window.scrollY + headerOffset + nav.offsetHeight + 1;
-
-    const sections = Array.from(navLinks).map(link =>
-      document.querySelector(link.getAttribute("href"))
-    );
-
-    sections.forEach((section, index) => {
-      if (
-        section.offsetTop <= scrollPosition &&
-        section.offsetTop + section.offsetHeight > scrollPosition
-      ) {
-        navLinks.forEach(link => link.classList.remove("active"));
-        navLinks[index].classList.add("active");
-      }
-    });
-
-    scrollActiveLinkIntoView();
-  }
-
-  window.addEventListener("scroll", function () {
-    if (window.scrollY >= stickyTriggerScroll) {
-      if (!nav.classList.contains("sticky")) {
-        addSpacer();
-      }
-      nav.classList.add("sticky");
-      nav.style.position = "fixed";
-      nav.style.top = stickyTopGap + "px";
-      setNavBounds();
-    } else {
-      nav.classList.remove("sticky");
-      nav.style.position = "";
-      nav.style.top = "";
-      nav.style.left = "";
-      nav.style.width = "";
-      removeSpacer();
-    }
-
-    highlightActiveLink();
-  });
-
-  window.addEventListener("resize", function () {
-    if (nav.classList.contains("sticky")) {
-      setNavBounds();
-      spacer.style.height = nav.offsetHeight + "px";
-    }
-  });
-
-  // Smooth scroll on click
-  const navLinks = nav.querySelectorAll("a");
-  navLinks.forEach(link => {
-    link.addEventListener("click", function (e) {
-      e.preventDefault();
-      const targetId = this.getAttribute("href");
-      const targetSection = document.querySelector(targetId);
-      if (targetSection) {
-        const scrollspyOffset = nav.offsetHeight;
-        const totalOffset = stickyTopGap + scrollspyOffset;
-        const scrollTarget = targetSection.offsetTop - totalOffset;
-        window.scrollTo({
-          top: scrollTarget,
-          behavior: "smooth"
-        });
-      }
-    });
-  });
-
-  highlightActiveLink(); // initial highlight + scroll on page load
-});
-
-</script>
-```
 
 
 This first part, actually reads the DOM elements and sets variables to track how far the scrollspy should be away from the top of the viewport.
