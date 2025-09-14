@@ -226,7 +226,7 @@ The validation script provides error feedback in two ways:
     }
     ```
     See the screenshot below for an example of an error that will be displayed in the console log
-    ![alt text](../../image.png)
+    ![alt text](image.png)
 
 
 
@@ -244,7 +244,7 @@ The validation script provides error feedback in two ways:
     }
     ```
     And see screenshot below for an example of an error that will be displayed in the excel sheet itself
-    ![alt text](../../image-1.png)
+    ![alt text](image-1.png)
 
 This dual output makes it easy for both technical and non-technical users to review and act on validation results, without needing to parse console logs.
 
