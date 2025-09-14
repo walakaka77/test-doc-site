@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CVE Scraper
+title: Automated CSV Testing
 permalink: /tech-adventures/general-tech/automate-csv-testing
 parent: General Tech
 grand_parent: Tech Adventures
