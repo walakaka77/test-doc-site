@@ -225,6 +225,10 @@ The validation script provides error feedback in two ways:
         // ...append error to rowErrors for CSV output...
     }
     ```
+    See the screenshot below for an example of an error that will be displayed in the console log
+    ![alt text](../../image.png)
+
+
 
 2. **CSV Output:**
     - After validation, the script writes a new CSV file with an additional `Errors` column.
@@ -239,6 +243,8 @@ The validation script provides error feedback in two ways:
         // ...write output CSV with errors column...
     }
     ```
+    And see screenshot below for an example of an error that will be displayed in the excel sheet itself
+    ![alt text](../../image-1.png)
 
 This dual output makes it easy for both technical and non-technical users to review and act on validation results, without needing to parse console logs.
 
