@@ -8,7 +8,7 @@ nav_order: 14
 index: 'yes'
 follow: 'yes'
 description: Canirox Web Design
-image: ../../parent-page-tech-adventures/child-page-3-wordpress/grandchild-page-14-canirox-web-design/parent-page-tech-adventures/child-page-3-wordpress/grandchild-page-4-heic-images-incompatible-browser/heic-../../parent-page-tech-adventures/child-page-3-wordpress/grandchild-page-14-canirox-web-design/image-incompatible-browser.png
+image: ../../parent-page-tech-adventures/child-page-3-wordpress/grandchild-page-4-heic-images-incompatible-browser/heic-image-incompatible-browser.png
 ---
 
 # Introduction
