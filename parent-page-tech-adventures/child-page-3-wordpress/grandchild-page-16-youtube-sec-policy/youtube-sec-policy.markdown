@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Custom Scrollspy
+title: Youtube Security Policy
 permalink: /tech-adventures/wordpress/youtube-sec-policy
 parent: Wordpress
 grand_parent: Tech Adventures
-nav_order: 14
+nav_order: 16
 index: 'yes'
 follow: 'yes'
 description: Youtube Security Policy
@@ -83,7 +83,7 @@ Follow these steps to update your website:
 Search your website's codebase for all instances of `<iframe>` tags embedding YouTube videos. You can use a text editor or IDE to search for youtube.com/embed.
 
 If you don't have the referrer policy, you will see that the video does not load in your website with 153 video player error.
-![video failing with 153 video player error](../../parent-page-tech-adventures/child-page-3-wordpress/grandchild-page-14-youtube-sec-policy/video-failing-to-load-153-error.png)
+![video failing with 153 video player error](../../parent-page-tech-adventures/child-page-3-wordpress/grandchild-page-16-youtube-sec-policy/video-failing-to-load-153-error.png)
 
 
 ### Verify Error Is Due to Referrer Policy
@@ -102,7 +102,7 @@ To confirm that the issue is caused by the referrer policy, follow these steps:
 4. **Inspect the Referrer Policy**  
    Click on the network request for the YouTube embed. In the **Headers** section, look for the `Referrer Policy` header. You will likely see it set to `same-origin`, which means the referrer information is only sent for requests to the same origin as the website.
 
-   ![Referrer policy of the iframe is same origin](../../parent-page-tech-adventures/child-page-3-wordpress/grandchild-page-14-youtube-sec-policy/wrong-referrer-policy-sent.png)
+   ![Referrer policy of the iframe is same origin](../../parent-page-tech-adventures/child-page-3-wordpress/grandchild-page-16-youtube-sec-policy/wrong-referrer-policy-sent.png)
 
 5. **Compare with YouTube's Requirements**  
    YouTube expects the `referrerpolicy` to be explicitly set to `no-referrer` or `origin`. If the policy is `same-origin`, YouTube will reject the request, causing the video to fail to load.
@@ -114,13 +114,13 @@ By following these steps, you can confirm that the error is due to the referrer 
 For each `<iframe>` tag embedding a YouTube video, add the `referrerpolicy="strict-origin-when-cross-origin"` attribute. Ensure the attribute is added within the `<iframe>` tag.
 
 See an example of how we added ours below:
-![referrer policy added](../../parent-page-tech-adventures/child-page-3-wordpress/grandchild-page-14-youtube-sec-policy/referrer-policy-added-in-ide.png)
+![referrer policy added](../../parent-page-tech-adventures/child-page-3-wordpress/grandchild-page-16-youtube-sec-policy/referrer-policy-added-in-ide.png)
 
 ### Test Your Changes
 After updating the code, test your website to ensure the embedded videos load correctly. Open the pages with YouTube embeds in your browser and verify that the videos display as expected.
 
 See here, how we verify that the referrer policy sent by the iframe is correct:
-![referrer policy sent by iframe is correct](../../parent-page-tech-adventures/child-page-3-wordpress/grandchild-page-14-youtube-sec-policy/referrer-policy-correct.png)
+![referrer policy sent by iframe is correct](../../parent-page-tech-adventures/child-page-3-wordpress/grandchild-page-16-youtube-sec-policy/referrer-policy-correct.png)
 
 ### Update Templates (if applicable)
 If your website uses templates (e.g., in WordPress, Jekyll, or other CMS platforms), ensure the referrerpolicy attribute is added to the template files generating the `<iframe>` tags.
@@ -130,7 +130,7 @@ Once you've verified that the videos work correctly, deploy the updated code to 
 
 It's that simple, see how the video now loads with no error.
 
-![video loading with no 153 error](../../parent-page-tech-adventures/child-page-3-wordpress/grandchild-page-14-youtube-sec-policy/video-loading-with-no-153-error.png)
+![video loading with no 153 error](../../parent-page-tech-adventures/child-page-3-wordpress/grandchild-page-16-youtube-sec-policy/video-loading-with-no-153-error.png)
 
 
 ## Why Is This Important?
