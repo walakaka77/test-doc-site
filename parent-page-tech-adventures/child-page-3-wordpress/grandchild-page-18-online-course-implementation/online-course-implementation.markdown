@@ -197,6 +197,8 @@ Normally if your hosting provider has an STMP service, then this is not required
 ## User Registration Testing
 1. User registers or logs in
 ![image of user registering](../../parent-page-tech-adventures/child-page-3-wordpress/grandchild-page-18-online-course-implementation/registration and login.png)
+    - After they register, they can set their password. Link sent via email
+    ![password reset link](../../parent-page-tech-adventures/child-page-3-wordpress/grandchild-page-18-online-course-implementation/password-set-link.png)
 2. Purchases product linked to Sensei course
     - Prior to the purchase, user cannot access the product. See the list view
     ![list view  no access](../../parent-page-tech-adventures/child-page-3-wordpress/grandchild-page-18-online-course-implementation/list-course-no-access.png)
