@@ -8,7 +8,7 @@ nav_order: 19
 index: 'yes'
 follow: 'yes'
 description: How we diagnosed and fixed YouTube Error 153 in Elementor Advanced Accordion using PHP shortcodes to bypass plugin sanitization
-image: ../../parent-page-tech-adventures/child-page-3-wordpress/grandchild-page-19-youtube-embed-error-153/youtube-embed-error-153.png
+image: ../../parent-page-tech-adventures/child-page-3-wordpress/grandchild-page-19-fix-youtube-embed-error-153/error-153-youtube-player.png
 ---
 
 # Fixing YouTube Embed Error 153 in Elementor Advanced Accordion
@@ -25,6 +25,8 @@ image: ../../parent-page-tech-adventures/child-page-3-wordpress/grandchild-page-
 </details>
 
 If you've embedded YouTube videos inside an Elementor Advanced Accordion and started seeing **Error 153 — Video Player Configuration Error**, you're not alone. This guide walks through exactly how we diagnosed and fixed it, so you don't have to spend hours going in circles.
+
+![Error 153 YouTube player](../../parent-page-tech-adventures/child-page-3-wordpress/grandchild-page-19-fix-youtube-embed-error-153/error-153-youtube-player.png)
 
 ## What is Error 153?
 
@@ -46,6 +48,8 @@ You can confirm this in Chrome DevTools:
 4. Check **Referrer Policy** in the Headers tab
 
 If it shows `same-origin` or `no-referrer`, that's your culprit.
+
+![Chrome DevTools referrer policy header](../../parent-page-tech-adventures/child-page-3-wordpress/grandchild-page-19-fix-youtube-embed-error-153/devtools-referrer-policy-header.png)
 
 ## What We Tried First
 
@@ -77,6 +81,8 @@ We inspected the live page in Chrome DevTools → Elements tab and found the ifr
 ```
 
 The `referrerpolicy` attribute was completely gone. Something was stripping it before it reached the browser.
+
+![DOM inspector iframe missing referrerpolicy](../../parent-page-tech-adventures/child-page-3-wordpress/grandchild-page-19-fix-youtube-embed-error-153/dom-iframe-missing-referrerpolicy.png)
 
 ### Fix 3 — WordPress wp_kses Filter
 
@@ -159,7 +165,11 @@ Then in the Elementor accordion content, simply place:
 [video_why_train_your_dog]
 ```
 
+![Shortcode in Elementor accordion](../../parent-page-tech-adventures/child-page-3-wordpress/grandchild-page-19-fix-youtube-embed-error-153/shortcode-in-elementor.png)
+
 The iframe is now generated directly by PHP with `referrerpolicy="strict-origin-when-cross-origin"` intact, completely bypassing Elementor's sanitization.
+
+![YouTube video working after fix](../../parent-page-tech-adventures/child-page-3-wordpress/grandchild-page-19-fix-youtube-embed-error-153/youtube-video-working.png)
 
 ## Why This Works
 
