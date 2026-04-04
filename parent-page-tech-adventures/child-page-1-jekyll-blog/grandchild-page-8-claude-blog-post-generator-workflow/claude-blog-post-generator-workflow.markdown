@@ -216,7 +216,7 @@ image: ./screenshot-hero.png
 
 And the formatting rules that keep every article consistent — `blog-instructions.md` documents all of these so Claude.ai produces Just the Docs-compatible output:
 
-```markdown
+````markdown
 ## Just the Docs Formatting Rules
 
 ### Callouts
@@ -235,10 +235,11 @@ Something that can break or go wrong.
 ```bash
 brew install httpd
 ```
-
 ### Images — always use relative path
 
 The output is a `_draft.md` containing the metadata comment, frontmatter, full article body, and an `## Images Required` table — with `nav_order` deliberately left as a placeholder for Claude Code to fill in from the real filesystem.
+
+````
 
 ### Step 2 — File generation (Claude Code in VS Code)
 
