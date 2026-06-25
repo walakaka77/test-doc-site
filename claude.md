@@ -242,24 +242,38 @@ When the article would benefit from screenshots or diagrams that don't exist yet
 
 ### Image Path Rule
 
-Images live in the **same folder as the article markdown file**. Always reference them with a relative path:
+Images live in the **same folder as the article markdown file**. However, the path used in the markdown depends on whether the article is a child page or a grandchild page — because the `permalink:` URL does not match the repo file path, so `./` resolves incorrectly for grandchild pages.
+
+#### Grandchild pages — use the deep relative path (2 levels up)
+
+The permalink for a grandchild article is `/section/child/grandchild-slug`. The browser resolves `./` relative to `/section/child/`, but the image is served from the repo path `/parent-page-{section}/child-page-{N}/grandchild-page-{N}/image.png`. These don't match.
+
+Use `../../` to go up two levels from `/section/child/` to the site root, then navigate to the full repo path:
 
 ```markdown
-![alt text](./image-filename.png)
+<!-- ✓ CORRECT for grandchild articles -->
+![alt text](../../parent-page-tech-adventures/child-page-1-jekyll-blog/grandchild-page-8-some-slug/image.png)
 ```
 
-{: .warning }
-Never use deep relative paths or absolute paths for images. This is the single most common mistake — do not do this:
+The pattern is always:
+```
+../../{parent-page-folder}/{child-page-folder}/{grandchild-folder}/image.png
+```
+
+Apply this same deep path to the `image:` frontmatter field.
+
+#### Child pages — use `./`
+
+For top-level child pages (no grandparent), `./` works correctly:
 
 ```markdown
-<!-- ✗ WRONG — never do this -->
-![alt text](../../parent-page-tech-adventures/child-page-1-jekyll-blog/grandchild-page-8-some-slug/image.png)
-
-<!-- ✓ CORRECT — always do this -->
+<!-- ✓ CORRECT for child articles -->
 ![alt text](./image.png)
 ```
 
-The image file must be saved in the **same folder** as the `.markdown` file. The path in the markdown must always start with `./`.
+#### Quick check
+
+Run `/fix-image-paths` on any grandchild article to automatically audit and fix all `./` image references.
 
 ---
 
