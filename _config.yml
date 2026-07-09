@@ -69,3 +69,7 @@ callouts:
     color: red
 
 footer_content: "2024 Shafik Walakaka. Please submit feedback and comments <a href=\"https://github.com/walakaka77/test-doc-site/issues\">here!</a>"
+
+# Mermaid diagram support
+mermaid:
+  version: "9.1.3"
