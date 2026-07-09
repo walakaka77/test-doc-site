@@ -90,6 +90,40 @@ No surprises here. Funding inside the rate-lock window preserves the exact rate 
 | `funds_converted` | `0.578983` | 191.75 SGD | 111.02 GBP |
 | `outgoing_payment_sent` | `0.578983` | 191.75 SGD | 111.02 GBP |
 
+Here are the two `GET /v1/transfers/2147719426` responses the middle two rows above come from, back to back, so you can see the actual before/after rather than just my summary of it:
+
+```json
+// test-pre-fund-status.json — checked AFTER rateExpirationTime passed, BEFORE funding
+{
+  "id": 2147719426,
+  "quoteUuid": "43268751-d850-49e3-8501-6a9ec9208715",
+  "status": "incoming_payment_waiting",
+  "rate": 0.0,
+  "sourceCurrency": "SGD",
+  "sourceValue": 191.62,
+  "targetCurrency": "GBP",
+  "targetValue": 0.00,
+  "hasActiveIssues": false
+}
+```
+
+```json
+// test-post-fund-status.json — same transfer, checked again right after funding was accepted
+{
+  "id": 2147719426,
+  "quoteUuid": "43268751-d850-49e3-8501-6a9ec9208715",
+  "status": "processing",
+  "rate": 0.578983,
+  "sourceCurrency": "SGD",
+  "sourceValue": 191.75,
+  "targetCurrency": "GBP",
+  "targetValue": 111.02,
+  "hasActiveIssues": false
+}
+```
+
+Same `id`, same `quoteUuid` -- this is unambiguously the same transfer record, not a new one. `rate` goes from the originally-quoted `0.579263` to a hard `0.0` once `rateExpirationTime` passes, then to `0.578983` (a different, live-market number) the moment funding actually lands. `targetValue` tracks the same path: a real number, then `0.00`, then a *different* real number.
+
 ### The finding
 
 Funding was **not rejected**. Instead, two things happen, in order:
@@ -120,6 +154,22 @@ Before trusting the experiment above, I wanted to independently verify the ancho
 | Transfer `created` | `2026-07-03T05:49:25Z` |
 
 Doing the arithmetic: `expirationTime − createdTime = exactly 30 minutes`. `rateExpirationTime − createdTime = exactly 4 days`. Both anchor to **quote creation time**, not transfer creation time -- worth knowing since the transfer here was created 3 minutes after the quote, and a sloppier test could have conflated the two anchor points.
+
+That table is my own extraction -- here's what those four fields actually look like sitting inside the raw `POST /v3/profiles/{profileId}/quotes` response (trimmed; the full response also carries the entire `paymentOptions[]` fee-tier array covered in the next section):
+
+```json
+{
+  "id": "b26ce719-4da9-4fdc-bffa-2f11a617fd62",
+  "createdTime": "2026-07-03T05:46:53Z",
+  "expirationTime": "2026-07-03T06:16:53Z",
+  "rateExpirationTime": "2026-07-07T05:46:53Z",
+  "rate": 0.579347,
+  "sourceCurrency": "SGD",
+  "targetCurrency": "GBP",
+  "sourceAmount": 200.00
+  // paymentOptions[] omitted here for length
+}
+```
 
 The UI cross-check: the sandbox displayed *"Your rate is guaranteed until July 7 at 1:46 PM."* Converting `2026-07-07T05:46:53Z` UTC to SGT (UTC+8) gives exactly `1:46 PM` on July 7.
 
@@ -162,6 +212,47 @@ Identical `id`, identical `created` timestamp, identical everything. No duplicat
 This is the finding I couldn't close out, and I'm including it precisely because leaving an open question undocumented would be less honest than the alternative.
 
 **The pattern**: every quote's `paymentOptions[BALANCE].fee.total` states a fee of roughly **1.29-1.30 SGD**. But once that same transfer reaches `incoming_payment_waiting` or later, the *implied* fee -- back-calculated from `sourceValue` -- is consistently **8.17-8.38 SGD**. That's not a rounding difference; it's a different number entirely, off by a factor of roughly 6x.
+
+Here's exactly what that looks like as raw responses, both from Run 1 (1 Jul, Sandbox V1, business profile `30565011`, same `quoteUuid` in both). First, the `BALANCE` entry inside the quote's `paymentOptions[]` array:
+
+```json
+// quote-sgd-gbp-1.json — paymentOptions[] entry where payIn == "BALANCE"
+{
+  "payInProduct": "BALANCE",
+  "payIn": "BALANCE",
+  "feePercentage": 0.0065,
+  "fee": {
+    "transferwise": 1.29,
+    "payIn": 0.0,
+    "total": 1.29,
+    "priceSetId": 625
+  },
+  "sourceAmount": 200.0,
+  "targetAmount": 115.8,
+  "sourceCurrency": "SGD",
+  "targetCurrency": "GBP",
+  "payOut": "BANK_TRANSFER"
+}
+```
+
+Then the `GET /v1/transfers/2147687447` response for the transfer actually created against that same quote, post-funding:
+
+```json
+// get-transfer-status-1.json
+{
+  "id": 2147687447,
+  "quoteUuid": "edde2022-7404-47e5-ac8e-237860b37a29",
+  "status": "processing",
+  "rate": 0.582737,
+  "sourceCurrency": "SGD",
+  "sourceValue": 191.83,
+  "targetCurrency": "GBP",
+  "targetValue": 111.79,
+  "hasActiveIssues": true
+}
+```
+
+The quote's `fee.total` is `1.29` -- explicit, right there in the response. But `sourceAmount` (200) minus the transfer's `sourceValue` (191.83) is `8.17`, not `1.29`. `hasActiveIssues` also flipped to `true` on the transfer, which wasn't the case at quote time -- one more data point, not yet an explanation. Two API calls against the same quote, two different numbers for what should be the same fee.
 
 I reproduced this three separate times, deliberately varying the conditions each time to rule out obvious explanations:
 
