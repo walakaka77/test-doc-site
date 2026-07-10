@@ -49,6 +49,52 @@ Every OAuth login -- Corppass, Google, Facebook login, all of it -- follows the 
 4. We **exchange that code for a token**, server-to-server (the browser never sees this step).
 5. We **read the token** to get the claims (facts) about the user/entity.
 
+```mermaid
+flowchart LR
+    subgraph IdP["Corppass"]
+        Store[("SingPass identity +\nCorppass entity data")]
+        OIDC["/authorize and /token\nendpoints"]
+        Store <--> OIDC
+    end
+    Browser(["Browser"])
+    SP["Our application\n(the relying party)"]
+
+    Browser -- "1. hits a protected page" --> SP
+    SP -- "2. redirects with an\nauthorize request" --> Browser
+    Browser -- "3. forwards to Corppass" --> OIDC
+    OIDC -- "4. login + consent" --> Browser
+    Browser -- "5. redirected back\nwith a code" --> SP
+    SP -- "6. exchanges code for token\n(server-to-server)" --> OIDC
+```
+
+Steps 1-3 in that diagram all happen inside the browser, in full view -- that's the "front channel." Step 6 is the "back channel": our own backend talking to Corppass directly, with the browser never involved. Keeping that distinction straight matters later, because it's exactly why some of this is easy to screenshot and some of it isn't.
+
+## The flow, end to end
+
+Putting all five steps into one sequence, across both channels:
+
+```mermaid
+sequenceDiagram
+    participant U as User (browser)
+    participant SP as Our backend (SP)
+    participant CP as Corppass
+
+    U->>SP: GET a protected page
+    SP->>U: 302 redirect to Corppass /authorize<br/>(client_id, redirect_uri, scope, state, nonce)
+    U->>CP: GET /authorize?...
+    CP->>U: Login + consent screen
+    U->>CP: Submit Corppass credentials, consent
+    CP->>U: 302 redirect to redirect_uri?code=...
+    U->>SP: GET redirect_uri?code=...
+    Note over SP,CP: Server-to-server from here --<br/>the browser is not involved
+    SP->>SP: Generate a signed client<br/>assertion JWT (private key)
+    SP->>CP: POST /token (code + client_assertion)
+    CP->>SP: access_token + id_token
+    SP->>SP: Decode id_token, read claims
+```
+
+Everything above the "server-to-server" note is why steps 1-3 were straightforward to capture in DevTools in the screenshots below. Everything below that note is step 4 -- and it's exactly why, if you went looking for that request in the same Network tab, you wouldn't find it.
+
 ---
 
 ## Step 1 -- Redirect the user to Corppass
