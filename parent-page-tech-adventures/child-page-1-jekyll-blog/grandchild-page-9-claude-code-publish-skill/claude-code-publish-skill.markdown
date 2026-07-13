@@ -8,6 +8,7 @@ nav_order: 9
 index: 'yes'
 follow: 'yes'
 description: How I turned "commit, push, and hope" into a repeatable Claude Code /publish skill that also polls GitHub Actions and tells me whether the deploy actually succeeded.
+image: ../../parent-page-tech-adventures/child-page-1-jekyll-blog/grandchild-page-9-claude-code-publish-skill/post-deploy-verification-via-UI.png
 ---
 
 # Building a /publish Skill That Watches Its Own Deploy
@@ -156,22 +157,62 @@ That response includes each job's steps and, for the failed one, enough context 
 
 There's also a third outcome worth handling explicitly: the loop times out (15 minutes, generous against a normal ~1-2 minute deploy) without ever seeing `completed`. That's treated as its own distinct report -- "I couldn't confirm either way" -- rather than silently defaulting to "probably fine." Silence is not the same as success.
 
-## Proof it works: a real run
+## Watching it run for real
 
-The first time this ran for real, it confirmed a deploy that had, in fact, already finished by the time the check happened:
+Everything below isn't staged -- it's screenshots from the actual Claude Code session that published *this article*, using the exact skill this post describes. There's something fitting about a post on self-verifying deploys being the thing that proved itself out.
+
+### Steps 1-2: confirm the branch, show what's pending
+
+`/publish` starts by checking it's actually on `main`, then runs `git status` so nothing gets committed blind:
+
+![Steps 1-2: verifying branch and showing pending changes](../../parent-page-tech-adventures/child-page-1-jekyll-blog/grandchild-page-9-claude-code-publish-skill/step-1-2-standard-publish-skill.png)
+
+### Steps 3-4: stage only the article, then commit
+
+Only the specific article folder gets `git add`-ed -- never `-A`, never `.` -- and the commit message is built from the article's own frontmatter `title:` field:
+
+![Steps 3-4: staging the article folder and committing](../../parent-page-tech-adventures/child-page-1-jekyll-blog/grandchild-page-9-claude-code-publish-skill/step-3-4-staging-and-committing.png)
+
+### Step 5: push, and confirm the exact commit that shipped
+
+```bash
+git push origin main
+```
+
+![Step 5: pushing to origin/main and confirming the commit hash](../../parent-page-tech-adventures/child-page-1-jekyll-blog/grandchild-page-9-claude-code-publish-skill/step-5-commit-to-main-origin.png)
+
+At this point `git push` has already succeeded -- which, as covered above, is exactly the point where the old workflow used to just stop and hope.
+
+### Step 7: kick off the background poll
+
+Instead of stopping there, the skill immediately launches the polling loop as a background task and hands control straight back:
+
+![Step 7: launching the background poll for deploy status](../../parent-page-tech-adventures/child-page-1-jekyll-blog/grandchild-page-9-claude-code-publish-skill/step-7-polling-in-the-background.png)
+
+Note the phrasing here: *"I'll report back... as soon as it resolves."* Nothing is blocked waiting on this -- I get the notification whenever GitHub actually finishes, not on some guessed timer.
+
+### Step 7: the poll resolves
+
+Two minutes later (well within the 15-minute cap), the loop found the run for this exact commit SHA sitting at `completed`, and reported both the raw API result and a human-readable summary:
+
+![Step 7: the poll completes with a success result](../../parent-page-tech-adventures/child-page-1-jekyll-blog/grandchild-page-9-claude-code-publish-skill/step-7-polling-success.png)
 
 | Field | Value |
 |---|---|
-| Commit | `690271a957b900da49c64be7a9518bd2122236fe` |
-| Workflow | Deploy Jekyll site to Pages |
+| Commit | `4fbe398a68b17f297a7db6cccacec7e8eb8017df` |
 | Status | `completed` |
 | Conclusion | `success` |
-| Started | `2026-07-13T05:19:54Z` |
-| Finished | `2026-07-13T05:21:18Z` |
-| Duration | ~1m24s |
-| Run URL | `github.com/walakaka77/test-doc-site/actions/runs/29226058350` |
+| Run URL | `github.com/walakaka77/test-doc-site/actions/runs/29232290134` |
 
-That table is pulled directly from the Actions API response for that push -- not reconstructed from memory or estimated from elapsed time.
+That table is the raw `status|conclusion|html_url` line the polling loop emitted -- not reconstructed from memory or estimated from elapsed time.
+
+### UI verification: confirming it's actually live, not just "reported" live
+
+The API says `success`. The last step is checking that a human, in an actual browser, sees the actual article -- because an API returning `success` and a page rendering correctly are still two different claims:
+
+![Verifying the published article renders correctly in the live site UI](../../parent-page-tech-adventures/child-page-1-jekyll-blog/grandchild-page-9-claude-code-publish-skill/post-deploy-verification-via-UI.png)
+
+Title matches, breadcrumb (`Tech Adventures / Jekyll Blog / Building a /publish Skill That Watches Its Own Deploy`) matches, nav sidebar shows it slotted in at the right place, table of contents rendered. This is the step that closes the loop the whole skill exists for: not "did GitHub say it deployed," but "can I actually see it."
 
 ## Why not simpler alternatives
 
@@ -201,12 +242,3 @@ Governs how articles themselves get written -- folder conventions, frontmatter, 
 The theme connecting this post and the [earlier one on article generation](/tech-adventures/jekyll-blog/automating-jekyll-blog-post-generation) is the same: don't trust a step just because it's supposed to have worked -- check it against the real system, and if the obvious check turns out to hit a 404, figure out why instead of writing that off as noise. `/publish` isn't just "commit and push" anymore. It's "commit, push, and don't stop until there's a real answer."
 
 Until next time, peace and love!
-
-## Images Required
-
-This post is mostly code/diagram-driven, but a couple of real screenshots would round it out nicely:
-
-| Filename | What to capture |
-|---|---|
-| `publish-skill-terminal.png` | Terminal output of `/publish` running through Steps 1-6 in Claude Code |
-| `github-actions-run-success.png` | The GitHub Actions run page (`.../actions/runs/29226058350`) showing the green "Deploy Jekyll site to Pages" success state |
