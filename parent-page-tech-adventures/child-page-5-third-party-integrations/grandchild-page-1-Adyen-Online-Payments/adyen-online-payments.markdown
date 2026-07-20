@@ -332,6 +332,10 @@ Similar to the hosted checkout flow, we always trust the server-to-server call (
 ![alt text](../../parent-page-tech-adventures/child-page-5-third-party-integrations/grandchild-page-1-Adyen-Online-Payments/image-12.png)
 
 
+## **Related: Adyen In-Person / POS Payments**
+
+Everything above covers Adyen's **online checkout** flow -- a shopper on a website, entering card details into a hosted page or UI component. Adyen also has a completely separate integration surface for **card-present, point-of-sale payments** -- a physical (or simulated) terminal instead of a checkout page, a different message format (`SaleToPOIRequest`/`SaleToPOIResponse` instead of Sessions), and its own set of gotchas around cloud vs. local architecture. If that side of Adyen is more relevant to what you're building, [Adyen POS / Terminal API — Architecture and Background](/tech-adventures/third-party-integrations/adyen-pos-terminal-api-architecture) is the starting point for that series.
+
 ## **Conclusion**
 
 Understanding the online payment flow and its implementation can significantly enhance the efficiency and security of your e-commerce operations. By leveraging Adyen's comprehensive payment processing solutions, businesses can provide seamless and secure payment experiences for their customers.
