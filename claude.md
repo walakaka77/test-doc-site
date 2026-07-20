@@ -306,6 +306,19 @@ I need to access the following domains to complete this task. Please approve all
 
 ---
 
+## Standardization Guides
+
+The sections above cover the mechanics of a single article. For decisions that span *multiple* articles or an entire series — which slug, which section, how things link together, the fuller voice rules — see the guides under `.claude/guides/`:
+
+- [`slugs.md`](.claude/guides/slugs.md) — folder/filename/permalink conventions, how to pick a slug
+- [`placement.md`](.claude/guides/placement.md) — how to choose parent/child/grandchild placement, the precedent-matching heuristic
+- [`interlinking.md`](.claude/guides/interlinking.md) — the accept/reject process for cross-links between articles, both within a new series and against existing ones
+- [`voice.md`](.claude/guides/voice.md) — the fuller writing-voice guide (this section is the summary)
+
+These are living documents — refine them as patterns solidify or as exceptions come up, the same way this file itself gets refined.
+
+---
+
 ## Output — What to Produce
 
 1. **State the exact file path** where the article will be saved. Confirm with user if unsure.
