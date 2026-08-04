@@ -207,6 +207,8 @@ This keeps your Elementor content clean and your iframes fully under your contro
 - The reliable fix is a **PHP shortcode** in your child theme, which bypasses all plugin-level sanitization
 - Always inspect the **live DOM** to confirm whether attributes are actually present, not just what you typed in the editor
 
+If you're hitting this same attribute-stripping problem outside of Elementor, it's worth knowing the failure mode isn't universal: [Automating YouTube Uploads Into WordPress Blog Posts With Claude Code](/tech-adventures/wordpress/automating-youtube-wordpress-posts) pushes this exact same `referrerpolicy` attribute through the WordPress REST API instead of the editor UI, and it survives completely untouched, since that path skips the plugin-level save pipeline that was the real culprit here.
+
 ---
 
 Until next time, peace and love!
