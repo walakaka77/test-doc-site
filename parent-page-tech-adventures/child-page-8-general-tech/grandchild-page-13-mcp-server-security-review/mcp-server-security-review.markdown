@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Shipping an MCP Server: A Real Security Review Before Going Public"
-permalink: /tech-adventures/general-tech/mcp-server-security-review
+title: "Shipping an MCP Server"
+permalink: /tech-adventures/general-tech/mcp-server
 parent: General Tech
 grand_parent: Tech Adventures
 nav_order: 13
@@ -11,7 +11,7 @@ description: The actual checklist run against the Acuity MCP server before pushi
 image: ../../parent-page-tech-adventures/child-page-8-general-tech/grandchild-page-13-mcp-server-security-review/01-github-repo-live.png
 ---
 
-# Shipping an MCP Server: A Real Security Review Before Going Public
+# Shipping an MCP Server
 {: .no_toc }
 
 <details closed markdown="block">

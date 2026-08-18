@@ -140,7 +140,7 @@ This entire resolution order is this project's own invention, layered on top of 
 
 ## Where this series goes next
 
-At this point, the server works, and I understand both hops of how. The last thing left is the part that matters before anyone else can use it: is it actually safe to make this repo public, and how would you check? That's a security review, done for real against this exact repo, [next in this series](/tech-adventures/general-tech/mcp-server-security-review).
+At this point, the server works, and I understand both hops of how. The last thing left is the part that matters before anyone else can use it: is it actually safe to make this repo public, and how would you check? That's a security review, done for real against this exact repo, [next in this series](/tech-adventures/general-tech/mcp-server).
 
 ## Images Required
 
