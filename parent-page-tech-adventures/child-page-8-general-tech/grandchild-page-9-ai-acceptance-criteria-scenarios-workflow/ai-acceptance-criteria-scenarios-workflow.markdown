@@ -92,6 +92,9 @@ This matters because the AC field is often where the original requirement lives,
 
 Put together, the shape of the whole thing is: cheap scope agreement first, full detail only after that's settled, coverage computed once and trusted twice, tags that never lie about whether something is new, and a Jira update that only ever adds. None of those individually are exotic ideas -- the value is in applying all of them together to something that would otherwise tempt a much simpler, much riskier one-shot design.
 
+{: .note }
+If you're curious about a different layer of "AI agent architecture" -- not workflow orchestration, but the actual wire protocol an agent uses to call a tool at all -- see the [MCP server series](/tech-adventures/general-tech/mcp-server-mental-model), which walks through a real MCP server end to end.
+
 ## Images Required
 
 None for this article — it's diagram- and table-based throughout.
