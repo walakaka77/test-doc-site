@@ -8,7 +8,7 @@ nav_order: 13
 index: 'yes'
 follow: 'yes'
 description: The actual checklist run against the Acuity MCP server before pushing it to a public GitHub repo -- what to check, what was found, and proof the finished server actually works against a live Acuity account.
-image: ./02-github-repo-live.png
+image: ../../parent-page-tech-adventures/child-page-8-general-tech/grandchild-page-13-mcp-server-security-review/01-github-repo-live.png
 ---
 
 # Shipping an MCP Server: A Real Security Review Before Going Public
@@ -90,13 +90,31 @@ Public, `main` branch, nothing sensitive in it -- confirmed before the push happ
 
 ## Proof it actually works
 
-Everything in this series up to now has been architecture and code. Here's what "it works" looks like against a real (sandbox) Acuity account:
+Everything in this series up to now has been architecture and code. Here's the full, unedited trail of what "it works" actually looked like against a real (sandbox) Acuity account -- Claude Code's side and Acuity's own dashboard, back to back.
 
-![Screenshot of the GitHub repo live and public](./02-github-repo-live.png)
+![Screenshot of the GitHub repo live and public on GitHub](../../parent-page-tech-adventures/child-page-8-general-tech/grandchild-page-13-mcp-server-security-review/01-github-repo-live.png)
 
-![Screenshot of Claude Code listing calendars/appointment types pulled live from the sandbox Acuity account](./03-mcp-list-calendars-result.png)
+The repo, live and public, right after the push in the previous section.
 
-![Screenshot of an appointment created via create_appointment showing up in the Acuity dashboard](./04-mcp-created-appointment-in-acuity-dashboard.png)
+![Screenshot of Claude Code calling list_appointment_types and list_calendars against the sandbox account, with the rendered results table](../../parent-page-tech-adventures/child-page-8-general-tech/grandchild-page-13-mcp-server-security-review/02-mcp-list-appointment-types-and-calendars.png)
+
+A plain-language request -- "list the appointment types available and also the calendars from the sandbox account" -- turned into two real tool calls (`list_appointment_types`, `list_calendars`) and a rendered summary table, exactly matching the [tool discovery mechanics from earlier in this series](/tech-adventures/general-tech/mcp-json-rpc-tool-discovery).
+
+![Screenshot of the raw JSON tool output for list_calendars, showing the replyTo field](../../parent-page-tech-adventures/child-page-8-general-tech/grandchild-page-13-mcp-server-security-review/03-mcp-list-calendars-raw-json.png)
+
+The raw `list_calendars` response underneath that summary -- the same shape of data [quoted (and partly redacted) as text in the previous post](/tech-adventures/general-tech/mcp-server-api-bridge), shown here in full at your own call, since it's your own sandbox account.
+
+![Screenshot of the create_appointment flow: checking availability, an AskUserQuestion confirmation gate, then the create_appointment call and its booked confirmation](../../parent-page-tech-adventures/child-page-8-general-tech/grandchild-page-13-mcp-server-security-review/04-mcp-create-appointment-flow.png)
+
+The actual mutating call, end to end: `check_availability_times` finds open slots, then -- before touching anything -- an explicit confirmation gate (`AskUserQuestion`) asks which slot to book, and only after that answer does `create_appointment` fire. This is the ["mutating calls need confirmation" rule](https://github.com/walakaka77/acuity-mcp/blob/main/.claude/skills/acuity-mcp-setup/SKILL.md) from the server's own setup skill, actually happening rather than just documented.
+
+![Screenshot of Acuity's own calendar week view, showing the newly created appointment for Shafik Walakaka on Thursday 12:20pm-1:10pm alongside other test appointments](../../parent-page-tech-adventures/child-page-8-general-tech/grandchild-page-13-mcp-server-security-review/05-acuity-calendar-week-view-with-new-appointment.png)
+
+And there it is, on Acuity's own calendar -- not just a JSON response claiming success, but the actual booking sitting on the actual calendar, right where the tool call said it would be.
+
+![Screenshot of the appointment detail panel in Acuity, showing it was scheduled via the API](../../parent-page-tech-adventures/child-page-8-general-tech/grandchild-page-13-mcp-server-security-review/06-acuity-appointment-detail-scheduled-via-api.png)
+
+The best receipt of the whole series: Acuity's own detail panel reads **"Scheduled by qiai.chong@gmail.com via the API"** -- Acuity's own UI independently confirming the mutation actually happened, not just this server's own say-so. That's exactly the discipline [the previous post's "200 OK doesn't prove it happened" lesson](/tech-adventures/general-tech/mcp-server-api-bridge) argues for -- here, verified on the dashboard itself rather than by re-fetching through the API.
 
 ## What this series covered, in order
 
@@ -106,13 +124,5 @@ Everything in this series up to now has been architecture and code. Here's what 
 4. This post -- the security review, and proof it actually runs
 
 The throughline across all four: almost every genuinely useful insight here started from a wrong first guess -- stdio as a protocol rather than plumbing, tool params fetched in two round trips instead of one, and, biggest of all, assuming Acuity negotiated tools the same way Claude Code does. Writing the correction down each time turned out to be worth more than getting it right on the first guess would have been.
-
-## Images Required
-
-| Filename | What to capture |
-|---|---|
-| `02-github-repo-live.png` | The public `walakaka77/acuity-mcp` repo page on GitHub, showing it's public with the initial commit |
-| `03-mcp-list-calendars-result.png` | A Claude Code session calling `list_calendars` / `list_appointment_types` against the sandbox Acuity account, showing real results |
-| `04-mcp-created-appointment-in-acuity-dashboard.png` | The Acuity Scheduling dashboard showing an appointment that was created via the `create_appointment` MCP tool call |
 
 Until next time, peace and love!

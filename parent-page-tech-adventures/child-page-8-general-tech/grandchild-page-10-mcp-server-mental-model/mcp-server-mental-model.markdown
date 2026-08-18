@@ -8,7 +8,7 @@ nav_order: 10
 index: 'yes'
 follow: 'yes'
 description: Working out, from first principles, how Claude Code actually talks to a local MCP server -- processes, pipes, and why it can't just be "calling a function" -- using a real, public Acuity Scheduling MCP server as the example throughout.
-image: ./01-acuity-mcp-repo.png
+image: ../../parent-page-tech-adventures/child-page-8-general-tech/grandchild-page-10-mcp-server-mental-model/01-acuity-mcp-repo.png
 ---
 
 # What Even Is an MCP Server? Building a Mental Model With a Real One
@@ -24,6 +24,8 @@ image: ./01-acuity-mcp-repo.png
 </details>
 
 I'd been using MCP servers inside Claude Code for a while -- Notion, Google Drive, a handful of others -- without ever really asking how "Claude calls a tool" actually works under the hood. That changed when I built and reviewed a real one: a small MCP server that wraps the Acuity Scheduling API, so Claude Code can list appointments, check availability, and book/cancel/reschedule directly from a chat. [The repo is public](https://github.com/walakaka77/acuity-mcp), so every code snippet in this series is something you can go read yourself, not a hypothetical.
+
+![Screenshot of the public acuity-mcp GitHub repo, showing the .claude/skills, bin, and lib folders alongside server.js and the README](../../parent-page-tech-adventures/child-page-8-general-tech/grandchild-page-10-mcp-server-mental-model/01-acuity-mcp-repo.png)
 
 This series is a write-up of everything that turned out to be non-obvious while building a mental model of that server -- including a couple of assumptions I made along the way that turned out to be flat wrong. I'm keeping those in rather than editing them out, because the wrong turn is usually more instructive than the correct answer on its own.
 
@@ -97,11 +99,5 @@ Here, both "machines" are the same laptop, running two programs at the same time
 ## Where this series goes next
 
 Knowing there's a pipe explains *how* two processes can exchange bytes. It says nothing yet about *what* those bytes actually look like -- a pipe is just a wire; it has no concept of "requests," "tools," or "JSON." That's the actual protocol layer, and it's where the genuinely interesting mechanics live: how Claude Code says "call `create_appointment` with these arguments," how the server answers back with the right response and not someone else's, and why a whole SDK exists on top of what's "just" a pipe. That's [next in this series](/tech-adventures/general-tech/mcp-json-rpc-tool-discovery).
-
-## Images Required
-
-| Filename | What to capture |
-|---|---|
-| `01-acuity-mcp-repo.png` | The public GitHub repo page for the Acuity MCP server (github.com/walakaka77/acuity-mcp) |
 
 Until next time, peace and love!
