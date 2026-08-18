@@ -32,6 +32,7 @@ theme: just-the-docs #minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-redirect-from
 # Exclude from processing.
 exclude:
   - CLAUDE.md

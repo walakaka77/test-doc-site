@@ -2,6 +2,8 @@
 layout: page
 title: "Shipping an MCP Server"
 permalink: /tech-adventures/general-tech/mcp-server
+redirect_from:
+  - /tech-adventures/general-tech/mcp-server-security-review
 parent: General Tech
 grand_parent: Tech Adventures
 nav_order: 13
