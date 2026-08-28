@@ -123,6 +123,10 @@ One more thing worth flagging, because it's counter-intuitive if you're picturin
 
 That's expected behaviour, not a bug, for a batch small enough to stay under the concurrency ceiling. It just means "concurrent" here reads as "all start together, finish independently, report together" -- not as a live progress feed. If real-time visibility into individual completions is ever needed, that's a job for a separate watcher process, not something the batch script itself provides.
 
+## A different shape of the same problem, later
+
+The "shared resource, not a shared queue" version of this same lesson showed up again later, in a completely different context: two Claude Code sessions pulling insurance documents from two different insurers at the same time, both needing the same registered browser tool. No ticket queue in sight, but the same underlying question -- who's allowed to touch the shared thing right now, and how does the other side find out it's free -- see [the popup-blocker post in the insurance automation series](/tech-adventures/general-tech/ai-insurance-bulk-document-download#two-agents-one-browser-one-lock-file) for how that one got resolved.
+
 ## Images Required
 
 None for this article — it's diagram- and code-based throughout.
