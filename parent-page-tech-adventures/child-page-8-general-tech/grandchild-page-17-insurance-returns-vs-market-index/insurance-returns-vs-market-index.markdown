@@ -27,8 +27,8 @@ A family member of mine has held a handful of older insurance-linked plans (ILPs
 
 So I did. Not with a rough guess or an insurer's own illustration — with the actual real historical prices of the actual underlying funds, checked against what a plain world-index fund would have done with the exact same money, on the exact same dates.
 
-{: .note }
-Genericised throughout. The person involved isn't named, and dollar figures are rounded — the product names (they're real, publicly named insurance products) and the methodology are exactly as they happened.
+{: .warning }
+Genericised throughout. The person involved isn't named, and the dollar figures shown are representative, not the real numbers — swapped out to keep their finances private. The product names (they're real, publicly named insurance products) and the methodology are exactly as they happened.
 
 ## The setup: three policies, one real question
 

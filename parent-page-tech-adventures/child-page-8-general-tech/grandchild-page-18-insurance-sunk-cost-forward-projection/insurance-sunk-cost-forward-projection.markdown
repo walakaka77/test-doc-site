@@ -27,8 +27,8 @@ image: ../../parent-page-tech-adventures/child-page-8-general-tech/grandchild-pa
 
 That needs a forward-looking model, not a historical one — and building it honestly produced one result that genuinely wasn't a landslide, which is the more useful finding than three easy wins would have been.
 
-{: .note }
-Same genericisation as the previous post: no names, rounded figures, real product categories and methodology.
+{: .warning }
+Same genericisation as the previous post: no names, and the dollar figures shown are representative, not the real numbers — swapped out to keep the family member's finances private. Real product categories and methodology throughout.
 
 ## The question, precisely
 
