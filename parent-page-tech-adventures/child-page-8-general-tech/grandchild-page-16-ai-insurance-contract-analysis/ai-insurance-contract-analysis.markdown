@@ -26,8 +26,8 @@ description: What reading 180+ pages of real insurance contracts turned up -- a 
 
 This post is about the part that turned out to matter more than the automation: having Claude Code actually *read* the contracts -- not skim a portal's summary page, the real 60-to-90-page legal documents -- and what came out of doing that.
 
-{: .note }
-The dollar figures from here on are representative, not my real numbers -- swapped out to keep my own finances private. Everything else -- the contract clauses (quoted verbatim), the mechanics, the actual findings -- is real and was verified against the real documents.
+{: .warning }
+The dollar figures from here on are representative, not my real numbers -- swapped out to keep my own finances private. Everything else is real: the contract clauses are quoted verbatim from the actual documents, the mechanics were verified against them directly, and the findings themselves have been checked against and line up with what my subject matter expert -- a licensed insurance agent -- separately briefed me on. The numbers are fake; the analysis isn't.
 
 ## Premiums, first, because they're simple
 
