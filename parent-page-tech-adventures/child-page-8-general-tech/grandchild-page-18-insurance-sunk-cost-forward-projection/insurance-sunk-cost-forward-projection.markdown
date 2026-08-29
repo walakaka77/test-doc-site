@@ -4,11 +4,11 @@ title: "The Sunk-Cost Question, Projected Forward: Was Surrendering the Right Ca
 permalink: /tech-adventures/general-tech/insurance-sunk-cost-forward-projection
 parent: General Tech
 grand_parent: Tech Adventures
-nav_order: 15
+nav_order: 18
 index: 'yes'
 follow: 'yes'
 description: A forward-looking, XIRR-based projection to check whether surrendering underperforming insurance-linked policies actually made sense — including the one case that was a genuinely close call, and what an AI agent's real execution time looked like next to a manual analyst's.
-image: ../../parent-page-tech-adventures/child-page-8-general-tech/grandchild-page-15-insurance-sunk-cost-forward-projection/01-forward-projection.png
+image: ../../parent-page-tech-adventures/child-page-8-general-tech/grandchild-page-18-insurance-sunk-cost-forward-projection/01-forward-projection.png
 ---
 
 # The Sunk-Cost Question, Projected Forward: Was Surrendering the Right Call?
@@ -58,7 +58,7 @@ XIRR here means: given exactly when money went in and what it's worth today, wha
 
 ## The projection
 
-![Forward projection: keep paying at each policy's own real historical rate vs. surrender and invest at the real world-index rate, run out over the same number of years each policy has already existed](../../parent-page-tech-adventures/child-page-8-general-tech/grandchild-page-15-insurance-sunk-cost-forward-projection/01-forward-projection.png)
+![Forward projection: keep paying at each policy's own real historical rate vs. surrender and invest at the real world-index rate, run out over the same number of years each policy has already existed](../../parent-page-tech-adventures/child-page-8-general-tech/grandchild-page-18-insurance-sunk-cost-forward-projection/01-forward-projection.png)
 
 | Policy | Forward horizon | Keep paying — pessimistic | Keep paying — optimistic | Surrender & invest |
 |---|---|---:|---:|---:|

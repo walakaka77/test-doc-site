@@ -4,11 +4,11 @@ title: "Checking Whether an Insurance 'Investment' Ever Beats the Market — Wit
 permalink: /tech-adventures/general-tech/insurance-returns-vs-market-index
 parent: General Tech
 grand_parent: Tech Adventures
-nav_order: 14
+nav_order: 17
 index: 'yes'
 follow: 'yes'
 description: I had an AI agent fetch real historical fund prices for a family member's insurance-linked "investment" plans and check, properly, whether they ever beat just buying a world-index fund.
-image: ../../parent-page-tech-adventures/child-page-8-general-tech/grandchild-page-14-insurance-returns-vs-market-index/01-actual-vs-market-returns.png
+image: ../../parent-page-tech-adventures/child-page-8-general-tech/grandchild-page-17-insurance-returns-vs-market-index/01-actual-vs-market-returns.png
 ---
 
 # Checking Whether an Insurance "Investment" Ever Beats the Market — With Real Historical Prices
@@ -91,7 +91,7 @@ The fix: bridge the gap using the real global-index return as a proxy for those 
 
 ## The finding: none of the three beat the market
 
-![Real historical performance: actual insurer funds and account values vs. what a world-index fund would have done with the same money, on the same dates](../../parent-page-tech-adventures/child-page-8-general-tech/grandchild-page-14-insurance-returns-vs-market-index/01-actual-vs-market-returns.png)
+![Real historical performance: actual insurer funds and account values vs. what a world-index fund would have done with the same money, on the same dates](../../parent-page-tech-adventures/child-page-8-general-tech/grandchild-page-17-insurance-returns-vs-market-index/01-actual-vs-market-returns.png)
 
 Rounded, real, historical numbers — each policy compared over its own actual lifespan (roughly 9, 4, and 15 years respectively, since that's how long each has actually existed):
 
