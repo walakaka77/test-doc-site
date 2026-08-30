@@ -30,6 +30,9 @@ So I did. Not with a rough guess or an insurer's own illustration — with the a
 {: .warning }
 Genericised throughout. The person involved isn't named, and the dollar figures shown are representative, not the real numbers — swapped out to keep their finances private. The product names (they're real, publicly named insurance products) and the methodology are exactly as they happened.
 
+{: .warning }
+**Updated 2026-08-30.** An earlier version of this post computed one blended "fee/charge drag" number per ILP — mixing the actual cost of protection (the CI/TPD charges that fund the death/disability/critical-illness cover) together with the ILP's separate, upfront distribution/admin charge. Those are two different things: the protection charge is a cost you'd pay under *any* strategy, including a plain term-life replacement, so it isn't fair to hold it against "investment quality." The distribution charge, on the other hand, only exists because of the ILP wrapper itself — a chunk of every premium never becomes investable capital in the first place because of it, and that *should* count against the ILP as an investment. This post now separates all three — protection cost, distribution/admin cost, and the amount actually invested — and reruns the market-index comparison strictly on the amount actually invested, on both sides. The table, chart, and "why is one worse than the other" section below all reflect the correction; the causal story for ILP #2 changed the most, since the old blended number was pointing at the wrong cause for it.
+
 ## The setup: three policies, one real question
 
 Three policies, two different mechanisms:
@@ -93,30 +96,32 @@ The fix: bridge the gap using the real global-index return as a proxy for those 
 
 ![Real historical performance: actual insurer funds and account values vs. what a world-index fund would have done with the same money, on the same dates](../../parent-page-tech-adventures/child-page-8-general-tech/grandchild-page-17-insurance-returns-vs-market-index/01-actual-vs-market-returns.png)
 
-Rounded, real, historical numbers — each policy compared over its own actual lifespan (roughly 9, 4, and 15 years respectively, since that's how long each has actually existed):
+Representative, but real-methodology, historical numbers — each policy compared over its own actual lifespan (roughly 9, 4, and 15 years respectively, since that's how long each has actually existed):
 
-| Policy | Premiums paid in | Actual value today | Same money, in VWRA instead |
-|---|---:|---:|---:|
-| ILP #1 (~9 years) | ~SGD 37,000 | ~SGD 34,000 | ~SGD 67,000 |
-| ILP #2 (~4 years) | ~SGD 19,000 | ~SGD 11,500 | ~SGD 28,000 |
-| Whole life (~15 years) | ~SGD 25,500 | ~SGD 18,000 | ~SGD 53,000 |
+| Policy | Premiums paid in | Of which invested | Actual value today | Same invested amount, in VWRA instead |
+|---|---:|---:|---:|---:|
+| ILP #1 (~9 years) | ~SGD 40,000 | ~SGD 32,700 (82%) | ~SGD 34,700 | ~SGD 59,600 |
+| ILP #2 (~4 years) | ~SGD 21,000 | ~SGD 11,800 (56%) | ~SGD 12,300 | ~SGD 17,100 |
+| Whole life (~15 years) | ~SGD 25,700 | n/a — no disclosed split, see below | ~SGD 19,000 | ~SGD 52,900 (full premium — the only basis available) |
 
-Two of the three are worth sitting with for a second: **the actual account value today is *below* total premiums paid in** — after 9 years and after 4 years respectively. Not "grew slower than the market" — actually underwater, in absolute terms, despite nearly a decade of real market growth happening around it.
+Two things worth sitting with. First: **the actual account value today is *below* total premiums paid in**, for both ILPs — after 9 years and after 4 years respectively. Not "grew slower than the market" — actually underwater, in absolute terms, despite nearly a decade of real market growth happening around it. Second, and this is the correction: **less than the full premium ever became investable capital in the first place** — 82% for ILP #1, only 56% for ILP #2. The rest was a distribution/admin charge, deducted before any unit was ever bought. Comparing "money in VWRA instead" against the *full* premium, like the original version of this post did, overstates how much capital the ILP was actually working with — so the VWRA column above is now the same invested amount on both sides, not the full premium.
 
-## Decomposing *why* — two different failure modes, not one
+## Decomposing *why* — three buckets, not two, and a different root cause for one policy
 
-Because the two ILPs' real underlying fund prices were fetchable, the gap could be split into two genuinely separate causes rather than one vague "insurance is bad" conclusion:
+The old version of this post split the gap into "fee drag" and "fund-selection drag." That blended two genuinely different things into one number. The corrected version separates three:
 
-1. **Fee/charge drag** — the actual account value vs. what the real underlying funds did, before any charges.
-2. **Fund-selection drag** — what the real underlying funds did vs. what a global index did over the same stretch.
+1. **Cost of protection** — the CI/TPD charges that actually fund the death/disability/critical-illness cover. A cost you'd pay under any strategy; not a fair charge against "investment quality."
+2. **Amount actually invested** — the portion of premium that became fund units in the first place.
+3. **Distribution/admin cost** — the upfront charge that exists only because of the ILP wrapper, deducted before any unit is bought. This is the one that *should* count against the ILP as an investment vehicle.
 
 | | ILP #1 | ILP #2 |
 |---|---:|---:|
-| Fee/charge drag | ~26% of real gross growth | **~57% of real gross growth** |
-| Fund-selection drag | the larger of the two factors here | a small factor here |
+| **Cost of protection** (drag from real invested growth → actual value) | ~16% of gross growth | **~25% of gross growth** |
+| **Distribution/admin cost** (never became investable capital) | ~18% of premium | **~44% of premium** |
+| **Fund-selection drag** (real invested growth vs. VWRA, same invested capital) | **~31% of VWRA-equivalent — the dominant factor** | ~4% of VWRA-equivalent — a small factor |
 
 {: .important }
-These are two different products failing for two different reasons. ILP #1's bigger problem was **fund selection** — a heavily region-concentrated fund mix that genuinely lagged a global index over this exact stretch, independent of what the insurer charged. ILP #2's bigger problem was **fees**, overwhelmingly — its own underlying funds actually performed reasonably well, but more than half of that real growth never reached the policyholder. Same insurer, same broad product category, opposite root cause.
+These are two different products failing for two different reasons — and correcting the blended number actually sharpens that story rather than changing it. ILP #1's dominant problem is still **fund selection** — a heavily region-concentrated fund mix that genuinely lagged a global index over this exact stretch, independent of any charge. ILP #2's dominant problem turns out to be **protection cost, not fund selection and not admin cost** — its own underlying funds actually tracked the world index closely once the comparison is run on an equal invested-capital basis (only a ~4% gap). What's actually crushing this policy's real-world outcome is the CI/TPD charges funding its protection, which are large relative to how little of its premium ever became investable capital to begin with. Its distribution cost is also the highest of the two as a share of premium — but that's a *separate* problem from protection cost, not the same one restated.
 
 ## The whole life policy's opacity is a feature, not a bug
 
@@ -134,6 +139,8 @@ The traditional whole life policy couldn't get the same fund-price treatment, an
 >
 > The whole life policy's own bonus statements show its declared rate held perfectly flat through a year the underlying participating fund *actually returned −7.6%*. That's not an oversight — smoothing bad years is the literal product design, meant to protect policyholders from short-term volatility. It just also means "transparent, independently-verifiable pricing" and "this product category" are close to mutually exclusive, by design, everywhere this product type is sold — not a flaw specific to this one insurer.
 
+The opacity has a real, concrete consequence for this post's own methodology: **there's no way to run the same "cost of protection vs. distribution cost vs. invested amount" split on the whole life policy that the two ILPs above got.** A handful of real, disclosed annual bonus figures does exist for a short recent stretch, though — enough for one narrow, honest experiment. Take that real disclosed bonus as a starting balance, and ask: over that same short window, using real market prices, would VWRA have grown it faster? Over the specific few years on file, the smoothed bonus rate and the VWRA-equivalent came out **within a percentage point of each other** — smoothing had genuinely buffered one bad market year enough to roughly keep pace, in that narrow stretch. That's a real result, not a rounding artifact — but it's also not evidence the product beats the market: the disclosed bonus rate itself sits below the long-run historical average for global equities, and a single short window that happens to straddle one bad year for the index is exactly the kind of sample where smoothing looks its best. It doesn't change the 15-year conclusion above; it's a small, honest data point about *why* smoothing can look competitive over a short enough window, even when it isn't over the long run.
+
 ## What this took, and what happens next
 
 Building this — fetching five obscure fund tickers, discovering and bridging a real 3-year data gap, simulating monthly and annual unit purchases with proper FX handling, and decomposing the result into fees vs. fund selection — took an AI agent **about an hour**, once the approach was worked out. A financial analyst doing the equivalent by hand — assuming they even knew to check whether these fund prices were public at all — would realistically be looking at a full day's work or more, and that's before writing it up.
@@ -142,6 +149,6 @@ That's the subject of [the next post](/tech-adventures/general-tech/insurance-su
 
 ## Images Required
 
-None — both charts in this post are generated directly from the real analysis, not placeholders.
+None — the chart in this post is generated from the same real market-price data and methodology as the analysis, run on the representative contribution amounts described above (regenerated 2026-08-30 alongside this correction), not a placeholder.
 
 Until next time, peace and love!

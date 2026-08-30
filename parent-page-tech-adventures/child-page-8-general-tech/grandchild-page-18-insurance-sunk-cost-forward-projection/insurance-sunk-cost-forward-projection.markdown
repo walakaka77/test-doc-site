@@ -30,6 +30,9 @@ That needs a forward-looking model, not a historical one — and building it hon
 {: .warning }
 Same genericisation as the previous post: no names, and the dollar figures shown are representative, not the real numbers — swapped out to keep the family member's finances private. Real product categories and methodology throughout.
 
+{: .warning }
+**Updated 2026-08-30.** [The previous post](/tech-adventures/general-tech/insurance-returns-vs-market-index) corrected an error: an earlier pass blended the actual cost of protection (CI/TPD charges) together with the ILP's separate distribution/admin cost into one "fee drag" number. That correction changes two things here: ILP #2's "real underlying funds, no fees" growth rate below is now computed on the amount that was *actually invested*, not the full premium (a more conservative, more accurate basis), and the "why ILP #2 is the close call" explanation further down now points at protection cost specifically, not a generic "fee structure." The forward-projection numbers themselves barely move at this level of rounding — the conclusion is unchanged — but the reasoning behind them is now correct.
+
 ## The question, precisely
 
 For each policy: project **forward** for the same number of years it's **already** been running (roughly 9, 4, and 15 years respectively) — comparing "keep paying the same premium into the existing policy" against "surrender today, invest the proceeds plus the freed-up premium instead." Both sides get to use a real, historically-derived growth rate — not an optimistic made-up number on one side and a pessimistic one on the other.
@@ -38,11 +41,11 @@ For each policy: project **forward** for the same number of years it's **already
 
 XIRR (money-weighted return) computed directly from each policy's actual cash-flow history — every real contribution date and amount, against the real value today:
 
-| | Actual account (what really happened) | Real underlying funds, no fees | World-index equivalent |
+| | Actual account (what really happened, full premium) | Real underlying funds, invested amount only, no fees | World-index equivalent, same invested amount |
 |---|---:|---:|---:|
-| ILP #1 | −1.6%/yr | +5.2%/yr | +13.3%/yr |
-| ILP #2 | −23.4%/yr | +15.1%/yr | +17.0%/yr |
-| Whole life | −4.6%/yr | n/a (not unit-linked) | +8.9%/yr |
+| ILP #1 | −3.2%/yr | +5.2%/yr | +13.3%/yr |
+| ILP #2 | −23.6%/yr | +14.9%/yr | +16.9%/yr |
+| Whole life | −4.0%/yr | n/a (not unit-linked) | +8.9%/yr |
 
 {: .note }
 XIRR here means: given exactly when money went in and what it's worth today, what single annualized rate explains that? A standard, checkable calculation (Excel's `XIRR()` does the same thing) — not a custom metric invented for this post.
@@ -52,7 +55,7 @@ XIRR here means: given exactly when money went in and what it's worth today, wha
 "Keep the policy" was modeled two ways, both starting from today's real value, both continuing the same real premium:
 
 - **Pessimistic**: continues at that policy's own actual-account XIRR — i.e., whatever caused the historical gap keeps happening at the same rate. For insurance-linked products specifically, this is the more *realistic* assumption, because the underlying charges are age-banded and typically **rise**, not fall, as the insured ages.
-- **Optimistic**: continues at the real *underlying-fund* XIRR instead — a deliberately generous assumption that the fee drag somehow stops mattering from here on. Included specifically so the comparison isn't a strawman.
+- **Optimistic**: continues at the real *underlying-fund* XIRR instead — computed on the amount actually invested, not the full premium — a deliberately generous assumption that protection and admin costs somehow stop mattering from here on. Included specifically so the comparison isn't a strawman.
 
 "Surrender and invest" used the world-index XIRR, applied to today's surrender value plus the ongoing premium that gets freed up (redirected to the same low-cost investing the family member already does consistently elsewhere — a real precondition to this whole plan, not an assumption to skip past).
 
@@ -62,16 +65,16 @@ XIRR here means: given exactly when money went in and what it's worth today, wha
 
 | Policy | Forward horizon | Keep paying — pessimistic | Keep paying — optimistic | Surrender & invest |
 |---|---|---:|---:|---:|
-| ILP #1 | +9 years | ~SGD 64,000 | ~SGD 99,000 | **~SGD 135,000** |
-| ILP #2 | +4 years | ~SGD 15,000 | ~SGD 40,000 | ~SGD 37,000 |
-| Whole life | +15 years | ~SGD 20,000 | n/a | **~SGD 87,000** |
+| ILP #1 | +9 years | ~SGD 61,000 | ~SGD 104,000 | **~SGD 140,000** |
+| ILP #2 | +4 years | ~SGD 16,000 | ~SGD 42,000 | ~SGD 39,000 |
+| Whole life | +15 years | ~SGD 23,000 | n/a | **~SGD 92,000** |
 
 ## The one result that wasn't a landslide
 
 Two of the three are clean wins for surrendering, under *either* scenario. The third genuinely isn't:
 
 {: .important }
-On ILP #2, "surrender and invest" beats the pessimistic case comfortably, but comes in slightly *behind* the optimistic case. Whether surrendering wins here depends on which "keep paying" assumption is more realistic — and it isn't a coin flip. This specific policy's fee structure had already consumed the majority of its real gross growth in just four years, and those charges are contractually tied to attained age; they don't reverse or flatten just because a projection assumes they might. The realistic scenario is the pessimistic one, or worse — which surrendering beats clearly. But it would have been dishonest to only show the version of this chart where every result is a blowout. This is what a genuinely close call looks like when you actually run the numbers instead of assuming the conclusion.
+On ILP #2, "surrender and invest" beats the pessimistic case comfortably, but comes in slightly *behind* the optimistic case. Whether surrendering wins here depends on which "keep paying" assumption is more realistic — and it isn't a coin flip. This specific policy's **protection-cost charges** — not its admin/distribution cost, which is a separate, larger deduction that never became investable capital in the first place and doesn't show up in this particular gap — had already consumed about a quarter of its real invested growth in just four years, and those charges are contractually tied to attained age; they don't reverse or flatten just because a projection assumes they might. The realistic scenario is the pessimistic one, or worse — which surrendering beats clearly. But it would have been dishonest to only show the version of this chart where every result is a blowout. This is what a genuinely close call looks like when you actually run the numbers instead of assuming the conclusion.
 
 ## The real-world wrinkle a pure numbers model can't answer
 
