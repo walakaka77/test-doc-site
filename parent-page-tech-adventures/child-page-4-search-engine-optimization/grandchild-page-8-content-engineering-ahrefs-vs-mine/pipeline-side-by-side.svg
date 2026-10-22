@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="980" viewBox="0 0 1100 980">
+<rect width="1100" height="980" fill="#ffffff"/>
+<defs><marker id="ar" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#94a3b8"/></marker></defs>
+<text x="60" y="52" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="26" font-weight="700" fill="#111827">Two content pipelines, a similar shape</text>
+<text x="60" y="80" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="15" fill="#6b7280">Ahrefs' Claude Code pipeline (Ryan Law, April 2026) vs the one I use for petcoach.sg</text>
+<rect x="60" y="106" width="470" height="34" rx="8" fill="#1f3a5f"/>
+<text x="76" y="129" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="16" font-weight="700" fill="#fff">Ahrefs</text>
+<text x="60" y="154" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="13" fill="#6b7280">~23 skill files, run in order by a blog-pipeline skill</text>
+<rect x="60" y="170" width="470" height="62" rx="10" fill="#eef2f7" stroke="#1f3a5f" stroke-width="1.5"/>
+<text x="78" y="196" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="16" font-weight="700" fill="#111827">1. Keyword research &amp; gap analysis</text>
+<text x="78" y="217" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="13" fill="#6b7280">Ahrefs MCP, mandated</text>
+<line x1="295.0" y1="234" x2="295.0" y2="254" stroke="#94a3b8" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="60" y="258" width="470" height="62" rx="10" fill="#eef2f7" stroke="#1f3a5f" stroke-width="1.5"/>
+<text x="78" y="284" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="16" font-weight="700" fill="#111827">2. Outline</text>
+<text x="78" y="305" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="13" fill="#6b7280">saved to its own file</text>
+<line x1="295.0" y1="322" x2="295.0" y2="342" stroke="#94a3b8" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="60" y="346" width="470" height="62" rx="10" fill="#eef2f7" stroke="#1f3a5f" stroke-width="1.5"/>
+<text x="78" y="372" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="16" font-weight="700" fill="#111827">3. Research primer</text>
+<text x="78" y="393" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="13" fill="#6b7280">gathers research before drafting</text>
+<line x1="295.0" y1="410" x2="295.0" y2="430" stroke="#94a3b8" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="60" y="434" width="470" height="62" rx="10" fill="#eef2f7" stroke="#1f3a5f" stroke-width="1.5"/>
+<text x="78" y="460" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="16" font-weight="700" fill="#111827">4. Draft</text>
+<text x="78" y="481" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="13" fill="#6b7280">reads the context file + mandated data</text>
+<line x1="295.0" y1="498" x2="295.0" y2="518" stroke="#94a3b8" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="60" y="522" width="470" height="62" rx="10" fill="#eef2f7" stroke="#1f3a5f" stroke-width="1.5"/>
+<text x="78" y="548" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="16" font-weight="700" fill="#111827">5. HTML preview</text>
+<text x="78" y="569" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="13" fill="#6b7280">opens in Chrome before publishing</text>
+<line x1="295.0" y1="586" x2="295.0" y2="606" stroke="#94a3b8" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="60" y="610" width="470" height="62" rx="10" fill="#eef2f7" stroke="#1f3a5f" stroke-width="1.5"/>
+<text x="78" y="636" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="16" font-weight="700" fill="#111827">6. Final formatting</text>
+<text x="78" y="657" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="13" fill="#6b7280">tables, shortcodes</text>
+<line x1="295.0" y1="674" x2="295.0" y2="694" stroke="#94a3b8" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="60" y="698" width="470" height="62" rx="10" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="3 4"/>
+<text x="78" y="724" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="16" font-weight="700" fill="#6b7280">7. Interlinking</text>
+<text x="78" y="745" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="13" fill="#6b7280">outside the scope of this post</text>
+<line x1="295.0" y1="762" x2="295.0" y2="782" stroke="#94a3b8" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="60" y="786" width="470" height="62" rx="10" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="3 4"/>
+<text x="78" y="812" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="16" font-weight="700" fill="#6b7280">8. Measuring results</text>
+<text x="78" y="833" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="13" fill="#6b7280">outside the scope of this post</text>
+<rect x="570" y="106" width="470" height="34" rx="8" fill="#0f766e"/>
+<text x="586" y="129" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="16" font-weight="700" fill="#fff">Mine (petcoach.sg)</text>
+<text x="570" y="154" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="13" fill="#6b7280">23 docs + 12 scripts + my approval at every gate</text>
+<rect x="570" y="170" width="470" height="62" rx="10" fill="#eef2f7" stroke="#0f766e" stroke-width="1.5"/>
+<text x="588" y="196" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="16" font-weight="700" fill="#111827">1. Content-gaps plan + keyword export</text>
+<text x="588" y="217" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="13" fill="#6b7280">export skipped for the newer articles</text>
+<line x1="805.0" y1="234" x2="805.0" y2="254" stroke="#94a3b8" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="570" y="258" width="470" height="62" rx="10" fill="#eef2f7" stroke="#0f766e" stroke-width="1.5"/>
+<text x="588" y="284" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="16" font-weight="700" fill="#111827">2. Research</text>
+<text x="588" y="305" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="13" fill="#6b7280">client casework data, fact-check log</text>
+<line x1="805.0" y1="322" x2="805.0" y2="342" stroke="#94a3b8" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="570" y="346" width="470" height="62" rx="10" fill="#eef2f7" stroke="#0f766e" stroke-width="1.5"/>
+<text x="588" y="372" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="16" font-weight="700" fill="#111827">3. Outline</text>
+<text x="588" y="393" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="13" fill="#6b7280">my input quoted word for word + coverage table</text>
+<line x1="805.0" y1="410" x2="805.0" y2="430" stroke="#94a3b8" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="570" y="434" width="470" height="62" rx="10" fill="#eef2f7" stroke="#0f766e" stroke-width="1.5"/>
+<text x="588" y="460" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="16" font-weight="700" fill="#111827">4. Full draft</text>
+<text x="588" y="481" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="13" fill="#6b7280">notes for review, pending items</text>
+<line x1="805.0" y1="498" x2="805.0" y2="518" stroke="#94a3b8" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="570" y="522" width="470" height="62" rx="10" fill="#ffffff" stroke="#c2410c" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="588" y="548" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="16" font-weight="700" fill="#c2410c">5. Pre-publish preview</text>
+<text x="588" y="569" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="13" fill="#6b7280">none: verified after publishing instead</text>
+<line x1="805.0" y1="586" x2="805.0" y2="606" stroke="#94a3b8" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="570" y="610" width="470" height="62" rx="10" fill="#eef2f7" stroke="#0f766e" stroke-width="1.5"/>
+<text x="588" y="636" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="16" font-weight="700" fill="#111827">6. Publish via WordPress MCP</text>
+<text x="588" y="657" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="13" fill="#6b7280">then verified byte for byte in the database</text>
+<line x1="805.0" y1="674" x2="805.0" y2="694" stroke="#94a3b8" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="570" y="698" width="470" height="62" rx="10" fill="#eef2f7" stroke="#0f766e" stroke-width="1.5"/>
+<text x="588" y="724" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="16" font-weight="700" fill="#111827">7. Interlinking plan</text>
+<text x="588" y="745" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="13" fill="#6b7280">approved first, every link verified</text>
+<line x1="805.0" y1="762" x2="805.0" y2="782" stroke="#94a3b8" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="570" y="786" width="470" height="62" rx="10" fill="#eef2f7" stroke="#0f766e" stroke-width="1.5"/>
+<text x="588" y="812" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="16" font-weight="700" fill="#111827">8. Performance review</text>
+<text x="588" y="833" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="13" fill="#6b7280">Search Console + GA4, matched click by click</text>
+<rect x="60" y="884" width="22" height="16" rx="4" fill="#eef2f7" stroke="#1f3a5f" stroke-width="1.5"/>
+<text x="92" y="897" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="14" fill="#111827">Stage in place</text>
+<rect x="230" y="884" width="22" height="16" rx="4" fill="#fff" stroke="#c2410c" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="262" y="897" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="14" fill="#111827">Gap in my flow</text>
+<rect x="410" y="884" width="22" height="16" rx="4" fill="#fff" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="3 3"/>
+<text x="442" y="897" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="14" fill="#111827">Outside the scope of Ryan’s post</text>
+<text x="60" y="932" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="14" fill="#6b7280">The order differs a little (Ahrefs outlines before researching; I research first), but the stages line up. The biggest difference is</text>
+<text x="60" y="952" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="14" fill="#6b7280">orchestration: Ahrefs’ skills run the stages; mine depend on me opening the right doc at each step.</text>
+</svg>
