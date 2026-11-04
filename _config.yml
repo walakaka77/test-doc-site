@@ -38,6 +38,7 @@ exclude:
   - CLAUDE.md
   - claude.md
   - blog-instructions.md
+  - GOTCHAS.md
   - .sass-cache/
   - .jekyll-cache/
   - Gemfile
