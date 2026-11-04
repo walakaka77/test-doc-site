@@ -121,6 +121,7 @@ When the background task notification arrives, parse the final `status|conclusio
   curl -s "https://api.github.com/repos/walakaka77/test-doc-site/actions/runs/<run_id>/jobs" | python3 -m json.tool
   ```
   Point out which step failed and why, so the user doesn't have to open GitHub themselves.
+  Check `GOTCHAS.md` at the repo root first; the failure may already be logged there with its fix.
 - If the loop times out without ever finding `completed` (workflow hasn't started, API hiccup, etc.), say so plainly rather than assuming success.
 
 ---
