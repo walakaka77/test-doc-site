@@ -27,17 +27,17 @@ I'm wearing a FreeStyle Libre sensor, which reads my blood glucose every 15 minu
 ## Latest readings
 
 <!-- glucose-summary:start -->
-_Last updated 4 Nov 2026, 20:44 (Singapore time). Covers 29 hours of sensor data._
+_Last updated 5 Nov 2026, 06:29 (Singapore time). Covers 39 hours of sensor data._
 
-![Line chart of my glucose readings from 3 Nov 2026, 15:57 to 4 Nov 2026, 20:44, average 6.0 mmol/L, 100% within the 3.9–10.0 target range](../../parent-page-health-and-fitness/child-page-1-glucose-tracking/glucose-chart.png?v=202611042044)
+![Line chart of my glucose readings from 3 Nov 2026, 15:57 to 5 Nov 2026, 06:29, average 6.0 mmol/L, 100% within the 3.9–10.0 target range](../../parent-page-health-and-fitness/child-page-1-glucose-tracking/glucose-chart.png?v=202611050629)
 
 - **Average glucose:** 6.0 mmol/L
 - **Lowest / highest:** 4.4 / 7.6 mmol/L
 - **Time in range (3.9–10.0 mmol/L):** 100%
-- **Above 7.8 mmol/L (my ceiling):** 0% of sensor readings, 2 of 33 scans; peak 8.1 at 4 Nov 2026, 13:17
-- **Readings:** 93 sensor readings, 33 manual scans
+- **Above 7.8 mmol/L (my ceiling):** 0% of sensor readings, 2 of 38 scans; peak 8.1 at 4 Nov 2026, 13:17
+- **Readings:** 109 sensor readings, 38 manual scans
 
-![Line chart of the same readings with my 7.8 mmol/L ceiling marked; readings above it: 0% of sensor readings, 2 of 33 scans; peak 8.1 at 4 Nov 2026, 13:17](../../parent-page-health-and-fitness/child-page-1-glucose-tracking/glucose-spikes-chart.png?v=202611042044)
+![Line chart of the same readings with my 7.8 mmol/L ceiling marked; readings above it: 0% of sensor readings, 2 of 38 scans; peak 8.1 at 4 Nov 2026, 13:17](../../parent-page-health-and-fitness/child-page-1-glucose-tracking/glucose-spikes-chart.png?v=202611050629)
 <!-- glucose-summary:end -->
 
 ## How to read the chart
