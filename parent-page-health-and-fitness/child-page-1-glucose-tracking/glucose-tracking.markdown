@@ -27,20 +27,20 @@ I'm wearing a FreeStyle Libre sensor, which reads my blood glucose every 15 minu
 ## Latest readings
 
 <!-- glucose-summary:start -->
-_Last updated 8 Nov 2026, 13:48 (Singapore time). Covers 118 hours of sensor data._
+_Last updated 9 Nov 2026, 06:03 (Singapore time). Covers 134 hours of sensor data._
 
-<div id="glucose-interactive" data-src="/parent-page-health-and-fitness/child-page-1-glucose-tracking/glucose-readings.json?v=202611081348" style="position:relative;height:380px">
-  <canvas role="img" aria-label="Interactive line chart of my glucose readings from 3 Nov 2026, 15:57 to 8 Nov 2026, 13:48, average 5.7 mmol/L, with my 7.8 mmol/L ceiling marked. Hover or tap a point for details."></canvas>
+<div id="glucose-interactive" data-src="/parent-page-health-and-fitness/child-page-1-glucose-tracking/glucose-readings.json?v=202611090603" style="position:relative;height:380px">
+  <canvas role="img" aria-label="Interactive line chart of my glucose readings from 3 Nov 2026, 15:57 to 9 Nov 2026, 06:03, average 5.7 mmol/L, with my 7.8 mmol/L ceiling marked. Hover or tap a point for details."></canvas>
 </div>
-<noscript><img src="/parent-page-health-and-fitness/child-page-1-glucose-tracking/glucose-chart.png?v=202611081348" alt="Line chart of my glucose readings from 3 Nov 2026, 15:57 to 8 Nov 2026, 13:48, average 5.7 mmol/L, 100% within the 3.9–10.0 target range"></noscript>
+<noscript><img src="/parent-page-health-and-fitness/child-page-1-glucose-tracking/glucose-chart.png?v=202611090603" alt="Line chart of my glucose readings from 3 Nov 2026, 15:57 to 9 Nov 2026, 06:03, average 5.7 mmol/L, 100% within the 3.9–10.0 target range"></noscript>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
-<script src="/parent-page-health-and-fitness/child-page-1-glucose-tracking/glucose-chart.js?v=202611081348"></script>
+<script src="/parent-page-health-and-fitness/child-page-1-glucose-tracking/glucose-chart.js?v=202611090603"></script>
 
 - **Average glucose:** 5.7 mmol/L
 - **Lowest / highest:** 3.9 / 9.3 mmol/L
 - **Time in range (3.9–10.0 mmol/L):** 100%
-- **Above 7.8 mmol/L (my ceiling):** 1% of sensor readings, 4 of 77 scans; peak 9.3 at 5 Nov 2026, 19:30
-- **Readings:** 383 sensor readings, 77 manual scans
+- **Above 7.8 mmol/L (my ceiling):** 1% of sensor readings, 4 of 83 scans; peak 9.3 at 5 Nov 2026, 19:30
+- **Readings:** 429 sensor readings, 83 manual scans
 <!-- glucose-summary:end -->
 
 ## How to read the chart
