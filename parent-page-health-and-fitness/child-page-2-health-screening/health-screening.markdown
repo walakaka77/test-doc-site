@@ -8,7 +8,7 @@ nav_order: 2
 index: 'yes'
 follow: 'yes'
 description: What my April and October 2026 blood tests and DEXA scans tracked, what changed in six months, and a deep dive into every marker.
-image: ../../parent-page-health-and-fitness/child-page-2-health-screening/grandchild-page-1-hba1c/hba1c-range.png
+image: ../../parent-page-health-and-fitness/child-page-2-health-screening/feature-card.png
 ---
 
 # My Health Screening

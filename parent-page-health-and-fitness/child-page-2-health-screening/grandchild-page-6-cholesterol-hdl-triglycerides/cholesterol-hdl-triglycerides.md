@@ -8,7 +8,7 @@ nav_order: 6
 index: 'yes'
 follow: 'yes'
 description: My total cholesterol, HDL and triglycerides all moved the right way between April and October 2026, including an HDL "above range" that's actually good news.
-image: ../../parent-page-health-and-fitness/child-page-2-health-screening/grandchild-page-6-cholesterol-hdl-triglycerides/total-cholesterol-range.png
+image: ../../parent-page-health-and-fitness/child-page-2-health-screening/grandchild-page-6-cholesterol-hdl-triglycerides/feature-card.png
 ---
 
 # Total Cholesterol, HDL & Triglycerides

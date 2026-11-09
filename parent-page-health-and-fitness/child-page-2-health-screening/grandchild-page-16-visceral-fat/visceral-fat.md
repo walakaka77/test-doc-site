@@ -8,7 +8,7 @@ nav_order: 16
 index: 'yes'
 follow: 'yes'
 description: My visceral fat almost halved and my android/gynoid ratio dropped below my doctor's target of 1 between April and October 2026.
-image: ../../parent-page-health-and-fitness/child-page-2-health-screening/grandchild-page-16-visceral-fat/visceral-fat-range.png
+image: ../../parent-page-health-and-fitness/child-page-2-health-screening/grandchild-page-16-visceral-fat/feature-card.png
 ---
 
 # Visceral Fat & Fat Distribution

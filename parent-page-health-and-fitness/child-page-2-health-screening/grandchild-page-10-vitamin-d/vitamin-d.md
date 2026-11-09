@@ -8,7 +8,7 @@ nav_order: 10
 index: 'yes'
 follow: 'yes'
 description: How a vitamin D3 supplement took my vitamin D from insufficient (68.2) to 181.2 nmol/L in six months, and why I've since cut the dose back.
-image: ../../parent-page-health-and-fitness/child-page-2-health-screening/grandchild-page-10-vitamin-d/vitamin-d-range.png
+image: ../../parent-page-health-and-fitness/child-page-2-health-screening/grandchild-page-10-vitamin-d/feature-card.png
 ---
 
 # Vitamin D

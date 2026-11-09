@@ -8,7 +8,7 @@ nav_order: 11
 index: 'yes'
 follow: 'yes'
 description: How a zinc supplement took my zinc from low (8.64) to the top of the normal range (18.41 µmol/L), and why my 50 mg daily dose is something to check with my doctor.
-image: ../../parent-page-health-and-fitness/child-page-2-health-screening/grandchild-page-11-zinc/zinc-range.png
+image: ../../parent-page-health-and-fitness/child-page-2-health-screening/grandchild-page-11-zinc/feature-card.png
 ---
 
 # Zinc

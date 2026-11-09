@@ -8,7 +8,7 @@ nav_order: 9
 index: 'yes'
 follow: 'yes'
 description: How my mild anaemia in April (haemoglobin 12.4) resolved by October (13.8), why it probably wasn't iron deficiency, and why my red cell count is still a touch low.
-image: ../../parent-page-health-and-fitness/child-page-2-health-screening/grandchild-page-9-haemoglobin-and-red-cells/haemoglobin-range.png
+image: ../../parent-page-health-and-fitness/child-page-2-health-screening/grandchild-page-9-haemoglobin-and-red-cells/feature-card.png
 ---
 
 # Haemoglobin & Red Cells

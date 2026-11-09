@@ -8,6 +8,7 @@ nav_order: 19
 index: 'yes'
 follow: 'yes'
 description: The cancer markers, PSA, EBV test, testosterone and steady markers in my 2026 screening, all normal, and why some of them aren't great screening tests at 34.
+image: ../../parent-page-health-and-fitness/child-page-2-health-screening/grandchild-page-19-other-markers/feature-card.png
 ---
 
 # The Other Markers in My Package

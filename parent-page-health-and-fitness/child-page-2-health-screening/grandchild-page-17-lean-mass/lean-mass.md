@@ -8,7 +8,7 @@ nav_order: 17
 index: 'yes'
 follow: 'yes'
 description: I gained about 1.45 kg of lean mass while losing 7.3 kg of fat between April and October 2026, but my legs lost muscle, and here's why.
-image: ../../parent-page-health-and-fitness/child-page-2-health-screening/grandchild-page-17-lean-mass/lean-mass-range.png
+image: ../../parent-page-health-and-fitness/child-page-2-health-screening/grandchild-page-17-lean-mass/feature-card.png
 ---
 
 # Lean Mass & ALMI

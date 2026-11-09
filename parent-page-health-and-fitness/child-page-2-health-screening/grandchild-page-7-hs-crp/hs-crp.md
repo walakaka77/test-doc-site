@@ -8,7 +8,7 @@ nav_order: 7
 index: 'yes'
 follow: 'yes'
 description: My hs-CRP, a marker of low-level inflammation, dropped from 1.82 to 1.24 mg/L between April and October 2026, but it's still above my target of under 1, probably because of injuries and hard training.
-image: ../../parent-page-health-and-fitness/child-page-2-health-screening/grandchild-page-7-hs-crp/hs-crp-range.png
+image: ../../parent-page-health-and-fitness/child-page-2-health-screening/grandchild-page-7-hs-crp/feature-card.png
 ---
 
 # hs-CRP

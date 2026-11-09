@@ -8,7 +8,7 @@ nav_order: 14
 index: 'yes'
 follow: 'yes'
 description: Why my liver enzyme ALT jumped from 37 to 62 in October 2026, the neck disc herniations and etoricoxib (Arcoxia) course behind it, and my retest plan.
-image: ../../parent-page-health-and-fitness/child-page-2-health-screening/grandchild-page-14-alt-and-etoricoxib/alt-range.png
+image: ../../parent-page-health-and-fitness/child-page-2-health-screening/grandchild-page-14-alt-and-etoricoxib/feature-card.png
 ---
 
 # ALT, Etoricoxib & My Neck

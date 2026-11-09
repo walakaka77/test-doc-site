@@ -8,7 +8,7 @@ nav_order: 5
 index: 'yes'
 follow: 'yes'
 description: My ApoB fell from 0.94 to 0.73 g/L between April and October 2026, under my doctor's target of 0.9. Here's why ApoB is a sharper heart-risk marker than LDL, plus my very low Lp(a).
-image: ../../parent-page-health-and-fitness/child-page-2-health-screening/grandchild-page-5-apob/apob-range.png
+image: ../../parent-page-health-and-fitness/child-page-2-health-screening/grandchild-page-5-apob/feature-card.png
 ---
 
 # ApoB

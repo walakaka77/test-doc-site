@@ -8,7 +8,7 @@ nav_order: 3
 index: 'yes'
 follow: 'yes'
 description: My HOMA-IR insulin resistance score fell from 1.57 to 0.42 between April and October 2026, while fasting insulin dropped just below the lab range. Here's what both mean.
-image: ../../parent-page-health-and-fitness/child-page-2-health-screening/grandchild-page-3-insulin-and-homa-ir/homa-ir-range.png
+image: ../../parent-page-health-and-fitness/child-page-2-health-screening/grandchild-page-3-insulin-and-homa-ir/feature-card.png
 ---
 
 # Fasting Insulin & HOMA-IR

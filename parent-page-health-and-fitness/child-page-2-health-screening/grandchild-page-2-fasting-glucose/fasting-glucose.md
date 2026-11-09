@@ -8,7 +8,7 @@ nav_order: 2
 index: 'yes'
 follow: 'yes'
 description: My fasting glucose dropped from 5.7 to 4.7 mmol/L between April and October 2026, from the prediabetes cut-off to clearly normal. Here's what it means and what probably helped.
-image: ../../parent-page-health-and-fitness/child-page-2-health-screening/grandchild-page-2-fasting-glucose/fasting-glucose-range.png
+image: ../../parent-page-health-and-fitness/child-page-2-health-screening/grandchild-page-2-fasting-glucose/feature-card.png
 ---
 
 # Fasting Glucose

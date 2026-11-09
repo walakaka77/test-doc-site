@@ -8,7 +8,7 @@ nav_order: 4
 index: 'yes'
 follow: 'yes'
 description: My LDL cholesterol dropped from 3.45 to 2.51 mmol/L between April and October 2026, hitting my doctor's target of under 2.6. Here's what LDL is and what probably helped.
-image: ../../parent-page-health-and-fitness/child-page-2-health-screening/grandchild-page-4-ldl-cholesterol/ldl-range.png
+image: ../../parent-page-health-and-fitness/child-page-2-health-screening/grandchild-page-4-ldl-cholesterol/feature-card.png
 ---
 
 # LDL Cholesterol

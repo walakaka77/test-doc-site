@@ -8,7 +8,7 @@ nav_order: 13
 index: 'yes'
 follow: 'yes'
 description: My creatinine, eGFR, urea and urine protein results from April and October 2026, what they say about my kidneys, and why April's borderline numbers bounced back.
-image: ../../parent-page-health-and-fitness/child-page-2-health-screening/grandchild-page-13-kidney-function/egfr-range.png
+image: ../../parent-page-health-and-fitness/child-page-2-health-screening/grandchild-page-13-kidney-function/feature-card.png
 ---
 
 # Kidney Function

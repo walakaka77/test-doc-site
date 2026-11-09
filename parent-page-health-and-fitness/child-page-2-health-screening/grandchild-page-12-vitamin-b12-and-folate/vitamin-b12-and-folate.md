@@ -8,7 +8,7 @@ nav_order: 12
 index: 'yes'
 follow: 'yes'
 description: Why my vitamin B12 went from 293 to a slightly-above-range 590 (probably the B12 prescribed for my neck), why folate doubled, and why neither worries me.
-image: ../../parent-page-health-and-fitness/child-page-2-health-screening/grandchild-page-12-vitamin-b12-and-folate/b12-range.png
+image: ../../parent-page-health-and-fitness/child-page-2-health-screening/grandchild-page-12-vitamin-b12-and-folate/feature-card.png
 ---
 
 # Vitamin B12 & Folate

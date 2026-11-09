@@ -8,7 +8,7 @@ nav_order: 1
 index: 'yes'
 follow: 'yes'
 description: My HbA1c went from 5.7% to 5.9% between April and October 2026, even though every other blood sugar marker improved. Here's what it measures, why it might have gone up, and what I'm doing about it.
-image: ../../parent-page-health-and-fitness/child-page-2-health-screening/grandchild-page-1-hba1c/hba1c-range.png
+image: ../../parent-page-health-and-fitness/child-page-2-health-screening/grandchild-page-1-hba1c/feature-card.png
 ---
 
 # HbA1c

@@ -8,7 +8,7 @@ nav_order: 18
 index: 'yes'
 follow: 'yes'
 description: My DEXA bone density was normal in April 2026 and read 4.9% higher in October, though the scan flags that the two scans aren't directly comparable.
-image: ../../parent-page-health-and-fitness/child-page-2-health-screening/grandchild-page-18-bone-density/report-bmd-summary.png
+image: ../../parent-page-health-and-fitness/child-page-2-health-screening/grandchild-page-18-bone-density/feature-card.png
 ---
 
 # Bone Density

@@ -8,7 +8,7 @@ nav_order: 15
 index: 'yes'
 follow: 'yes'
 description: My DEXA body fat went from 19.3% in April to 9.55% in October 2026 after a BJJ competition cut, and why I'm not chasing it any lower.
-image: ../../parent-page-health-and-fitness/child-page-2-health-screening/grandchild-page-15-body-fat/body-fat-range.png
+image: ../../parent-page-health-and-fitness/child-page-2-health-screening/grandchild-page-15-body-fat/feature-card.png
 ---
 
 # Body Fat

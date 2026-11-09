@@ -8,7 +8,7 @@ nav_order: 8
 index: 'yes'
 follow: 'yes'
 description: My homocysteine fell from 14.36 to 9.78 µmol/L between April and October 2026, from just under the limit to comfortable, probably helped by B12 and folate.
-image: ../../parent-page-health-and-fitness/child-page-2-health-screening/grandchild-page-8-homocysteine/homocysteine-range.png
+image: ../../parent-page-health-and-fitness/child-page-2-health-screening/grandchild-page-8-homocysteine/feature-card.png
 ---
 
 # Homocysteine
