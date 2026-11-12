@@ -44,13 +44,22 @@ _Last updated 11 Nov 2026, 20:51 (Singapore time). Covers 197 hours of sensor da
 
 ### Swings and recovery
 
-- **Variability:** standard deviation 0.65 mmol/L, coefficient of variation 12% (the usual CGM stability target is 36% or lower)
-- **Steady readings:** 94% of 15-minute steps changed by less than 0.06 mmol/L per minute (LibreLink's flat arrow); 2 of 598 changed faster than 0.11 mmol/L per minute
-- **Steepest rise:** 6.8 → 8.8 in 15 min (0.13 mmol/L per minute), 5 Nov 2026, 19:00
-- **Steepest drop:** 6.4 → 4.4 in 15 min (0.13 mmol/L per minute), 4 Nov 2026, 18:59
-- **Sensor spikes above 7.8:** 2
-  - **5 Nov 2026, 19:30:** 5.2 → 9.3 (+4.1) in 90 min; above 7.8 for about 45 min; back to 5.7 or lower 150 min after the peak
-  - **7 Nov 2026, 13:02:** 5.4 → 8.0 (+2.6) in 75 min; above 7.8 for about 30 min; back to 5.9 or lower 60 min after the peak
+- **Variability:** standard deviation 0.65 mmol/L, coefficient of variation 12%.<br>
+  **Target:** CV 36% or lower is the standard CGM stability cut-off, and CGM studies of healthy adults without diabetes typically find a CV around 17% and an SD around 0.9 mmol/L.<br>
+  **Verdict:** ✅ Acceptable, steadier than typical
+- **Steady readings:** 94% of 15-minute steps changed by less than 0.06 mmol/L per minute (LibreLink's flat arrow); 2 of 598 changed faster than 0.11 mmol/L per minute.<br>
+  **Target:** there's no official cut-off. Mostly flat, with only the odd fast change after a meal, is what a steady day looks like.<br>
+  **Verdict:** ✅ Acceptable
+- **Steepest rise:** 6.8 → 8.8 in 15 min (0.13 mmol/L per minute), 5 Nov 2026, 19:00.<br>
+  **Target:** no official cut-off. LibreLink shows a "rising fast" arrow above 0.11 mmol/L per minute, and as a rough guide I'm aiming to stay under that.<br>
+  **Verdict:** ⚠️ Briefly over the fast-rise line, once, during a meal spike
+- **Steepest drop:** 6.4 → 4.4 in 15 min (0.13 mmol/L per minute), 4 Nov 2026, 18:59.<br>
+  **Target:** no official cut-off for the speed, so I'm using LibreLink's 0.11 fast-arrow line as a guide again. What matters more is that the drop stops at or above 3.9 mmol/L, the low cut-off.<br>
+  **Verdict:** ⚠️ Fast, but it stayed above 3.9, so no low
+- **Sensor spikes above 7.8:** 2.<br>
+  **Target:** peak under 7.8 mmol/L (the normal 2-hour level in a glucose tolerance test) and back to the pre-meal level within 2–3 hours.
+  - **5 Nov 2026, 19:30:** 5.2 → 9.3 (+4.1) in 90 min; above 7.8 for about 45 min; back to 5.7 or lower 150 min after the peak. Peak: ⚠️ above my 7.8 ceiling. Recovery: ✅ within the usual 2–3 hours
+  - **7 Nov 2026, 13:02:** 5.4 → 8.0 (+2.6) in 75 min; above 7.8 for about 30 min; back to 5.9 or lower 60 min after the peak. Peak: ⚠️ above my 7.8 ceiling. Recovery: ✅ within the usual 2–3 hours
 <!-- glucose-summary:end -->
 
 ## How to read the chart
