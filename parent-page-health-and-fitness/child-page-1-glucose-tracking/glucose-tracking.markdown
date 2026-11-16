@@ -27,27 +27,27 @@ I'm wearing a FreeStyle Libre sensor, which reads my blood glucose every 15 minu
 ## Latest readings
 
 <!-- glucose-summary:start -->
-_Last updated 13 Nov 2026, 19:08 (Singapore time). Covers 243 hours of sensor data._
+_Last updated 16 Nov 2026, 08:10 (Singapore time). Covers 304 hours of sensor data._
 
-<div id="glucose-interactive" data-src="/parent-page-health-and-fitness/child-page-1-glucose-tracking/glucose-readings.json?v=202611131908" style="position:relative;height:380px">
-  <canvas role="img" aria-label="Interactive line chart of my glucose readings from 3 Nov 2026, 15:57 to 13 Nov 2026, 19:08, average 5.6 mmol/L, with my 7.8 mmol/L ceiling marked. Hover or tap a point for details."></canvas>
+<div id="glucose-interactive" data-src="/parent-page-health-and-fitness/child-page-1-glucose-tracking/glucose-readings.json?v=202611160810" style="position:relative;height:380px">
+  <canvas role="img" aria-label="Interactive line chart of my glucose readings from 3 Nov 2026, 15:57 to 16 Nov 2026, 08:10, average 5.6 mmol/L, with my 7.8 mmol/L ceiling marked. Hover or tap a point for details."></canvas>
 </div>
-<noscript><img src="/parent-page-health-and-fitness/child-page-1-glucose-tracking/glucose-chart.png?v=202611131908" alt="Line chart of my glucose readings from 3 Nov 2026, 15:57 to 13 Nov 2026, 19:08, average 5.6 mmol/L, 100% within the 3.9–10.0 target range"></noscript>
+<noscript><img src="/parent-page-health-and-fitness/child-page-1-glucose-tracking/glucose-chart.png?v=202611160810" alt="Line chart of my glucose readings from 3 Nov 2026, 15:57 to 16 Nov 2026, 08:10, average 5.6 mmol/L, 100% within the 3.9–10.0 target range"></noscript>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
-<script src="/parent-page-health-and-fitness/child-page-1-glucose-tracking/glucose-chart.js?v=202611131908"></script>
+<script src="/parent-page-health-and-fitness/child-page-1-glucose-tracking/glucose-chart.js?v=202611160810"></script>
 
 - **Average glucose:** 5.6 mmol/L
 - **Lowest / highest:** 3.9 / 9.3 mmol/L
 - **Time in range (3.9–10.0 mmol/L):** 100%
-- **Above 7.8 mmol/L (my ceiling):** 1% of sensor readings, 4 of 129 scans; peak 9.3 at 5 Nov 2026, 19:30
-- **Readings:** 804 sensor readings, 129 manual scans
+- **Above 7.8 mmol/L (my ceiling):** 1% of sensor readings, 4 of 147 scans; peak 9.3 at 5 Nov 2026, 19:30
+- **Readings:** 989 sensor readings, 147 manual scans
 
 ### Swings and recovery
 
-- **Variability:** standard deviation 0.65 mmol/L, coefficient of variation 12%.<br>
+- **Variability:** standard deviation 0.64 mmol/L, coefficient of variation 11%.<br>
   **Target:** CV 36% or lower is the standard CGM stability cut-off, and CGM studies of healthy adults without diabetes typically find a CV around 17% and an SD around 0.9 mmol/L.<br>
   **Verdict:** ✅ Acceptable, steadier than typical
-- **Steady readings:** 95% of 15-minute steps changed by less than 0.06 mmol/L per minute (LibreLink's flat arrow); 3 of 742 changed faster than 0.11 mmol/L per minute.<br>
+- **Steady readings:** 95% of 15-minute steps changed by less than 0.06 mmol/L per minute (LibreLink's flat arrow); 3 of 901 changed faster than 0.11 mmol/L per minute.<br>
   **Target:** there's no official cut-off. Mostly flat, with only the odd fast change after a meal, is what a steady day looks like.<br>
   **Verdict:** ✅ Acceptable
 - **Steepest rise:** 6.8 → 8.8 in 15 min (0.13 mmol/L per minute), 5 Nov 2026, 19:00.<br>
@@ -56,11 +56,12 @@ _Last updated 13 Nov 2026, 19:08 (Singapore time). Covers 243 hours of sensor da
 - **Steepest drop:** 7.9 → 5.8 in 15 min (0.14 mmol/L per minute), 12 Nov 2026, 07:52.<br>
   **Target:** no official cut-off for the speed, so I'm using LibreLink's 0.11 fast-arrow line as a guide again. What matters more is that the drop stops at or above 3.9 mmol/L, the low cut-off.<br>
   **Verdict:** ⚠️ Fast, but it stayed above 3.9, so no low
-- **Sensor spikes above 7.8:** 3.<br>
+- **Sensor spikes above 7.8:** 4.<br>
   **Target:** peak under 7.8 mmol/L (the normal 2-hour level in a glucose tolerance test) and back to the pre-meal level within 2–3 hours.
   - **5 Nov 2026, 19:30:** 5.2 → 9.3 (+4.1) in 90 min; above 7.8 for about 45 min; back to 5.7 or lower 150 min after the peak. Peak: ⚠️ above my 7.8 ceiling. Recovery: ✅ within the usual 2–3 hours
   - **7 Nov 2026, 13:02:** 5.4 → 8.0 (+2.6) in 75 min; above 7.8 for about 30 min; back to 5.9 or lower 60 min after the peak. Peak: ⚠️ above my 7.8 ceiling. Recovery: ✅ within the usual 2–3 hours
   - **12 Nov 2026, 07:52:** 5.2 → 7.9 (+2.7) in 75 min; above 7.8 for about 15 min; back to 5.7 or lower 30 min after the peak. Peak: ⚠️ above my 7.8 ceiling. Recovery: ✅ within the usual 2–3 hours
+  - **14 Nov 2026, 13:24:** 5.2 → 7.9 (+2.7) in 75 min; above 7.8 for about 15 min; back to 5.7 or lower 75 min after the peak. Peak: ⚠️ above my 7.8 ceiling. Recovery: ✅ within the usual 2–3 hours
 <!-- glucose-summary:end -->
 
 ## How to read the chart
