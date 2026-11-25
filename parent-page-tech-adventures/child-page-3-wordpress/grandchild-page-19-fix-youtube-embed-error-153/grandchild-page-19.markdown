@@ -209,6 +209,9 @@ This keeps your Elementor content clean and your iframes fully under your contro
 
 If you're hitting this same attribute-stripping problem outside of Elementor, it's worth knowing the failure mode isn't universal: [Automating YouTube Uploads Into WordPress Blog Posts With Claude Code](/tech-adventures/wordpress/automating-youtube-wordpress-posts) pushes this exact same `referrerpolicy` attribute through the WordPress REST API instead of the editor UI, and it survives completely untouched, since that path skips the plugin-level save pipeline that was the real culprit here.
 
+
+The same missing attribute turned up again months later inside two Elementor accordion widgets on a blog post; replacing them with native collapsible sections fixed it for good, see [Case Study -- Removing Elementor From the Blog](/tech-adventures/wordpress/claude-website-elementor-removal-case-study#a-live-bug-fixed-for-free).
+
 ---
 
 Until next time, peace and love!
