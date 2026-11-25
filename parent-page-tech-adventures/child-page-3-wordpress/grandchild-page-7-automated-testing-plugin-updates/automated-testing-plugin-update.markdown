@@ -248,3 +248,6 @@ And Litespeed, it caches the html document -- but only after you access it.
 
 Previously, I had to access each individual pages, so that the doc is generated, and cached server side.
 However, now -- playwright does it for me. When I access the page, it's already blazing fast ;)!!
+
+{: .note }
+This grew up: in November 2026 these Playwright screenshots became full before/after release tests that run on every deploy, with a written list of what each release is supposed to change. See [Before and After -- The Release Tests That Guard Every Deploy](/tech-adventures/wordpress/claude-website-release-tests).
