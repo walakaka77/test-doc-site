@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#3D6D8C"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="600" fill="#f7f9fb"/>
+  <text x="600" y="52" text-anchor="middle" font-size="30" font-weight="700" fill="#0D3C5E">One task, from request to live</text>
+  <text x="600" y="84" text-anchor="middle" font-size="17" fill="#4a5a68">One task = one named change = one owner = one branch = one task file</text>
+
+  <!-- boxes -->
+  <g font-size="15" fill="#4a5a68" text-anchor="middle">
+    <rect x="30" y="130" width="190" height="190" rx="14" fill="#ffffff" stroke="#b9c8d6" stroke-width="2"/>
+    <text x="125" y="165" font-size="20" font-weight="700" fill="#0D3C5E">Request</text>
+    <text x="125" y="200">"in petcoach-website,</text>
+    <text x="125" y="220">change the footer"</text>
+    <text x="125" y="260">Part of your open</text>
+    <text x="125" y="280">task, or a new one?</text>
+
+    <rect x="262" y="130" width="200" height="190" rx="14" fill="#ffffff" stroke="#3D6D8C" stroke-width="2"/>
+    <text x="362" y="165" font-size="20" font-weight="700" fill="#0D3C5E">Task</text>
+    <text x="362" y="200">"Footer refresh"</text>
+    <text x="362" y="220">owner: Qiai</text>
+    <text x="362" y="255" font-family="Menlo, monospace" font-size="12.5">feature/footer-refresh</text>
+    <text x="362" y="278" font-family="Menlo, monospace" font-size="12.5">tasks/feature__…json</text>
+
+    <rect x="504" y="130" width="200" height="190" rx="14" fill="#ffffff" stroke="#3D6D8C" stroke-width="2"/>
+    <text x="604" y="165" font-size="20" font-weight="700" fill="#0D3C5E">Local</text>
+    <text x="604" y="200">local.petcoach.sg</text>
+    <text x="604" y="220">your own copy, your Mac</text>
+    <text x="604" y="258" font-weight="700" fill="#0D3C5E">shows exactly</text>
+    <text x="604" y="278" font-weight="700" fill="#0D3C5E">ONE task</text>
+
+    <rect x="746" y="130" width="200" height="190" rx="14" fill="#ffffff" stroke="#3D6D8C" stroke-width="2"/>
+    <text x="846" y="165" font-size="20" font-weight="700" fill="#0D3C5E">Test site (UAT)</text>
+    <text x="846" y="200">staging.petcoach.sg</text>
+    <text x="846" y="220">business users review</text>
+    <text x="846" y="258" font-weight="700" fill="#0D3C5E">holds ONE batch</text>
+    <text x="846" y="278">of several tasks</text>
+
+    <rect x="988" y="130" width="182" height="190" rx="14" fill="#0D3C5E" stroke="#0D3C5E" stroke-width="2"/>
+    <text x="1079" y="165" font-size="20" font-weight="700" fill="#ffffff">Live (Prod)</text>
+    <text x="1079" y="200" fill="#dbe6ef">petcoach.sg</text>
+    <text x="1079" y="220" fill="#dbe6ef">what visitors see</text>
+    <text x="1079" y="258" font-weight="700" fill="#ffffff">the whole batch</text>
+    <text x="1079" y="278" font-weight="700" fill="#ffffff">ships together</text>
+  </g>
+
+  <!-- arrows -->
+  <g stroke="#3D6D8C" stroke-width="2.5" fill="none" marker-end="url(#arrow)">
+    <line x1="222" y1="225" x2="258" y2="225"/>
+    <line x1="464" y1="225" x2="500" y2="225"/>
+    <line x1="706" y1="225" x2="742" y2="225"/>
+    <line x1="948" y1="225" x2="984" y2="225"/>
+  </g>
+
+  <!-- gates -->
+  <g font-size="14" fill="#7a3b00" text-anchor="middle">
+    <rect x="746" y="338" width="200" height="56" rx="10" fill="#fff4e0" stroke="#e8b766"/>
+    <text x="846" y="361">Join the waiting batch?</text>
+    <text x="846" y="381">asked by task name</text>
+    <rect x="988" y="338" width="182" height="56" rx="10" fill="#fff4e0" stroke="#e8b766"/>
+    <text x="1079" y="361">Explicit "yes" naming</text>
+    <text x="1079" y="381">every task in the batch</text>
+    <rect x="504" y="338" width="200" height="56" rx="10" fill="#fff4e0" stroke="#e8b766"/>
+    <text x="604" y="361">One check when you're</text>
+    <text x="604" y="381">happy with it</text>
+  </g>
+
+  <!-- skills band -->
+  <rect x="30" y="425" width="1140" height="64" rx="12" fill="#e8eef4" stroke="#b9c8d6"/>
+  <text x="600" y="452" text-anchor="middle" font-size="16" font-weight="700" fill="#0D3C5E">Claude skills run every step</text>
+  <text x="600" y="476" text-anchor="middle" font-size="15" fill="#4a5a68" font-family="Menlo, monospace">website-start (every request) → website-change → website-release-uat → website-release-prod</text>
+
+  <!-- footer note -->
+  <text x="600" y="530" text-anchor="middle" font-size="15" fill="#4a5a68">The task board reads all of this (git, task files, each site's release marker) and shows it as four columns.</text>
+  <text x="600" y="556" text-anchor="middle" font-size="15" fill="#4a5a68">Repo-only tasks (skills, docs, the board itself) merge to main and deploy nothing.</text>
+</svg>
